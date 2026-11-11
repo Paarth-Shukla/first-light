@@ -1,0 +1,61 @@
+{
+  "lookbackDays": 7,
+  "graceDays": 3,
+  "candidatesPerCategory": 2000,
+  "picks": 5,
+  "runnersUp": 10,
+  "quotas": {"electronics": 2},
+  "maxPerPrimaryCategory": 2,
+  "citationLookups": 60,
+  "excludeFeaturedWeeks": 8,
+  "tracks": {
+    "cs": {
+      "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.SE", "cs.CR", "cs.DC", "cs.RO", "cs.DB", "cs.OS", "cs.NI", "cs.PL"],
+      "eligiblePrimaryPrefixes": ["cs.", "stat.ML"]
+    },
+    "electronics": {
+      "categories": ["cs.AR", "cs.ET", "eess.SP", "eess.SY", "eess.IV", "eess.AS", "physics.app-ph"],
+      "alwaysPrimary": ["cs.AR", "cs.ET", "physics.app-ph"],
+      "unlessMlFlavouredPrimary": ["eess.SP", "eess.SY", "eess.IV", "eess.AS"],
+      "hardwareTitlePrimary": ["cs.DC"]
+    }
+  },
+  "weights": {
+    "cs": {
+      "hfUpvotes": 0.6, "alphaxivVotes": 0.5, "alphaxivViews": 0.4, "hnPoints": 0.5,
+      "githubStars": 0.15, "citations": 0.15, "mentions": 0.4,
+      "venue": 0.15, "code": 0.05, "crossLists": 0.0, "measured": 0.0
+    },
+    "electronics": {
+      "hfUpvotes": 0.4, "alphaxivVotes": 0.5, "alphaxivViews": 0.4, "hnPoints": 0.5,
+      "githubStars": 0.1, "citations": 0.1, "mentions": 0.5,
+      "venue": 0.45, "code": 0.25, "crossLists": 0.1, "measured": 0.2
+    }
+  },
+  "floors": {
+    "hfUpvotes": 10, "alphaxivVotes": 5, "alphaxivViews": 50, "hnPoints": 100,
+    "githubStars": 50, "citations": 3, "mentions": 3
+  },
+  "caps": {"githubStars": 2000},
+  "providers": {
+    "arxiv": {"api": "https://export.arxiv.org/api/query", "intervalSec": 3.1, "timeoutSec": 90},
+    "hf": {"url": "https://huggingface.co/api/daily_papers", "intervalSec": 0.7, "pageSize": 100, "maxPages": 3},
+    "alphaxiv": {
+      "url": "https://api.alphaxiv.org/papers/v3/feed", "intervalSec": 0.7, "interval": "7 Days",
+      "globalPageSize": 200, "topicPageSize": 50,
+      "topics": ["cs.AR", "cs.ET", "cs.DC", "eess.SP", "eess.SY", "eess.IV", "eess.AS", "physics.app-ph"]
+    },
+    "hn": {"url": "https://hn.algolia.com/api/v1/search_by_date", "hitsPerPage": 1000},
+    "openalex": {"url": "https://api.openalex.org/works", "intervalSec": 1.0, "batch": 50}
+  },
+  "venues": [
+    "ISSCC", "VLSI Symposium", "Symposium on VLSI", "IEDM", "JSSC", "CICC", "ESSCIRC", "A-SSCC", "Hot Chips",
+    "DAC", "ICCAD", "DATE", "ASP-DAC", "ISLPED", "ICCD", "GLSVLSI", "MLCAD", "TCAD", "TVLSI", "TCAS-I", "TCAS-II", "JETCAS",
+    "MICRO", "HPCA", "ISCA", "ASPLOS", "PACT", "FPGA", "FCCM", "FPL", "IEEE Micro", "CAL", "ISCAS", "ICASSP", "Interspeech",
+    "ACC", "CDC", "ECC", "IFAC", "Automatica", "IEEE TAC", "ICC", "GLOBECOM", "INFOCOM", "ISIT",
+    "OSDI", "SOSP", "NSDI", "EuroSys", "USENIX ATC", "SIGCOMM", "SC", "PPoPP", "HPDC", "IPDPS", "MLSys", "VLDB", "SIGMOD", "ICDE",
+    "ICSE", "FSE", "ASE", "ISSTA", "PLDI", "POPL", "OOPSLA", "CCS", "USENIX Security", "NDSS", "IEEE S&P",
+    "NeurIPS", "ICML", "ICLR", "CVPR", "ICCV", "ECCV", "ACL", "EMNLP", "NAACL", "COLM", "AAAI", "IJCAI", "KDD", "AISTATS",
+    "UAI", "CoRL", "ICRA", "IROS", "WACV", "SIGGRAPH", "CHI", "TPAMI", "JMLR", "TMLR"
+  ]
+}

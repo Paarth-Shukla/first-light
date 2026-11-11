@@ -1,0 +1,43 @@
+{
+  "about": ["A small lexicon that pins the matching mechanics of pipeline/lexicon.py independently of config/lexicon.json."],
+  "entities": [
+    {"id": "apple", "name": "Apple", "type": "company", "aliases": ["Apple", "Apple Inc", "AAPL"], "ticker": "AAPL", "sections": ["companies"], "related": ["iphone"], "ambiguous": true, "context": ["shares", "tim cook"], "gated": ["Apple"]},
+    {"id": "iphone", "name": "iPhone", "type": "product", "aliases": ["iPhone"], "ticker": null, "sections": ["companies"], "related": ["apple"], "ambiguous": false},
+    {"id": "gpu", "name": "GPU", "type": "topic", "aliases": ["GPU", "graphics card"], "ticker": null, "sections": [], "related": [], "ambiguous": false},
+    {"id": "llama", "name": "Llama", "type": "model", "aliases": ["Llama", "Meta Llama"], "ticker": null, "sections": ["llm"], "related": [], "ambiguous": true, "context": ["open-weight"], "gated": ["Llama"]},
+    {"id": "nifty-50", "name": "Nifty 50", "type": "index", "aliases": ["Nifty", "Nifty 50"], "ticker": "^NSEI", "sections": ["india-markets"], "related": [], "ambiguous": true, "context": ["sensex", "points"], "gated": ["Nifty"]},
+    {"id": "bank-nifty", "name": "Bank Nifty", "type": "index", "aliases": ["Bank Nifty"], "ticker": "^NSEBANK", "sections": ["india-markets"], "related": ["nifty-50"], "ambiguous": false},
+    {"id": "who", "name": "World Health Organization", "type": "org", "aliases": ["World Health Organization", "WHO"], "ticker": null, "sections": ["world"], "related": [], "ambiguous": false},
+    {"id": "cc-wei", "name": "C.C. Wei", "type": "person", "aliases": ["C.C. Wei"], "ticker": null, "sections": [], "related": [], "ambiguous": false},
+    {"id": "dr-reddys", "name": "Dr Reddy's", "type": "company", "aliases": ["Dr Reddy's"], "ticker": "DRREDDY.NS", "sections": ["india-markets"], "related": [], "ambiguous": false},
+    {"id": "nestle", "name": "Nestlé", "type": "company", "aliases": ["Nestlé"], "ticker": null, "sections": [], "related": [], "ambiguous": false},
+    {"id": "fine-tuning", "name": "Fine-tuning", "type": "topic", "aliases": ["fine-tuning"], "ticker": null, "sections": ["llm"], "related": [], "ambiguous": true, "context": ["model"], "gated": ["fine-tuning"]},
+    {"id": "jane-roe", "name": "Jane Roe", "type": "person", "aliases": ["Jane Roe"], "ticker": null, "sections": ["markets"], "related": [], "ambiguous": false},
+    {"id": "atlantis", "name": "Atlantis", "type": "place", "aliases": ["Atlantis"], "ticker": null, "sections": ["world"], "related": [], "ambiguous": false},
+    {"id": "acme", "name": "Acme", "type": "company", "aliases": ["Acme"], "ticker": "ACME", "sections": ["companies"], "related": [], "ambiguous": false},
+    {"id": "times-of-india", "name": "The Times of India", "type": "org", "aliases": ["The Times of India"], "ticker": null, "sections": [], "related": [], "ambiguous": false},
+    {"id": "party-in", "name": "Indian National Congress", "type": "org", "aliases": ["Congress"], "ticker": null, "sections": ["india"], "related": [], "ambiguous": true, "context": ["BJP"], "gated": ["Congress"]},
+    {"id": "congress-us", "name": "US Congress", "type": "org", "aliases": ["Congress"], "ticker": null, "sections": ["world"], "related": [], "ambiguous": true, "context": ["senate"], "gated": ["Congress"]}
+  ],
+  "synonyms": [
+    ["llm", "large language model", "language model"],
+    ["layoffs", "job cuts"],
+    ["layoffs", "redundancies"],
+    ["ev", "electric vehicle"]
+  ],
+  "sectionRules": {
+    "world": {"strong": ["ceasefire"], "weak": ["talks", "summit"], "adjacent": []},
+    "india": {"strong": ["Lok Sabha"], "weak": ["India"], "adjacent": ["world"]},
+    "ai": {"strong": ["AI"], "weak": ["robot", "automation"], "adjacent": ["companies"]},
+    "ml": {"strong": ["machine learning"], "weak": [], "adjacent": []},
+    "llm": {"strong": ["AI agent", "language model"], "weak": ["prompt"], "adjacent": ["ai"]},
+    "labs": {"strong": [], "weak": [], "adjacent": []},
+    "companies": {"strong": ["chipmaker"], "weak": [], "adjacent": []},
+    "markets": {"strong": ["stock market"], "weak": ["bonds", "yields", "equities"], "adjacent": []},
+    "india-markets": {"strong": ["Indian equities"], "weak": [], "adjacent": []},
+    "science": {"strong": ["astronomers"], "weak": [], "adjacent": []}
+  },
+  "glossary": [
+    {"term": "repo rate", "aliases": ["policy rate"], "definition": "The rate at which the central bank lends to banks overnight.", "section": "india-markets"}
+  ]
+}

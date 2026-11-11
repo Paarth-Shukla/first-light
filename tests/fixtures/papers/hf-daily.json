@@ -1,0 +1,173 @@
+[
+ {
+  "paper": {
+   "id": "2611.12806",
+   "authors": [
+    {
+     "_id": "6af2cf2405af6789c06329f2",
+     "name": "Bing Han",
+     "hidden": false
+    },
+    {
+     "_id": "6af2cf2405af6789c06329f3",
+     "name": "Yichuan Peng",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-11-09T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-11-10T00:00:00.000Z",
+   "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+   "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence",
+   "upvotes": 97,
+   "discussionId": "6af2cf2505af6789c0632a05",
+   "projectPage": "https://technology.robbyant.com/lingbot-touch",
+   "githubRepo": "https://github.com/Robbyant/lingbot-touch",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "LingBot-Touch is a tactile foundation model that learns a unified, extensible representation across heterogeneous tactile sensors, yielding plug-and-play tactile tokens that consistently enhance manipulation policies such as diffusion policy and VLA models.",
+   "ai_summary_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "githubStars": 170
+  },
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+  "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12806.png",
+  "numComments": 2,
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.10771",
+   "authors": [
+    {
+     "_id": "6af2918a05af6789c063281f",
+     "user": {
+      "_id": "670880950e79a8b46f7ff9dd",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/670880950e79a8b46f7ff9dd/hA1TLhwlQblkFsq8wLrkB.jpeg",
+      "isPro": false,
+      "fullname": "Juanxi Tian",
+      "user": "Juanxi",
+      "type": "user",
+      "name": "Juanxi"
+     },
+     "name": "Juanxi Tian",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-11-10T08:45:04.812Z",
+     "hidden": false
+    },
+    {
+     "_id": "6af2918a05af6789c0632820",
+     "name": "Jiadong Hou",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-11-07T14:59:22.000Z",
+   "submittedOnDailyAt": "2026-11-10T00:00:00.000Z",
+   "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+   "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not consti",
+   "upvotes": 55,
+   "discussionId": "6af2918a05af6789c063282f",
+   "projectPage": "https://openenvision.org/WorldFoundry/",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "WorldFoundry offers open-source infrastructure for reproducible inference and evaluation of generative world models across video, 3D/4D, embodied action, and interactive systems, with traceable evidence and benchmarks.",
+   "ai_summary_model": "deepseek-ai/DeepSeek-V4.1-Flash"
+  },
+  "publishedAt": "2026-11-07T09:59:22.000Z",
+  "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+  "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not consti",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10771.png",
+  "numComments": 2,
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.12762",
+   "authors": [
+    {
+     "_id": "6af2bf0305af6789c0632916",
+     "user": {
+      "_id": "661b9d96c153e4a0a25adc3e",
+      "avatarUrl": "/avatars/7f73b83e0189afd85d37b74e4e8bf665.svg",
+      "isPro": false,
+      "fullname": "Weida Wang",
+      "user": "weidawang",
+      "type": "user",
+      "name": "weidawang"
+     },
+     "name": "Weida Wang",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-11-10T08:45:04.877Z",
+     "hidden": false
+    },
+    {
+     "_id": "6af2bf0305af6789c0632917",
+     "name": "Benteng Chen",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-11-09T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-11-10T00:00:00.000Z",
+   "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+   "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to inves",
+   "upvotes": 54,
+   "discussionId": "6af2bf0305af6789c0632970",
+   "projectPage": "https://alpha-innovator.github.io/Sage-Taiyi/",
+   "githubRepo": "https://github.com/Alpha-Innovator/Sage-Taiyi",
+   "githubRepoAddedBy": "user",
+   "githubStars": 16
+  },
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+  "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to inves",
+  "mediaUrls": [
+   "https://cdn-uploads.huggingface.co/production/uploads/661b9d96c153e4a0a25adc3e/2Y2fKPXc7aLAbB7X7EA2p.mp4"
+  ],
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12762.png",
+  "numComments": 2,
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.12886",
+   "authors": [
+    {
+     "_id": "6af2dfbff263af437492eccf",
+     "user": {
+      "_id": "6900b9e134aeea158b131fa0",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6900b9e134aeea158b131fa0/6PMH3bqyijwlkmJNLPaWD.jpeg",
+      "isPro": false,
+      "fullname": "Haozhi Yuan",
+      "user": "EliYuan00",
+      "type": "user",
+      "name": "EliYuan00"
+     },
+     "name": "Haozhi Yuan",
+     "status": "claimed_verified",
+     "statusLastChangedAt": "2026-11-10T14:10:25.702Z",
+     "hidden": false
+    },
+    {
+     "_id": "6af2dfbff263af437492ecd0",
+     "name": "Handong Li",
+     "hidden": false
+    }
+   ],
+   "publishedAt": "2026-11-09T00:00:00.000Z",
+   "submittedOnDailyAt": "2026-11-10T00:00:00.000Z",
+   "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+   "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, too",
+   "upvotes": 38,
+   "discussionId": "6af2dfbff263af437492ecd3",
+   "githubRepo": "https://github.com/EliYuan30/Reframe",
+   "githubRepoAddedBy": "user",
+   "ai_summary": "Reframe is a two-stage post-training framework that aligns visual agents’ observation states through evidence-aware reinforcement learning and observation-gated on-policy distillation, improving tool use and outperforming Mix-RL and vanilla MOPD across image and video benchmarks.",
+   "ai_summary_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "githubStars": 33
+  },
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+  "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, too",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12886.png",
+  "numComments": 3,
+  "isAuthorParticipating": true
+ }
+]

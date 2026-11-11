@@ -1,0 +1,110 @@
+{
+  "moverThresholdPct": {"stock": 2.0, "index": 1.0},
+  "strip": ["^NSEI", "^BSESN", "^GSPC", "^IXIC", "USDINR=X", "BZ=F", "GC=F", "BTC-USD"],
+  "providers": {
+    "yahoo": {"enabled": true},
+    "coingecko": {"enabled": true},
+    "frankfurter": {"enabled": true},
+    "moneycontrol": {"enabled": true},
+    "cnbc": {"enabled": true}
+  },
+  "groups": [
+    {"id": "india", "name": "India", "symbols": [
+      {"symbol": "^NSEI", "name": "Nifty 50", "short": "Nifty", "kind": "index", "entity": "nifty-50",
+       "alt": {"moneycontrol": "in;NSX", "cnbc": ".NSEI"}},
+      {"symbol": "^BSESN", "name": "BSE Sensex", "short": "Sensex", "kind": "index", "entity": "sensex",
+       "alt": {"moneycontrol": "in;SEN"}},
+      {"symbol": "^NSEBANK", "name": "Nifty Bank", "short": "Bank Nifty", "kind": "index", "entity": "bank-nifty",
+       "alt": {"moneycontrol": "in;nbx", "cnbc": ".NSEBANK"}},
+      {"symbol": "^CNXIT", "name": "Nifty IT", "short": "Nifty IT", "kind": "index", "entity": "nifty-it",
+       "alt": {"cnbc": ".NIFTYIT"}},
+      {"symbol": "^INDIAVIX", "name": "India VIX", "short": "India VIX", "kind": "index", "entity": "india-vix",
+       "mover": false}
+    ]},
+    {"id": "us", "name": "Wall Street", "symbols": [
+      {"symbol": "^GSPC", "name": "S&P 500", "short": "S&P 500", "kind": "index", "entity": "sp-500",
+       "alt": {"cnbc": ".SPX"}},
+      {"symbol": "^IXIC", "name": "Nasdaq Composite", "short": "Nasdaq", "kind": "index", "entity": "nasdaq",
+       "alt": {"cnbc": ".IXIC"}},
+      {"symbol": "^DJI", "name": "Dow Jones Industrial Average", "short": "Dow", "kind": "index", "entity": "dow-jones",
+       "alt": {"cnbc": ".DJI"}}
+    ]},
+    {"id": "world", "name": "World", "symbols": [
+      {"symbol": "^FTSE", "name": "FTSE 100", "short": "FTSE", "kind": "index", "entity": "ftse-100",
+       "alt": {"cnbc": ".FTSE"}},
+      {"symbol": "^N225", "name": "Nikkei 225", "short": "Nikkei", "kind": "index", "entity": "nikkei",
+       "alt": {"cnbc": ".N225"}},
+      {"symbol": "^HSI", "name": "Hang Seng", "short": "Hang Seng", "kind": "index", "entity": "hang-seng",
+       "alt": {"cnbc": ".HSI"}}
+    ]},
+    {"id": "watch-in", "name": "Indian stocks", "symbols": [
+      {"symbol": "RELIANCE.NS", "name": "Reliance Industries", "short": "RELIANCE", "kind": "stock", "entity": "reliance",
+       "alt": {"moneycontrol": "RELIANCE"}},
+      {"symbol": "TCS.NS", "name": "Tata Consultancy Services", "short": "TCS", "kind": "stock", "entity": "tcs",
+       "alt": {"moneycontrol": "TCS"}},
+      {"symbol": "INFY.NS", "name": "Infosys", "short": "INFY", "kind": "stock", "entity": "infosys",
+       "alt": {"moneycontrol": "INFY"}},
+      {"symbol": "HDFCBANK.NS", "name": "HDFC Bank", "short": "HDFCBANK", "kind": "stock", "entity": "hdfc-bank",
+       "alt": {"moneycontrol": "HDFCBANK"}},
+      {"symbol": "ICICIBANK.NS", "name": "ICICI Bank", "short": "ICICIBANK", "kind": "stock", "entity": "icici-bank",
+       "alt": {"moneycontrol": "ICICIBANK"}},
+      {"symbol": "SBIN.NS", "name": "State Bank of India", "short": "SBIN", "kind": "stock", "entity": "sbi",
+       "alt": {"moneycontrol": "SBIN"}},
+      {"symbol": "BHARTIARTL.NS", "name": "Bharti Airtel", "short": "AIRTEL", "kind": "stock", "entity": "bharti-airtel",
+       "alt": {"moneycontrol": "BHARTIARTL"}},
+      {"symbol": "ITC.NS", "name": "ITC", "short": "ITC", "kind": "stock", "entity": "itc",
+       "alt": {"moneycontrol": "ITC"}},
+      {"symbol": "LT.NS", "name": "Larsen & Toubro", "short": "L&T", "kind": "stock", "entity": "larsen-toubro",
+       "alt": {"moneycontrol": "LT"}},
+      {"symbol": "TMPV.NS", "name": "Tata Motors Passenger Vehicles", "short": "TMPV", "kind": "stock", "entity": "tata-motors",
+       "alt": {"moneycontrol": "TMPV"}},
+      {"symbol": "TMCV.NS", "name": "Tata Motors (commercial vehicles)", "short": "TMCV", "kind": "stock", "entity": "tata-motors",
+       "alt": {"moneycontrol": "TMCV"}},
+      {"symbol": "KOTAKBANK.NS", "name": "Kotak Mahindra Bank", "short": "KOTAKBANK", "kind": "stock", "entity": "kotak-mahindra-bank",
+       "alt": {"moneycontrol": "KOTAKBANK"}},
+      {"symbol": "AXISBANK.NS", "name": "Axis Bank", "short": "AXISBANK", "kind": "stock", "entity": "axis-bank",
+       "alt": {"moneycontrol": "AXISBANK"}},
+      {"symbol": "BAJFINANCE.NS", "name": "Bajaj Finance", "short": "BAJFINANCE", "kind": "stock", "entity": "bajaj-finance",
+       "alt": {"moneycontrol": "BAJFINANCE"}},
+      {"symbol": "HINDUNILVR.NS", "name": "Hindustan Unilever", "short": "HUL", "kind": "stock", "entity": "hindustan-unilever",
+       "alt": {"moneycontrol": "HINDUNILVR"}}
+    ]},
+    {"id": "watch-us", "name": "US stocks", "symbols": [
+      {"symbol": "TSLA", "name": "Tesla", "short": "TSLA", "kind": "stock", "entity": "tesla", "alt": {"cnbc": "TSLA"}},
+      {"symbol": "NVDA", "name": "Nvidia", "short": "NVDA", "kind": "stock", "entity": "nvidia", "alt": {"cnbc": "NVDA"}},
+      {"symbol": "AAPL", "name": "Apple", "short": "AAPL", "kind": "stock", "entity": "apple", "alt": {"cnbc": "AAPL"}},
+      {"symbol": "MSFT", "name": "Microsoft", "short": "MSFT", "kind": "stock", "entity": "microsoft", "alt": {"cnbc": "MSFT"}},
+      {"symbol": "GOOGL", "name": "Alphabet", "short": "GOOGL", "kind": "stock", "entity": "google", "alt": {"cnbc": "GOOGL"}},
+      {"symbol": "AMZN", "name": "Amazon", "short": "AMZN", "kind": "stock", "entity": "amazon", "alt": {"cnbc": "AMZN"}},
+      {"symbol": "META", "name": "Meta Platforms", "short": "META", "kind": "stock", "entity": "meta", "alt": {"cnbc": "META"}},
+      {"symbol": "AMD", "name": "AMD", "short": "AMD", "kind": "stock", "entity": "amd", "alt": {"cnbc": "AMD"}},
+      {"symbol": "P", "name": "Everpure (formerly Pure Storage)", "short": "P", "kind": "stock", "entity": "everpure", "alt": {"cnbc": "P"}},
+      {"symbol": "TSM", "name": "TSMC", "short": "TSM", "kind": "stock", "entity": "tsmc", "alt": {"cnbc": "TSM"}},
+      {"symbol": "AVGO", "name": "Broadcom", "short": "AVGO", "kind": "stock", "entity": "broadcom", "alt": {"cnbc": "AVGO"}}
+    ]},
+    {"id": "fx", "name": "Currencies", "symbols": [
+      {"symbol": "USDINR=X", "name": "US dollar in rupees", "short": "USD/INR", "kind": "fx", "entity": "rupee",
+       "alt": {"frankfurter": "USD/INR", "cnbc": "INR="}},
+      {"symbol": "EURUSD=X", "name": "Euro in US dollars", "short": "EUR/USD", "kind": "fx", "entity": "euro",
+       "alt": {"frankfurter": "EUR/USD", "cnbc": "EUR="}},
+      {"symbol": "GBPINR=X", "name": "Pound sterling in rupees", "short": "GBP/INR", "kind": "fx", "entity": "rupee",
+       "alt": {"frankfurter": "GBP/INR", "cnbc": "GBPINR="}}
+    ]},
+    {"id": "commodities", "name": "Commodities", "symbols": [
+      {"symbol": "BZ=F", "name": "Brent crude (front month)", "short": "Brent", "kind": "commodity", "entity": "oil",
+       "alt": {"cnbc": "@LCO.1"}},
+      {"symbol": "CL=F", "name": "WTI crude (front month)", "short": "WTI", "kind": "commodity", "entity": "oil",
+       "alt": {"cnbc": "@CL.1"}},
+      {"symbol": "GC=F", "name": "Gold (COMEX, per ounce)", "short": "Gold", "kind": "commodity", "entity": "gold",
+       "alt": {"cnbc": "@GC.1"}},
+      {"symbol": "SI=F", "name": "Silver (COMEX, per ounce)", "short": "Silver", "kind": "commodity", "entity": "silver",
+       "alt": {"cnbc": "@SI.1"}}
+    ]},
+    {"id": "crypto", "name": "Crypto", "symbols": [
+      {"symbol": "BTC-USD", "name": "Bitcoin", "short": "BTC", "kind": "crypto", "entity": "bitcoin",
+       "alt": {"coingecko": "bitcoin", "cnbc": "BTC.CM="}},
+      {"symbol": "ETH-USD", "name": "Ether", "short": "ETH", "kind": "crypto", "entity": "ethereum",
+       "alt": {"coingecko": "ethereum", "cnbc": "ETH.CM="}}
+    ]}
+  ]
+}

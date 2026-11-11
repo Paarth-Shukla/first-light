@@ -1,0 +1,511 @@
+{
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "stale": false,
+ "groups": [
+  {
+   "id": "india",
+   "name": "India",
+   "quotes": [
+    {
+     "symbol": "^NSEI",
+     "name": "Nifty 50",
+     "short": "Nifty",
+     "kind": "index",
+     "currency": "INR",
+     "price": 25255.05,
+     "change": 210.4,
+     "changePct": 0.84,
+     "spark": [
+      23053.1,
+      23440.8,
+      23810.85,
+      23960.6,
+      24536.6,
+      25030.35,
+      25044.65,
+      25255.05
+     ],
+     "asOf": "2026-11-11T10:01:28Z",
+     "exchange": "NSE",
+     "entity": "nifty-50",
+     "high52": 26373.2,
+     "low52": 22179.9,
+     "stale": false
+    },
+    {
+     "symbol": "^BSESN",
+     "name": "BSE Sensex",
+     "short": "Sensex",
+     "kind": "index",
+     "currency": "INR",
+     "price": 81879.4,
+     "change": 772.75,
+     "changePct": 0.95,
+     "spark": [
+      74459.53,
+      75692.78,
+      76917.85,
+      77301.4,
+      79310.01,
+      81028.02,
+      81106.65,
+      81879.4
+     ],
+     "asOf": "2026-11-11T10:02:32Z",
+     "exchange": "BSE",
+     "entity": "sensex",
+     "high52": 86159.02,
+     "low52": 71292.88,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "name": "Wall Street",
+   "quotes": [
+    {
+     "symbol": "^GSPC",
+     "name": "S&P 500",
+     "short": "S&P 500",
+     "kind": "index",
+     "currency": "USD",
+     "price": 7610.61,
+     "change": 89.68,
+     "changePct": 1.19,
+     "spark": [
+      7541.4,
+      7568.92,
+      7688.62,
+      7353.73,
+      7376.86,
+      7549.94,
+      7520.93,
+      7610.61
+     ],
+     "asOf": "2026-11-11T16:22:20Z",
+     "exchange": "SNP",
+     "entity": "sp-500",
+     "high52": 7844.52,
+     "low52": 6316.91,
+     "stale": false
+    },
+    {
+     "symbol": "^IXIC",
+     "name": "Nasdaq Composite",
+     "short": "Nasdaq",
+     "kind": "index",
+     "currency": "USD",
+     "price": 25518.2,
+     "change": 452.32,
+     "changePct": 1.8,
+     "spark": [
+      25164.31,
+      25372.01,
+      25736.51,
+      24315.0,
+      24579.43,
+      25253.14,
+      25065.87,
+      25518.2
+     ],
+     "asOf": "2026-11-11T16:22:15Z",
+     "exchange": "Nasdaq GIDS",
+     "entity": "nasdaq",
+     "high52": 27722.75,
+     "low52": 20690.25,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "name": "World",
+   "quotes": [
+    {
+     "symbol": "^FTSE",
+     "name": "FTSE 100",
+     "short": "FTSE",
+     "kind": "index",
+     "currency": "GBP",
+     "price": 10818.71,
+     "change": 67.12,
+     "changePct": 0.62,
+     "spark": [
+      10761.3,
+      10638.4,
+      10829.2,
+      10782.7,
+      10673.9,
+      10782.9,
+      10751.6,
+      10818.71
+     ],
+     "asOf": "2026-11-11T16:07:19Z",
+     "exchange": "FTSE Index",
+     "entity": "ftse-100",
+     "high52": 10989.5,
+     "low52": 9423.9,
+     "stale": false
+    },
+    {
+     "symbol": "^N225",
+     "name": "Nikkei 225",
+     "short": "Nikkei",
+     "kind": "index",
+     "currency": "JPY",
+     "price": 61248.59,
+     "change": 789.01,
+     "changePct": 1.3,
+     "spark": [
+      64659.47,
+      63290.11,
+      63081.86,
+      62188.63,
+      61077.9,
+      57434.77,
+      58775.5,
+      60459.58
+     ],
+     "asOf": "2026-11-11T06:45:02Z",
+     "exchange": "Osaka",
+     "entity": "nikkei",
+     "high52": 72831.73,
+     "low52": 48235.3,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "watch-in",
+   "name": "Indian stocks",
+   "quotes": [
+    {
+     "symbol": "RELIANCE.NS",
+     "name": "Reliance Industries",
+     "short": "RELIANCE",
+     "kind": "stock",
+     "currency": "INR",
+     "price": 1335.4,
+     "change": 11.0,
+     "changePct": 0.83,
+     "spark": [
+      1164.9,
+      1300.0,
+      1307.9,
+      1311.0,
+      1313.4,
+      1320.0,
+      1324.4,
+      1335.4
+     ],
+     "asOf": "2026-11-11T09:59:54Z",
+     "exchange": "NSE",
+     "entity": "reliance",
+     "high52": 1611.8,
+     "low52": 1152.2,
+     "stale": false
+    },
+    {
+     "symbol": "TCS.NS",
+     "name": "Tata Consultancy Services",
+     "short": "TCS",
+     "kind": "stock",
+     "currency": "INR",
+     "price": 2472.1,
+     "change": -3.3,
+     "changePct": -0.13,
+     "spark": [
+      2502.6,
+      2501.7,
+      2499.1,
+      2436.0,
+      2495.7,
+      2498.5,
+      2475.4,
+      2472.1
+     ],
+     "asOf": "2026-11-11T09:59:54Z",
+     "exchange": "NSE",
+     "entity": "tcs",
+     "high52": 3350.0,
+     "low52": 1976.8,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "watch-us",
+   "name": "US stocks",
+   "quotes": [
+    {
+     "symbol": "TSLA",
+     "name": "Tesla",
+     "short": "TSLA",
+     "kind": "stock",
+     "currency": "USD",
+     "price": 393.53,
+     "change": 13.75,
+     "changePct": 3.62,
+     "spark": [
+      403.82,
+      398.5,
+      385.19,
+      343.69,
+      358.22,
+      378.05,
+      379.78,
+      393.53
+     ],
+     "asOf": "2026-11-11T16:22:18Z",
+     "exchange": "NasdaqGS",
+     "entity": "tesla",
+     "high52": 498.83,
+     "low52": 297.38,
+     "stale": false
+    },
+    {
+     "symbol": "NVDA",
+     "name": "Nvidia",
+     "short": "NVDA",
+     "kind": "stock",
+     "currency": "USD",
+     "price": 175.57,
+     "change": 6.78,
+     "changePct": 4.02,
+     "spark": [
+      202.06,
+      206.69,
+      200.13,
+      181.6,
+      186.64,
+      178.67,
+      168.89,
+      175.57
+     ],
+     "asOf": "2026-11-11T16:22:20Z",
+     "exchange": "NasdaqGS",
+     "entity": "nvidia",
+     "high52": 243.37,
+     "low52": 164.27,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "fx",
+   "name": "Currencies",
+   "quotes": [
+    {
+     "symbol": "USDINR=X",
+     "name": "US dollar in rupees",
+     "short": "USD/INR",
+     "kind": "fx",
+     "currency": "INR",
+     "price": 93.68,
+     "change": -0.24,
+     "changePct": -0.25,
+     "spark": [
+      94.91,
+      94.73,
+      94.75,
+      94.52,
+      94.46,
+      93.9,
+      93.95,
+      93.68
+     ],
+     "asOf": "2026-11-11T15:58:44Z",
+     "exchange": "CCY",
+     "entity": "rupee",
+     "high52": 97.05,
+     "low52": 85.86,
+     "stale": false
+    },
+    {
+     "symbol": "EURUSD=X",
+     "name": "Euro in US dollars",
+     "short": "EUR/USD",
+     "kind": "fx",
+     "currency": "USD",
+     "price": 1.1099,
+     "change": -0.0068,
+     "changePct": -0.61,
+     "spark": [
+      1.1157,
+      1.1192,
+      1.1207,
+      1.1235,
+      1.1228,
+      1.1147,
+      1.1222,
+      1.1099
+     ],
+     "asOf": "2026-11-11T16:21:32Z",
+     "exchange": "CCY",
+     "entity": "euro",
+     "high52": 1.2024,
+     "low52": 1.1086,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "commodities",
+   "name": "Commodities",
+   "quotes": [
+    {
+     "symbol": "BZ=F",
+     "name": "Brent crude (front month)",
+     "short": "Brent",
+     "kind": "commodity",
+     "currency": "USD",
+     "price": 93.87,
+     "change": 2.38,
+     "changePct": 2.6,
+     "spark": [
+      104.77,
+      103.6,
+      94.62,
+      98.29,
+      98.32,
+      92.57,
+      91.49,
+      93.87
+     ],
+     "asOf": "2026-11-11T16:12:16Z",
+     "exchange": "NY Mercantile",
+     "entity": "oil",
+     "high52": 126.1,
+     "low52": 58.72,
+     "stale": false
+    },
+    {
+     "symbol": "CL=F",
+     "name": "WTI crude (front month)",
+     "short": "WTI",
+     "kind": "commodity",
+     "currency": "USD",
+     "price": 87.94,
+     "change": 1.9,
+     "changePct": 2.21,
+     "spark": [
+      96.46,
+      96.09,
+      88.12,
+      90.52,
+      90.83,
+      86.85,
+      86.04,
+      87.94
+     ],
+     "asOf": "2026-11-11T16:12:18Z",
+     "exchange": "NY Mercantile",
+     "entity": "oil",
+     "high52": 119.48,
+     "low52": 54.98,
+     "stale": false
+    }
+   ]
+  },
+  {
+   "id": "crypto",
+   "name": "Crypto",
+   "quotes": [
+    {
+     "symbol": "BTC-USD",
+     "name": "Bitcoin",
+     "short": "BTC",
+     "kind": "crypto",
+     "currency": "USD",
+     "price": 74180.05,
+     "change": 1385.66,
+     "changePct": 1.9,
+     "spark": [
+      80405.29,
+      75942.12,
+      75746.93,
+      75747.58,
+      74584.65,
+      75223.15,
+      73720.12,
+      74180.05
+     ],
+     "asOf": "2026-11-11T16:22:14Z",
+     "exchange": "CCC",
+     "entity": "bitcoin",
+     "high52": 105297.23,
+     "low52": 57747.77,
+     "stale": false
+    },
+    {
+     "symbol": "ETH-USD",
+     "name": "Ether",
+     "short": "ETH",
+     "kind": "crypto",
+     "currency": "USD",
+     "price": 2076.97,
+     "change": 60.43,
+     "changePct": 3.0,
+     "spark": [
+      2422.31,
+      2234.48,
+      2235.05,
+      2236.32,
+      2120.98,
+      2131.5,
+      2050.18,
+      2076.97
+     ],
+     "asOf": "2026-11-11T16:22:17Z",
+     "exchange": "CCC",
+     "entity": "ethereum",
+     "high52": 3586.01,
+     "low52": 1506.51,
+     "stale": false
+    }
+   ]
+  }
+ ],
+ "strip": [
+  "^NSEI",
+  "^BSESN",
+  "^GSPC",
+  "^IXIC",
+  "USDINR=X",
+  "BZ=F",
+  "BTC-USD"
+ ],
+ "movers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "changePct": 4.02,
+   "story": {
+    "id": "s9cdd66b81d",
+    "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+    "sourceCount": 10
+   }
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "changePct": 3.62,
+   "story": {
+    "id": "s19cbe3adaf",
+    "title": "Porsche CEO takes a shot at Tesla’s ‘flying’ Roadster stunt show",
+    "sourceCount": 2
+   }
+  },
+  {
+   "symbol": "^IXIC",
+   "name": "Nasdaq Composite",
+   "changePct": 1.8,
+   "story": {
+    "id": "s36c3799829",
+    "title": "Stock Market Today: Tech Stocks Poised to Jump After CoreWeave Earnings",
+    "sourceCount": 4
+   }
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harness selfcheck</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <h1 id="title">Harness selfcheck</h1>
+  <p>A page with one small behaviour per harness capability. State: <output id="boot">booting</output></p>
+
+  <section>
+    <h2>Mouse</h2>
+    <button id="counter" type="button">Clicked 0 times</button>
+    <output id="click-info"></output>
+    <button id="hover-target" type="button">Hover me</button>
+    <button id="disabled" type="button" disabled>Disabled</button>
+    <div id="cover-wrap">
+      <button id="covered" type="button">Under an overlay</button>
+      <div id="overlay"></div>
+    </div>
+    <button id="open-drawer" type="button">Open drawer</button>
+    <div id="drawer-track"><div id="drawer"><button id="drawer-button" type="button">In the drawer</button></div></div>
+  </section>
+
+  <section>
+    <h2>Keyboard</h2>
+    <input id="echo" type="text" autocomplete="off" aria-label="Echo">
+    <output id="echo-out"></output>
+    keydowns <output id="keydowns">0</output> inputs <output id="inputs">0</output>
+    <textarea id="notes" rows="3" aria-label="Notes"></textarea>
+    <p>Last key: <output id="last-key"></output></p>
+    <ul id="list">
+      <li class="selected">First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+    <div id="palette" hidden>Command palette</div>
+    <div id="help" hidden>Keyboard help</div>
+  </section>
+
+  <section id="columns">
+    <div>
+      <h2>Environment</h2>
+      <p>Scheme <output id="scheme"></output> · motion <output id="motion"></output> · layout <output id="layout"></output>
+        · pointer <output id="pointer"></output> · viewport <output id="viewport"></output> · network <output id="online"></output></p>
+      <p>Route <output id="route"></output> · seeded <output id="seed"></output></p>
+    </div>
+    <div>
+      <h2>Data and storage</h2>
+      <p><output id="data">loading</output> <button id="refetch" type="button">Fetch again</button>
+        <button id="missing" type="button">Fetch a missing file</button> <output id="missing-out"></output></p>
+      <p>Visits <output id="visits"></output> · note <output id="note"></output>
+        <button id="save" type="button">Save the echo as a note</button></p>
+      <p><button id="external" type="button">Load an image from another host</button> <output id="external-out"></output></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Errors</h2>
+    <button id="console-error" type="button">console.error</button>
+    <button id="console-warn" type="button">console.warn</button>
+    <button id="throw" type="button">Throw</button>
+    <button id="reject" type="button">Reject a promise</button>
+  </section>
+
+  <section>
+    <h2>Dialogs, files, timing</h2>
+    <button id="ask" type="button">Confirm</button>
+    <button id="prompt" type="button">Prompt</button>
+    <output id="answer"></output>
+    <button id="export" type="button">Export</button>
+    <input id="import" type="file" aria-label="Import">
+    <output id="import-out"></output>
+    <button id="spawn" type="button">Add an element in 300 ms</button>
+  </section>
+
+  <section>
+    <h2>Web worker</h2>
+    <button id="worker-ping" type="button">Ping the worker</button>
+    <button id="worker-error" type="button">console.error in the worker</button>
+    <button id="worker-throw" type="button">Throw in the worker</button>
+    <output id="worker-out"></output>
+  </section>
+
+  <div id="spacer"></div>
+  <button id="far" type="button">Far below the fold</button>
+</body>
+</html>

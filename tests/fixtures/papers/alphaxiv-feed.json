@@ -1,0 +1,174 @@
+{
+ "papers": [
+  {
+   "id": "01a1be8c-62e8-7c98-903c-16998dc97154",
+   "paper_group_id": "01a1be8c-62e8-7c98-903c-16998dc97154",
+   "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+   "feed_description": "FP4 KV caches can cut long-context LLM serving costs while preserving near-BF16 accuracy, enabling up to three times more requests per GPU.",
+   "pdf_only": false,
+   "image_url": "https://thumbnails.assets.alphaxiv.org/2611.09825v1.png",
+   "universal_paper_id": "2611.09825",
+   "metrics": {
+    "visits_count": {
+     "all": 51,
+     "last_7_days": 51
+    },
+    "total_votes": 0,
+    "public_total_votes": 7
+   },
+   "first_publication_date": "2026-11-06T18:13:54.000Z",
+   "publication_date": "2026-11-06T18:13:54.000Z",
+   "updated_at": "2026-11-09T04:23:53.832Z",
+   "topics": [
+    "attention-mechanisms",
+    "Computer Science",
+    "cs.AI",
+    "cs.AR",
+    "cs.CL",
+    "cs.PF",
+    "hardware-aware-algorithms",
+    "inference-optimization",
+    "ml-systems",
+    "model-compression",
+    "model-serving-infrastructure",
+    "transformers"
+   ],
+   "github_stars": null,
+   "github_url": null,
+   "has_run_report": false,
+   "canonical_id": "2611.09825v1",
+   "version_id": "01a1be8c-62ef-73cc-894c-0eb4ed596f9d",
+   "card_preview_blob_id": null,
+   "external_blog": null,
+   "external_link": null,
+   "authors": [
+    "Dayou Du",
+    "Woon Yee Ng",
+    "Guangming Sheng",
+    "Nick Lau",
+    "Jianyi Cheng",
+    "Luo Mai"
+   ]
+  },
+  {
+   "id": "01a1c597-99a5-71c8-8cad-cebd305b36b9",
+   "paper_group_id": "01a1c597-99a5-71c8-8cad-cebd305b36b9",
+   "title": "Exploiting What NVIDIA Profilers Hide: Fast and Accurate Analytical GPU Performance Modeling",
+   "feed_description": "Architects can evaluate GPU hardware designs far faster than with cycle-level simulation while accurately predicting kernel and end-to-end LLM inference times.",
+   "pdf_only": false,
+   "image_url": "https://thumbnails.assets.alphaxiv.org/2611.analytical-gpu-performance-modelingv1.png",
+   "universal_paper_id": "2611.analytical-gpu-performance-modeling",
+   "metrics": {
+    "visits_count": {
+     "all": 35,
+     "last_7_days": 35
+    },
+    "total_votes": 3,
+    "public_total_votes": 5
+   },
+   "first_publication_date": "2026-11-10T00:00:00.000Z",
+   "publication_date": "2026-11-10T00:00:00.000Z",
+   "updated_at": "2026-11-10T18:18:36.176Z",
+   "topics": [
+    "Computer Science",
+    "cs.AR",
+    "cs.DC",
+    "cs.PF"
+   ],
+   "github_stars": null,
+   "github_url": null,
+   "has_run_report": false,
+   "canonical_id": "2611.analytical-gpu-performance-modelingv1",
+   "version_id": "01a1c597-99bd-7a09-ba3e-3b66a3d675e8",
+   "card_preview_blob_id": null,
+   "external_blog": null,
+   "external_link": null,
+   "authors": [
+    "Ziwen Wang",
+    "Qi Luo",
+    "Kunlin Li",
+    "Changxi Liu",
+    "Dongsheng Wang",
+    "Yun Chen"
+   ]
+  },
+  {
+   "id": "01a1af5f-d295-7bf2-8604-d8cd06e89e08",
+   "paper_group_id": "01a1af5f-d295-7bf2-8604-d8cd06e89e08",
+   "title": "Scaling Up Analog CIM: A Simulation Framework for Topology-Aware Mapping",
+   "feed_description": "Isobar models how chip placement creates communication bottlenecks in large analog AI systems, enabling researchers to find mappings that reduce inference latency.",
+   "pdf_only": false,
+   "image_url": "https://thumbnails.assets.alphaxiv.org/2611.08399v1.png",
+   "universal_paper_id": "2611.08399",
+   "metrics": {
+    "visits_count": {
+     "all": 22,
+     "last_7_days": 22
+    },
+    "total_votes": 0,
+    "public_total_votes": 5
+   },
+   "first_publication_date": "2026-11-05T18:11:00.000Z",
+   "publication_date": "2026-11-05T18:11:00.000Z",
+   "updated_at": "2026-11-06T05:40:55.061Z",
+   "topics": [
+    "Computer Science",
+    "cs.AR"
+   ],
+   "github_stars": null,
+   "github_url": null,
+   "has_run_report": false,
+   "canonical_id": "2611.08399v1",
+   "version_id": "01a1af5f-d2bb-7178-b014-555474e52f60",
+   "card_preview_blob_id": null,
+   "external_blog": null,
+   "external_link": null,
+   "authors": [
+    "Yuxin Ren",
+    "Danella Zhao",
+    "Huanrui Yang"
+   ]
+  },
+  {
+   "id": "01a1aea8-a546-71c6-a2d0-73955e32f05c",
+   "paper_group_id": "01a1aea8-a546-71c6-a2d0-73955e32f05c",
+   "title": "OpenRDMA: A GPU-Native Multi-Path Reliable RDMA Transport Architecture",
+   "feed_description": "GPU kernels can initiate RDMA transfers with a lightweight doorbell while the NIC handles reliable multipath delivery and signals when data is safe to consume.",
+   "pdf_only": false,
+   "image_url": "https://thumbnails.assets.alphaxiv.org/2611.07559v1.png",
+   "universal_paper_id": "2611.07559",
+   "metrics": {
+    "visits_count": {
+     "all": 19,
+     "last_7_days": 19
+    },
+    "total_votes": 0,
+    "public_total_votes": 4
+   },
+   "first_publication_date": "2026-11-05T07:05:56.000Z",
+   "publication_date": "2026-11-05T07:05:56.000Z",
+   "updated_at": "2026-11-06T02:20:50.374Z",
+   "topics": [
+    "Computer Science",
+    "cs.AR"
+   ],
+   "github_stars": null,
+   "github_url": null,
+   "has_run_report": false,
+   "canonical_id": "2611.07559v1",
+   "version_id": "01a1aea8-a551-71de-a99f-554f24f36217",
+   "card_preview_blob_id": null,
+   "external_blog": null,
+   "external_link": null,
+   "authors": [
+    "Ziheng Ji",
+    "Chunyu Liu",
+    "Weihao Peng",
+    "Mingheng Mi",
+    "Pu Wang",
+    "Hai Zhang"
+   ]
+  }
+ ],
+ "page": 0
+}

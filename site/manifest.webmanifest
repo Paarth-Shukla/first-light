@@ -1,0 +1,11 @@
+{
+  "name": "First Light",
+  "short_name": "First Light",
+  "description": "A personal daily newspaper. One finite edition every morning.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2efe8",
+  "theme_color": "#0b0b0b",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

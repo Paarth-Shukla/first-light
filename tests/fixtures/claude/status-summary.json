@@ -1,0 +1,62 @@
+{
+ "page": {
+  "id": "tymt9n04zgry",
+  "name": "Claude",
+  "url": "https://status.claude.com",
+  "time_zone": "Etc/UTC",
+  "updated_at": "2026-11-11T11:27:57.903Z"
+ },
+ "components": [
+  {
+   "id": "rwppv331jlwc",
+   "name": "claude.ai",
+   "status": "operational",
+   "created_at": "2023-07-11T17:52:24.275Z",
+   "updated_at": "2026-11-08T08:54:43.557Z",
+   "position": 1,
+   "description": null,
+   "showcase": true,
+   "start_date": "2023-07-11",
+   "group_id": null,
+   "page_id": "tymt9n04zgry",
+   "group": false,
+   "only_show_if_degraded": false
+  },
+  {
+   "id": "w14q5j51spbm",
+   "name": "Claude Platform on AWS",
+   "status": "operational",
+   "created_at": "2026-11-09T18:33:14.695Z",
+   "updated_at": "2026-11-09T18:33:14.695Z",
+   "position": 1,
+   "description": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws",
+   "showcase": true,
+   "start_date": "2026-11-09",
+   "group_id": "60k546tlxqz7",
+   "page_id": "tymt9n04zgry",
+   "group": false,
+   "only_show_if_degraded": false
+  },
+  {
+   "id": "0qbwn08sd68x",
+   "name": "Claude Console (platform.claude.com)",
+   "status": "operational",
+   "created_at": "2023-07-11T17:52:49.982Z",
+   "updated_at": "2026-10-13T18:00:04.315Z",
+   "position": 2,
+   "description": null,
+   "showcase": true,
+   "start_date": "2023-07-11",
+   "group_id": null,
+   "page_id": "tymt9n04zgry",
+   "group": false,
+   "only_show_if_degraded": false
+  }
+ ],
+ "incidents": [],
+ "scheduled_maintenances": [],
+ "status": {
+  "indicator": "none",
+  "description": "All Systems Operational"
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "aliases": {
+  "llm": [
+   "large language model",
+   "foundation model",
+   "language model"
+  ],
+  "large language model": [
+   "llm",
+   "foundation model",
+   "language model"
+  ],
+  "foundation model": [
+   "llm",
+   "large language model",
+   "language model"
+  ]
+ },
+ "entities": {
+  "openai": {
+   "name": "OpenAI",
+   "type": "lab",
+   "aliases": [
+    "OpenAI",
+    "Open AI"
+   ],
+   "related": [
+    "chatgpt",
+    "gpt",
+    "sora",
+    "codex",
+    "sam-altman",
+    "greg-brockman",
+    "fidji-simo",
+    "microsoft",
+    "stargate"
+   ],
+   "ticker": null
+  },
+  "chatgpt": {
+   "name": "ChatGPT",
+   "type": "product",
+   "aliases": [
+    "ChatGPT",
+    "Chat GPT",
+    "ChatGPT Plus",
+    "ChatGPT Pro",
+    "ChatGPT Atlas"
+   ],
+   "related": [
+    "openai",
+    "gpt"
+   ],
+   "ticker": null
+  }
+ },
+ "related": {
+  "@ai-agents": [
+   [
+    "enterprise",
+    0.36
+   ],
+   [
+    "platform",
+    0.32
+   ],
+   [
+    "muse",
+    0.24
+   ],
+   [
+    "task",
+    0.22
+   ],
+   [
+    "workflow",
+    0.22
+   ],
+   [
+    "sery",
+    0.2
+   ]
+  ],
+  "@ai-bubble": [
+   [
+    "coreweave",
+    0.49
+   ],
+   [
+    "trade",
+    0.43
+   ],
+   [
+    "stock",
+    0.41
+   ],
+   [
+    "ipo",
+    0.27
+   ],
+   [
+    "result",
+    0.27
+   ],
+   [
+    "spend",
+    0.27
+   ]
+  ],
+  "@ai-chips": [
+   [
+    "korean",
+    0.32
+   ],
+   [
+    "startup",
+    0.27
+   ],
+   [
+    "semiconductor",
+    0.24
+   ],
+   [
+    "infrastructure",
+    0.24
+   ],
+   [
+    "nvidia",
+    0.22
+   ],
+   [
+    "model",
+    0.21
+   ]
+  ]
+ },
+ "glossary": {
+  "artificial intelligence": "Software that performs tasks usually needing human judgement, such as recognising images, understanding language or making predictions.",
+  "generative AI": "AI that produces new text, images, audio, video or code from a prompt, rather than only classifying or predicting."
+ },
+ "words": {
+  "accus": "accused",
+  "advanc": "advanced"
+ }
+}

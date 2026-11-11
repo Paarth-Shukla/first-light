@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="0.91">
+ <channel>
+  <title>rediff news</title>
+  <link>https://www.rediff.com/news</link>
+  <description>Indias largest news and entertainment service online.</description>
+  <language>en-us</language>
+  <pubDate>Wed, 11 Nov 2026 13:48:02 GMT</pubDate>
+  <copyright>Copyright: (C) 2026 Rediff.com India Limited. All Rights Reserved.</copyright>
+ <image>
+  <title>rediff news</title>
+  <url>https://www.rediff.com/uim/red_log.gif</url>
+  <link>https://www.rediff.com/news</link>
+  <width>144</width>
+  <height>28</height>
+  <description>Visit rediff.com</description>
+ </image>
+
+<!--2026-11-11T19:23:56+05:30-->
+<item>
+  <guid>https://www.rediff.com/news/report/sri-lanka-conducts-first-passenger-drone-trial/20261111.htm</guid>
+  <pubDate>Wed, 11 Nov 2026 19:23:56 +0530</pubDate>
+  <title><![CDATA[Sri Lanka Trials Electric Passenger Drone]]></title> 
+  <description><![CDATA[ Sri Lanka has successfully conducted its first official trial of an electric-powered passenger drone, the Chinese-made EHang E216, at Colombo Port City. Aviation Minister Anura Karunatilaka participated in the flight, marking a significant step towards future commercial drone services in the country.]]></description>
+  <link>https://www.rediff.com/news/report/sri-lanka-conducts-first-passenger-drone-trial/20261111.htm</link>
+  <author>news@rediff.co.in (Rediff News Desk)</author>
+  <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2026-11-11T19:23:56+05:30</atom:published>
+</item>
+<item>
+  <guid>https://www.rediff.com/news/report/rajasthan-police-bust-ai-driven-extortion-digital-arrest-gang/20261111.htm</guid>
+  <pubDate>Wed, 11 Nov 2026 19:14:40 +0530</pubDate>
+  <title><![CDATA[Interstate AI Extortion Gang Busted In Jhalawar]]></title> 
+  <description><![CDATA[ Jhalawar Police have dismantled an interstate syndicate that used AI tools and digital arrest traps to extort money, leading to the suicide of a 56-year-old woman. Six individuals, including four women from Bihar, have been apprehended, and three minors detained, following an extensive investigation that traced the gang 1,500 km away.]]></description>
+  <link>https://www.rediff.com/news/report/rajasthan-police-bust-ai-driven-extortion-digital-arrest-gang/20261111.htm</link>
+  <author>news@rediff.co.in (Rediff News Desk)</author>
+  <atom:published xmlns:atom="http://www.w3.org/2005/Atom">2026-11-11T19:14:40+05:30</atom:published>
+</item>
+</channel>
+</rss>

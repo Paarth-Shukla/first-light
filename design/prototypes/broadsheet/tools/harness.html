@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>screenshot harness</title>
+<style>html,body{margin:0;background:#888;overflow:hidden}iframe{display:block;border:0;position:absolute;left:0}</style>
+<body>
+<script>
+/* Lays a page out at an exact viewport width (headless Chrome will not go below 500px on its own)
+   and reports its full height. ?src=index.html&w=390&theme=dark&y=0 */
+var q = new URLSearchParams(location.search);
+var f = document.createElement('iframe');
+f.src = '../' + q.get('src') + '?theme=' + (q.get('theme') || 'light');
+f.width = q.get('w') || 1440;
+f.height = q.get('vh') || 900;
+f.style.top = (-(+q.get('y') || 0)) + 'px';
+f.onload = function () {
+  var d = f.contentDocument;
+  var done = function () {
+    if (!q.get('vh')) f.height = d.documentElement.scrollHeight;
+    f.contentWindow.dispatchEvent(new Event('resize'));
+    document.title = 'H=' + d.documentElement.scrollHeight + ' SW=' + d.documentElement.scrollWidth + ' CW=' + d.documentElement.clientWidth;
+  };
+  (d.fonts && d.fonts.ready ? d.fonts.ready : Promise.resolve()).then(function () { setTimeout(done, 150); });
+};
+document.body.appendChild(f);
+</script>

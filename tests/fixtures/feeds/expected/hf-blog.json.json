@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i724fae9251",
+  "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+  "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+  "summary": "",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-10T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "i3229de0d91",
+  "url": "https://huggingface.co/blog/decision",
+  "title": "Decision Models in Hugging Face",
+  "summary": "",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-10T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

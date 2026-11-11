@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dwsyn="http://rss.dw.com/syndication/dwsyn/">
+ <channel rdf:about="https://rss.dw.com/syndication/feeds/rss-en-top.1022.rdf">
+  <description>Deutsche Welle: DW.com - Top Stories</description>
+  <link>https://www.dw.com/english/?maca=en-rss-en-top-1022-rdf</link>
+  <title>Deutsche Welle: DW.com - Top Stories</title>
+  <sy:updatePeriod>hourly</sy:updatePeriod>
+  <sy:updateFequency>4</sy:updateFequency>
+  <sy:updateBase>2002-05-01T00:00:00Z</sy:updateBase>
+  <dc:date>2026-11-11T13:51:40Z</dc:date>
+  <image rdf:resource="https://rss.dw.com/images/DW-L-RGB_whitebg.png"/>
+  <items>
+   <rdf:Seq>
+    <rdf:li rdf:resource="https://www.dw.com/en/italy-hundreds-of-school-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/tundu-lissu-after-escaping-the-death-penalty-what-does-his-guilty-verdict-mean-for-tanzania-s-democracy/a-79908512?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/germany-news-only-1-3-of-germans-satisfied-with-state-of-democracy/live-79915066?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/spain-housing-crisis-prompts-general-strike/a-79915208?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/dw-science-explainer-on-the-default-mode-network-what-your-brain-does-when-you-aren-t-focusing-on-anything-and-why-it-s-important/a-79908787?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/india-cpcb-addresses-stark-delhi-pollution-data-gap-on-diwali-night/live-79914190?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/how-ai-worsens-online-violence-against-middle-east-women/a-79912634?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/south-korea-bus-causes-large-crash-near-seoul-dozens-hurt/a-79914074?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/israel-eisenkot-proposes-october-7-probe-as-new-knesset-sworn-in/a-79913636?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/former-malaysian-leader-najib-razak-returns-home-under-royal-pardon-but-faces-a-separate-15-year-prison-sentence/a-79913437?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/uk-privy-council-overrules-trinidad-and-tobago-gay-sex-law/a-79912163?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/victims-of-nazi-war-in-poland-call-on-germany-for-support/a-79909311?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/controversial-kinship-from-colonial-rule-to-the-holocaust/a-79902228?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/poland-krakow-shooting-suspect-fascinated-by-norwegian-mass-murder-anders-breivik-says-justice-minister/a-79910435?maca=en-rss-en-top-1022-rdf"/>
+    <rdf:li rdf:resource="https://www.dw.com/en/neuer-injury-gives-urbig-chance-to-shape-bayern-and-germany-future/a-79910042?maca=en-rss-en-top-1022-rdf"/>
+   </rdf:Seq>
+  </items>
+ </channel>
+ <image rdf:about="https://rss.dw.com/images/DW-L-RGB_whitebg.png">
+  <url>https://rss.dw.com/images/DW-L-RGB_whitebg.png</url>
+  <link>https://www.dw.com/english/?maca=en-rss-en-top-1022-rdf</link>
+  <title>DW</title>
+  <description>News, Analysis and Service from Germany and Europe - in 30 Languages</description>
+ </image>
+ <item rdf:about="https://www.dw.com/en/italy-hundreds-of-school-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-top-1022-rdf">
+  <title>Italy: Hundreds of school evacuated after bomb threats</title>
+  <link>https://www.dw.com/en/italy-hundreds-of-school-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-top-1022-rdf</link>
+  <description>Although the government believes the threat to be a hoax, it has nevertheless prompted concerns about &quot;hybrid warfare&quot; in Europe. Similar messages were sent in Northern Ireland, Ireland, and Bulgaria.</description>
+  <dc:date>2026-11-11T13:43:00Z</dc:date>
+  <dc:subject>News</dc:subject>
+  <dc:language>en</dc:language>
+  <dwsyn:contentID>79918034</dwsyn:contentID>
+ </item>
+<item rdf:about="https://www.dw.com/en/tundu-lissu-after-escaping-the-death-penalty-what-does-his-guilty-verdict-mean-for-tanzania-s-democracy/a-79908512?maca=en-rss-en-top-1022-rdf">
+  <title>Tundu Lissu: After escaping the death penalty, what does his guilty verdict mean for Tanzania&apos;s democracy?</title>
+  <link>https://www.dw.com/en/tundu-lissu-after-escaping-the-death-penalty-what-does-his-guilty-verdict-mean-for-tanzania-s-democracy/a-79908512?maca=en-rss-en-top-1022-rdf</link>
+  <description>A treason trial could have meant death by hanging for Tanzanian opposition leader Tundu Lissu. Instead, he now faces four years in prison for incitement to unrest. Ban dissident voices truly be heard in the country?</description>
+  <dc:date>2026-11-11T13:33:00Z</dc:date>
+  <dc:subject>World</dc:subject>
+  <dc:language>en</dc:language>
+  <dwsyn:contentID>79908512</dwsyn:contentID>
+ </item>
+<item rdf:about="https://www.dw.com/en/germany-news-only-1-3-of-germans-satisfied-with-state-of-democracy/live-79915066?maca=en-rss-en-top-1022-rdf">
+  <title>Germany news: Only 1/3 of Germans satisfied with state of democracy</title>
+  <link>https://www.dw.com/en/germany-news-only-1-3-of-germans-satisfied-with-state-of-democracy/live-79915066?maca=en-rss-en-top-1022-rdf</link>
+  <description>A new authoritarianism study has revealed a new low in satisfaction levels with the functioning of German democracy. Meanwhile, the Bundeswehr has banned Chinese-made drones. DW has more.</description>
+  <dc:date>2026-11-11T11:31:00Z</dc:date>
+  <dc:subject>News</dc:subject>
+  <dc:language>en</dc:language>
+  <dwsyn:contentID>79915066</dwsyn:contentID>
+ </item>
+</rdf:RDF>

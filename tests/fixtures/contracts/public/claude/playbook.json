@@ -1,0 +1,438 @@
+{
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "surfaces": [
+  {
+   "id": "apps",
+   "name": "Claude apps"
+  },
+  {
+   "id": "code",
+   "name": "Claude Code"
+  },
+  {
+   "id": "platform",
+   "name": "API and platform"
+  },
+  {
+   "id": "cowork",
+   "name": "Cowork"
+  },
+  {
+   "id": "integrations",
+   "name": "Claude in other tools"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "coding",
+   "name": "Coding"
+  },
+  {
+   "id": "review",
+   "name": "Review"
+  },
+  {
+   "id": "debugging",
+   "name": "Debugging"
+  },
+  {
+   "id": "writing",
+   "name": "Writing"
+  },
+  {
+   "id": "research",
+   "name": "Research"
+  },
+  {
+   "id": "analysis",
+   "name": "Analysis"
+  },
+  {
+   "id": "meetings",
+   "name": "Meetings"
+  },
+  {
+   "id": "planning",
+   "name": "Planning"
+  },
+  {
+   "id": "automation",
+   "name": "Automation"
+  },
+  {
+   "id": "learning",
+   "name": "Learning"
+  }
+ ],
+ "features": [
+  {
+   "id": "connectors",
+   "title": "Connectors",
+   "surface": "apps",
+   "group": "Extend",
+   "status": "stable",
+   "since": null,
+   "level": "starter",
+   "payoff": 3,
+   "effort": 2,
+   "jobs": [
+    "research",
+    "planning",
+    "automation",
+    "meetings"
+   ],
+   "tags": [
+    "connectors",
+    "mcp",
+    "integrations",
+    "permissions"
+   ],
+   "summary": "Connectors let Claude access your apps and services, retrieve your data and take actions in them, using the permissions you already have there.",
+   "when": "Connect a service when you keep copying its content into Claude or carrying Claude's output back to it. One connection replaces every future copy and paste for that tool.",
+   "replaces": "Exporting tickets, emails and documents by hand so Claude can read them, then re-entering the result in the source system.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Use connectors to extend Claude's capabilities",
+     "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"
+    },
+    {
+     "title": "Get started with connectors",
+     "url": "https://claude.com/docs/connectors/getting-started"
+    },
+    {
+     "title": "Connectors directory",
+     "url": "https://claude.com/docs/connectors/directory"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Summarize the open issues assigned to me, grouped by epic.\n\nFor each one give the key, a one-line status, and what is blocking it. Flag anything untouched for more than two weeks. Then draft a comment for the three stalest issues asking the reporter whether it is still needed. Show me the drafts before posting anything.",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Go to <a href=\"https://claude.ai/customize/connectors\" rel=\"noopener noreferrer\">Customize &gt; Connectors</a>, select <strong>Discover</strong>, and search for a service you use.</li>\n<li>Open its page, select <strong>Connect to Claude</strong>, sign in to the service and approve the access it asks for.</li>\n<li>In a chat, select <strong>+</strong> in the message box, then <strong>Connectors</strong>, and make sure the connector&#x27;s toggle is on.</li>\n<li>Ask for something the service holds. When Claude asks to use a tool, select <strong>Allow once</strong> or <strong>Always allow</strong>.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Summarize the open issues assigned to me, grouped by epic.\n\nFor each one give the key, a one-line status, and what is blocking it. Flag anything untouched for more than two weeks. Then draft a comment for the three stalest issues asking the reporter whether it is still needed. Show me the drafts before posting anything.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Standup and status prep.</strong> Claude reads your tracker and calendar directly, so a weekly status draft starts from real data instead of memory.</li>\n<li><strong>Acting, not only reading.</strong> The docs&#x27; own example is asking Claude to &quot;Create a new issue for the login bug&quot; after connecting an issue tracker.</li>\n<li><strong>Same connectors everywhere.</strong> Connectors you add in claude.ai are available in Claude Code when you sign in with your Claude account.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Connecting grants Claude permission to access and potentially modify data based on your account permissions. Only connect services you trust and need.</li>\n<li>On Team and Enterprise plans an Owner must add the connector for the organization before members can connect.</li>\n<li>Verification of a directory connector is not a security audit.</li>\n<li>Many active connectors take up room in the conversation. With 10 or more, the docs suggest switching <strong>Tool access</strong> from <strong>Auto</strong> to <strong>On demand</strong>.</li>\n<li>Turning a toggle off in a chat does not sign Claude out. Use <strong>Disconnect</strong> for that.</li>\n</ul>"
+  },
+  {
+   "id": "interactive-connectors",
+   "title": "Interactive connectors",
+   "surface": "apps",
+   "group": "Extend",
+   "status": "stable",
+   "since": null,
+   "level": "starter",
+   "payoff": 2,
+   "effort": 1,
+   "jobs": [
+    "planning",
+    "meetings",
+    "analysis"
+   ],
+   "tags": [
+    "connectors",
+    "mcp-apps",
+    "dashboards",
+    "boards"
+   ],
+   "summary": "Some connectors can display live, interactive apps inside a Claude conversation, such as a task board or analytics dashboard, instead of a text-only reply.",
+   "when": "Use one when you want to see and adjust the real thing while you talk about it, rather than read a description and switch tabs to act on it.",
+   "replaces": "Asking Claude for a summary, then opening the tool in another tab to make the change yourself.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Use interactive connectors in Claude",
+     "url": "https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Draft a Slack message for the #storage-oncall channel summarizing last night's incident:\n- what paged, when, and for how long\n- customer impact in one sentence\n- the mitigation we applied\n- the follow-up ticket link placeholder\n\nKeep it under 120 words. Show me the draft so I can edit it before it is sent.",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Open the <a href=\"https://claude.ai/directory\" rel=\"noopener noreferrer\">Connectors Directory</a> and look for connectors marked with the <strong>Interactive</strong> badge.</li>\n<li>Connect and authenticate with one. No additional setup is needed.</li>\n<li>Start a conversation and ask about something that connector handles. The interactive view appears automatically when relevant.</li>\n<li>Work in the view directly, for example filter data or check off a task, or ask Claude to make the change.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Draft a Slack message for the #storage-oncall channel summarizing last night&#x27;s incident:\n- what paged, when, and for how long\n- customer impact in one sentence\n- the mitigation we applied\n- the follow-up ticket link placeholder\n\nKeep it under 120 words. Show me the draft so I can edit it before it is sent.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Review before sending.</strong> Inline cards suit single actions such as a message draft ready to send.</li>\n<li><strong>Boards and dashboards in the chat.</strong> Ask about project status and the task board opens in the conversation, where you can check off tasks.</li>\n<li><strong>Keep a view open.</strong> The side panel keeps the connector open beside your chat so you can watch it update, and supported connectors can be pinned to your sidebar.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>What you see varies by connector. Each developer chooses which views and actions to support, and Claude can only take actions the developer has made available.</li>\n<li>The side panel, full-site views and pinning are rolling out on the web and in Claude Desktop to accounts with the new Claude experience. They are not on Claude Mobile yet.</li>\n<li>Pins are saved per browser, so a pin added on the web does not appear in Claude Desktop.</li>\n<li>Purchases through a connector&#x27;s in-chat views are not supported.</li>\n<li>Team and Enterprise owners can disable the tool calls that render interactive views. The connector&#x27;s text-based tools keep working.</li>\n</ul>"
+  },
+  {
+   "id": "claude-data",
+   "title": "Claude Data",
+   "surface": "apps",
+   "group": "Make things",
+   "status": "new",
+   "since": null,
+   "level": "intermediate",
+   "payoff": 3,
+   "effort": 2,
+   "jobs": [
+    "analysis",
+    "planning",
+    "meetings"
+   ],
+   "tags": [
+    "data",
+    "dashboards",
+    "sql",
+    "warehouse",
+    "artifacts"
+   ],
+   "summary": "Claude Data turns plain-language questions about your company's data into dashboards, data stories, narrated short videos and written analyses, with Claude writing the SQL.",
+   "when": "Use it for quick, exploratory questions against a connected data warehouse or app, where you want a chart whose query you can inspect. For deeper analysis, the docs suggest sending the dashboard on to another tool.",
+   "replaces": "Hand-writing SQL for a one-off question, exporting the result and building a chart in a spreadsheet.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Get started with Claude Data",
+     "url": "https://support.claude.com/en/articles/17454700-get-started-with-claude-data"
+    },
+    {
+     "title": "What are artifacts and how do I use them?",
+     "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Build a dashboard from the telemetry tables in our warehouse.\n\nHow does this month's rate of drive replacements per 1,000 deployed drives compare with the previous three months, split by drive model and by region? Add a filter for firmware version and a weekly view. Name the tables you used, and flag any model where the sample is too small to trust.",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Connect the data you want to ask about. That can be a data warehouse such as BigQuery, Databricks or Snowflake, or another app you have connected to Claude.</li>\n<li>Ask in any chat, or go to the <strong>Artifacts</strong> tab and select <strong>Data</strong>.</li>\n<li>Say what you want to know, not only what to chart, and name the table or app if you know it.</li>\n<li>Open a chart&#x27;s query to see how Claude got the number. If it is not counting what you meant, tell Claude what to change.</li>\n<li>Click <strong>Share</strong> when it is ready.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Build a dashboard from the telemetry tables in our warehouse.\n\nHow does this month&#x27;s rate of drive replacements per 1,000 deployed drives compare with the previous three months, split by drive model and by region? Add a filter for firmware version and a weekly view. Name the tables you used, and flag any model where the sample is too small to trust.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>In a review.</strong> Each chart shows its query and when its data was last refreshed, so a number can be checked on the spot.</li>\n<li><strong>Trusted definitions.</strong> Certified queries (beta) are queries your data team has approved. Charts built on them carry a badge.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Without live sharing, a shared dashboard loads data with each viewer&#x27;s own connections, so a viewer without access sees an error for that part.</li>\n<li>Live sharing (beta) lets people in your organization see results from your connection, so check what a dashboard shows first.</li>\n<li>Data does not refresh on a schedule. It refreshes when someone opens the dashboard and the data is due.</li>\n<li>Editing a certified query removes its certification.</li>\n<li>Claude Data is for paid plans, and on Enterprise plans the beta features are off by default.</li>\n</ul>"
+  },
+  {
+   "id": "claude-sheets",
+   "title": "Claude Sheets",
+   "surface": "apps",
+   "group": "Make things",
+   "status": "beta",
+   "since": null,
+   "level": "starter",
+   "payoff": 2,
+   "effort": 1,
+   "jobs": [
+    "analysis",
+    "planning"
+   ],
+   "tags": [
+    "sheets",
+    "spreadsheets",
+    "artifacts",
+    "formulas",
+    "trackers"
+   ],
+   "summary": "Claude Sheets is a spreadsheet built into Claude, where you and Claude edit the same cells and formulas stay visible in the cells.",
+   "when": "Use it for a light, shared tracker, budget or model you build with Claude. When the file already lives in Excel or Google Sheets, or you need those apps' full features, use Claude for Excel or Claude for Google Workspace instead.",
+   "replaces": "Asking Claude for a table, pasting it into a spreadsheet and rebuilding the formulas yourself.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Get started with Claude Sheets",
+     "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+    },
+    {
+     "title": "What are artifacts and how do I use them?",
+     "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Build a sheet to track the firmware qualification matrix.\n\nOne row per drive model, one column per firmware version, with a status dropdown (Not started, Running, Passed, Failed) in each cell. Add a summary tab that counts each status per firmware version using formulas, and conditional formatting that turns Failed cells red.",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Ask Claude for a sheet in any chat, or go to the <strong>Artifacts</strong> tab and select the <strong>Sheets</strong> tile.</li>\n<li>Say what the sheet is for and what you want to track. Give Claude your numbers if you have them.</li>\n<li>Ask for changes such as &quot;Add a column for budget remaining&quot; or &quot;Highlight anything that&#x27;s overdue.&quot;</li>\n<li>Click <strong>Share</strong> to work on it with others, or export it as an .xlsx or CSV file.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Build a sheet to track the firmware qualification matrix.\n\nOne row per drive model, one column per firmware version, with a status dropdown (Not started, Running, Passed, Failed) in each cell. Add a summary tab that counts each status per firmware version using formulas, and conditional formatting that turns Failed cells red.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Trackers you can audit.</strong> Formulas stay in the cells, so you can check how each number was calculated, and each edit Claude makes is outlined as it lands.</li>\n<li><strong>Starting from an export.</strong> Import a CSV file, or import from Google Sheets or Excel, then ask Claude to add the columns and summaries you need.</li>\n<li><strong>Asking about numbers.</strong> Select cells and ask a question such as &quot;Why is this total higher than last month?&quot;</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Claude Sheets is in beta on paid plans, and on Enterprise plans it is off until an owner turns it on.</li>\n<li>A sheet can hold up to 100,000 cells.</li>\n<li>Not available yet: pivot tables, protected ranges, find and replace, multi-column sort, filter views and PDF export.</li>\n<li>Excel macros, VBA, Power Query, DAX and print layout are not supported.</li>\n<li>Sheets cannot pull live data from connected apps.</li>\n<li>Restoring an earlier version from version history also removes edits made after it.</li>\n<li>Mobile has basic read-only access.</li>\n</ul>"
+  },
+  {
+   "id": "claude-whiteboards",
+   "title": "Claude Whiteboards",
+   "surface": "apps",
+   "group": "Make things",
+   "status": "beta",
+   "since": null,
+   "level": "starter",
+   "payoff": 2,
+   "effort": 1,
+   "jobs": [
+    "planning",
+    "meetings",
+    "learning"
+   ],
+   "tags": [
+    "whiteboards",
+    "diagrams",
+    "brainstorming",
+    "artifacts"
+   ],
+   "summary": "Claude Whiteboards is a shared board where you talk, type or sketch and Claude organizes your ideas into diagrams, flows and groups.",
+   "when": "Use a board before you know what the final version should be, such as laying out options for a decision or running a retro. Once the structure is settled, have Claude turn it into a doc or deck.",
+   "replaces": "Dumping thoughts into a text file and then redrawing them by hand in a diagram tool.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Get started with Claude Whiteboards",
+     "url": "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards"
+    },
+    {
+     "title": "What are artifacts and how do I use them?",
+     "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Map this process on a whiteboard from start to finish: what happens when a customer array reports a failed drive.\n\nSteps I know: alert fires, support case opens, on-call triages, replacement ships, field tech swaps the drive, rebuild completes. Put the steps in order, group them by owning team, and tell me what is missing between \"replacement ships\" and \"rebuild completes\".",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Ask Claude for a whiteboard in any chat, or go to the <strong>Artifacts</strong> tab and select the tile labeled <strong>Whiteboard</strong>.</li>\n<li>Describe what you want to work through, or select the microphone next to the send button and dictate a brain dump.</li>\n<li>Ask Claude to regroup the board by theme or turn it into a timeline.</li>\n<li>Drag across a region of the board to ask Claude about just that part.</li>\n<li>When the thinking is done, ask Claude to turn the board into a doc or deck.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Map this process on a whiteboard from start to finish: what happens when a customer array reports a failed drive.\n\nSteps I know: alert fires, support case opens, on-call triages, replacement ships, field tech swaps the drive, rebuild completes. Put the steps in order, group them by owning team, and tell me what is missing between &quot;replacement ships&quot; and &quot;rebuild completes&quot;.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Retros and planning.</strong> Everyone on the board works on it live and can rearrange what is there, and you can follow a teammate around the board.</li>\n<li><strong>Finding gaps in a process.</strong> Ask what is missing between two steps. Claude adds its suggestions to the board for you to check.</li>\n<li><strong>From sketch to document.</strong> A prompt such as &quot;Turn this board into a project plan&quot; converts the settled structure into a doc.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Whiteboards is in beta on paid plans, and off by default on Enterprise plans until an owner turns it on.</li>\n<li>Claude works from what is on the board and does not use context from your connected apps.</li>\n<li>You can add pictures and videos, but you cannot import a board from a file. File export is PNG.</li>\n<li>It is not available to organizations with HIPAA-ready configurations.</li>\n</ul>"
+  },
+  {
+   "id": "file-creation",
+   "title": "Create and edit files",
+   "surface": "apps",
+   "group": "Make things",
+   "status": "stable",
+   "since": null,
+   "level": "starter",
+   "payoff": 3,
+   "effort": 1,
+   "jobs": [
+    "analysis",
+    "writing",
+    "automation"
+   ],
+   "tags": [
+    "files",
+    "excel",
+    "powerpoint",
+    "pdf",
+    "code-execution"
+   ],
+   "summary": "Claude can run code in a sandboxed computing environment to create and edit real files in a chat, including Excel, PowerPoint, Word and PDF.",
+   "when": "Use it when you need a downloadable file or an analysis of an uploaded CSV, not text to paste somewhere. For a living document you will keep editing in Claude, use an artifact template instead.",
+   "replaces": "Building the spreadsheet, chart or slide deck by hand from numbers Claude gave you in chat.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "Create and edit files with Claude",
+     "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "Using the attached CSV of last quarter's on-call pages, create an Excel workbook with:\n- a cleaned data sheet (one row per page, parsed timestamps, service, severity, time to acknowledge)\n- a pivot-style summary by service and week, built with formulas rather than pasted values\n- a chart of pages per week\nThen write a one-page Word summary of the three noisiest alerts and what you would change about each.",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Go to <strong>Settings &gt; Capabilities</strong> and turn on <strong>Code execution and file creation</strong> (called <strong>Create and edit files</strong> in the updated Settings layout). On Team and Enterprise plans an owner controls this in <strong>Organization settings &gt; Capabilities</strong>.</li>\n<li>Upload a data file such as a CSV, or describe what you need from scratch.</li>\n<li>Ask for a specific file type and describe the structure, content and formatting you want.</li>\n<li>Download the file from the conversation, or save it to Google Drive.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">Using the attached CSV of last quarter&#x27;s on-call pages, create an Excel workbook with:\n- a cleaned data sheet (one row per page, parsed timestamps, service, severity, time to acknowledge)\n- a pivot-style summary by service and week, built with formulas rather than pasted values\n- a chart of pages per week\nThen write a one-page Word summary of the three noisiest alerts and what you would change about each.</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Reports from raw exports.</strong> Turn a Jira or monitoring CSV export into a workbook with working formulas and a chart.</li>\n<li><strong>Format conversion.</strong> Convert a document into a PowerPoint presentation, or extract the tables in a PDF into a spreadsheet.</li>\n<li><strong>Quick data science.</strong> Claude can write and run Python for analysis and produce visualizations as PNG files.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>The maximum file size is 30MB per file for both uploads and downloads.</li>\n<li>Creating files uses more of your usage limit than normal chat.</li>\n<li>On Team and Enterprise plans network access for the sandbox is off or restricted by default, so package installs beyond what is pre-installed may be limited.</li>\n<li>Instructions hidden in external files or websites could trick Claude into leaking data from its context, so monitor what it does.</li>\n<li>Review the output. You may need to refine it.</li>\n</ul>"
+  },
+  {
+   "id": "cc-routines",
+   "title": "Cloud scheduled tasks (routines)",
+   "surface": "code",
+   "group": "Automation",
+   "status": "beta",
+   "since": null,
+   "level": "intermediate",
+   "payoff": 3,
+   "effort": 2,
+   "jobs": [
+    "automation",
+    "review",
+    "planning"
+   ],
+   "tags": [
+    "scheduled-tasks",
+    "routines",
+    "cron",
+    "triggers",
+    "cloud"
+   ],
+   "summary": "A cloud scheduled task, formerly called a routine, is a saved prompt with repositories and connectors that runs as a Claude Code cloud session on a schedule, an API call or a GitHub event.",
+   "when": "Use one for unattended, repeatable work with a clear outcome that should run even when your laptop is closed. Use /loop for quick polling inside an open session.",
+   "replaces": "Remembering to do the same triage, summary or cleanup every morning.",
+   "example_kind": "command",
+   "docs": [
+    {
+     "title": "Automate work with scheduled tasks",
+     "url": "https://code.claude.com/docs/en/routines"
+    },
+    {
+     "title": "Run prompts on a schedule",
+     "url": "https://code.claude.com/docs/en/scheduled-tasks"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "/schedule every weekday at 9:07am, summarize the pull requests merged to the replicator repo since the last run, flag any that changed the public API without touching docs/, and open a draft PR that updates the changelog",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>In any session, run <code>/schedule</code> with a description, for example <code>/schedule daily PR review at 9am</code>. Claude asks about the schedule, repositories and prompt before saving.</li>\n<li>Or create one at <a href=\"https://claude.ai/code/routines\" rel=\"noopener noreferrer\">claude.ai/code/routines</a> with <strong>New task</strong>.</li>\n<li>Click <strong>Run now</strong> on the task&#x27;s detail page to test it.</li>\n<li>Open a run from the <strong>History</strong> list to see what Claude did, review changes and create a pull request.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">/schedule every weekday at 9:07am, summarize the pull requests merged to the replicator repo since the last run, flag any that changed the public API without touching docs/, and open a draft PR that updates the changelog</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Backlog maintenance.</strong> A nightly run labels new issues, assigns owners and posts a summary, so the team starts with a groomed queue.</li>\n<li><strong>Alert triage.</strong> Your monitoring tool calls the task&#x27;s API endpoint, and Claude correlates the stack trace with recent commits and opens a draft fix.</li>\n<li><strong>Docs drift.</strong> A weekly run scans merged PRs and opens update PRs for documentation that references changed APIs.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Scheduled tasks are in research preview. Behavior, limits and the API surface may change.</li>\n<li>Runs work from a fresh clone in the cloud and cannot see your local files.</li>\n<li>The task runs autonomously, so the prompt must be self-contained and say what success looks like.</li>\n<li>A task belongs to your individual account. Commits, pull requests and connector actions such as Slack messages appear as you.</li>\n<li>All your connected connectors are included by default. Remove the ones the task does not need.</li>\n<li>Schedules cannot run more often than once per hour, and a run set exactly on the hour can start several minutes late.</li>\n</ul>"
+  },
+  {
+   "id": "cc-model-and-effort",
+   "title": "Model, effort level and fast mode",
+   "surface": "code",
+   "group": "Setup and cost",
+   "status": "stable",
+   "since": null,
+   "level": "starter",
+   "payoff": 3,
+   "effort": 1,
+   "jobs": [
+    "coding",
+    "planning",
+    "debugging"
+   ],
+   "tags": [
+    "model",
+    "effort",
+    "fast-mode",
+    "ultrathink",
+    "opusplan"
+   ],
+   "summary": "Claude Code lets you pick the model, set an effort level that controls how much it reasons, and toggle a faster, more expensive fast mode on supported models.",
+   "when": "Change these when the default is slower, costlier or shallower than the task needs, for example lower effort for renames and higher effort for a subtle bug.",
+   "replaces": "Using one setting for everything and writing \"think hard\" into prompts.",
+   "example_kind": "command",
+   "docs": [
+    {
+     "title": "Model configuration",
+     "url": "https://code.claude.com/docs/en/model-config"
+    },
+    {
+     "title": "Speed up responses with fast mode",
+     "url": "https://code.claude.com/docs/en/fast-mode"
+    },
+    {
+     "title": "Best practices for Claude Code",
+     "url": "https://code.claude.com/docs/en/best-practices"
+    }
+   ],
+   "verified": "2026-11-11",
+   "example": "/model opusplan      Opus in plan mode, Sonnet for execution\n/effort high         work where verification matters, such as a bug in existing code\n/effort low          quick exchanges, a first sketch or a rename\n/fast on             faster responses on supported models, at a higher price per token",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Run <code>/model</code> to open the picker. <code>Enter</code> switches and saves the choice as your default. <code>s</code> switches for this session only.</li>\n<li>Run <code>/effort</code> to open the slider, or set a level directly with <code>/effort high</code>.</li>\n<li>Add the word <code>ultrathink</code> to one prompt to ask for deeper reasoning on that turn only.</li>\n<li>Run <code>/fast</code> to toggle fast mode. A <code>↯</code> icon appears next to the prompt while it is on.</li>\n</ol>\n<h2>Example</h2>\n<pre><code class=\"language-text\">/model opusplan      Opus in plan mode, Sonnet for execution\n/effort high         work where verification matters, such as a bug in existing code\n/effort low          quick exchanges, a first sketch or a rename\n/fast on             faster responses on supported models, at a higher price per token</code></pre>\n<h2>At work</h2>\n<ul>\n<li><strong>Match effort to the task.</strong> The docs describe <code>low</code> for quick exchanges where you review each result, <code>medium</code> for day-to-day work with a clear scope and <code>high</code> where edge cases are likely.</li>\n<li><strong>Plan with one model, build with another.</strong> <code>opusplan</code> uses <code>opus</code> in plan mode and switches to <code>sonnet</code> for execution.</li>\n</ul>\n<h2>Pitfalls</h2>\n<ul>\n<li>Aliases such as <code>opus</code> and <code>sonnet</code> resolve to different versions on different providers. Use a full model name to pin one.</li>\n<li><code>max</code> applies to the current session only and, according to the docs, is prone to overthinking.</li>\n<li>Phrases like &quot;think hard&quot; are ordinary prompt text, not keywords. <code>ultrathink</code> is the one that is recognized.</li>\n<li>Fast mode costs more per token and works only on some models. On subscription plans it is billed through usage credits, and Team and Enterprise organizations need an Owner to enable it.</li>\n<li>Turning fast mode on mid-conversation re-reads the whole context at the uncached fast price, so enable it at the start of a session.</li>\n</ul>"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "analyse-a-spreadsheet",
+   "title": "Analyse a CSV export and get charts and findings",
+   "job": "analysis",
+   "level": "starter",
+   "minutes_saved": 45,
+   "features": [
+    "file-creation",
+    "claude-sheets"
+   ],
+   "prerequisites": [
+    "Code execution and file creation turned on",
+    "A CSV or TSV export of 30MB or less"
+   ],
+   "fields": [
+    {
+     "name": "what_it_is",
+     "label": "What the file contains",
+     "placeholder": "one row per support ticket for the last two quarters, exported from Jira"
+    },
+    {
+     "name": "question",
+     "label": "The question to answer",
+     "placeholder": "which components drive the rise in P1 tickets, and whether time to resolve is getting worse"
+    },
+    {
+     "name": "audience",
+     "label": "Who the findings are for",
+     "placeholder": "the engineering managers at Thursday's planning meeting"
+    },
+    {
+     "name": "decision",
+     "label": "What they will decide",
+     "placeholder": "where to put two extra engineers next quarter"
+    }
+   ],
+   "docs": [
+    {
+     "title": "Create and edit files with Claude",
+     "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+    },
+    {
+     "title": "Get started with Claude Sheets",
+     "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+    }
+   ],
+   "verified": "2026-11-11",
+   "template": "The attached file is {{what_it_is}}. I need to answer this question: {{question}}. The findings go to {{audience}}, who will use them to decide {{decision}}, so every number has to survive someone checking it.\n\nWork in this order:\n1. Profile the data: row count, columns and types, date range, missing values, duplicates, and values that look like parsing or unit errors. Tell me what you will clean and why, then clean it.\n2. Write and run Python to answer the question. Make at most four charts as PNG files, each answering one sub-question, with labelled axes and units.\n3. For each finding, give the number, how you computed it, and how far the sample size lets us trust it. Say when a pattern is a correlation this data cannot explain.\n4. Create an Excel workbook with the cleaned data on one sheet and a summary sheet built with formulas, so each number in the findings traces back to cells.",
+   "html": "<h2>Steps</h2>\n<ol>\n<li>Check that <strong>Code execution and file creation</strong> is on in <strong>Settings &gt; Capabilities</strong> (called <strong>Create and edit files</strong> in the updated Settings layout). On Team and Enterprise plans an owner controls it.</li>\n<li>Attach the CSV to a new chat. Uploads are limited to 30MB per file.</li>\n<li>Send the prompt below. Claude writes and runs Python and returns charts as PNG files.</li>\n<li>Read the profiling step first. If a cleaning decision is wrong, say so and ask Claude to rerun.</li>\n<li>For a version the team can edit, ask for a Claude Sheets sheet built from the cleaned data. Sheets is in beta on paid plans.</li>\n</ol>\n<h2>Prompt</h2>\n<pre><code class=\"language-text\">The attached file is {{what_it_is}}. I need to answer this question: {{question}}. The findings go to {{audience}}, who will use them to decide {{decision}}, so every number has to survive someone checking it.\n\nWork in this order:\n1. Profile the data: row count, columns and types, date range, missing values, duplicates, and values that look like parsing or unit errors. Tell me what you will clean and why, then clean it.\n2. Write and run Python to answer the question. Make at most four charts as PNG files, each answering one sub-question, with labelled axes and units.\n3. For each finding, give the number, how you computed it, and how far the sample size lets us trust it. Say when a pattern is a correlation this data cannot explain.\n4. Create an Excel workbook with the cleaned data on one sheet and a summary sheet built with formulas, so each number in the findings traces back to cells.</code></pre>\n<h2>Why it works</h2>\n<p>The file creation guide says to describe the structure, content and formatting you want, and to review the output. Profiling first shows you the cleaning decisions while a wrong one is cheap to fix. A workbook with working formulas lets the audience audit each figure, and naming the decision tells Claude which numbers matter.</p>"
+  }
+ ]
+}

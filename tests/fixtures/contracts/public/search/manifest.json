@@ -1,0 +1,16 @@
+{
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "shards": [
+  {
+   "month": "2026-11",
+   "file": "docs-2026-11.json",
+   "count": 20,
+   "bytes": null
+  }
+ ],
+ "static": "docs-static.json",
+ "staticCount": 10,
+ "staticBytes": null,
+ "lexicon": "lexicon.json",
+ "lexiconBytes": null
+}

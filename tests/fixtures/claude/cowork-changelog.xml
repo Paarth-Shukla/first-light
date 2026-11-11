@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>Changelog</title>
+        <description>Release notes for Claude Desktop</description>
+        <link>https://claude.com/docs</link>
+        <generator>Mintlify</generator>
+        <lastBuildDate>Wed, 11 Nov 2026 06:09:17 GMT</lastBuildDate>
+        <atom:link href="https://claude.com/docs/cowork/changelog/rss.xml" rel="self" type="application/rss+xml" />
+        <copyright>Claude.ai Documentation</copyright>
+        <docs>https://claude.com/docs</docs>
+        <item>
+            <title>v5.1231.2</title>
+            <link>https://claude.com/docs/cowork/changelog#v5-1231-2</link>
+            <guid isPermaLink="false">427df88f86b346e7</guid>
+            <pubDate>Wed, 11 Nov 2026 01:28:23 GMT</pubDate>
+            <content:encoded>&lt;p&gt;Bundled Claude Code version: 2.1.321.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No user-facing changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No user-facing changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cowork&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No user-facing changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3P&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No user-facing changes.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        <item>
+            <title>v5.1231.0</title>
+            <link>https://claude.com/docs/cowork/changelog#v5-1231-0</link>
+            <guid isPermaLink="false">189bddfd9b3070be</guid>
+            <pubDate>Tue, 10 Nov 2026 21:15:12 GMT</pubDate>
+            <content:encoded>&lt;p&gt;Bundled Claude Code version: 2.1.321.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added run status to scheduled tasks that run on your computer, in Cowork and Code. A task's card can now say "Last run failed", "Last run failed, will try again", "Needs input" or "Didn't run", or why a run that is due hasn't started, such as "Waiting for its previous run to finish".&lt;/li&gt;
+&lt;li&gt;Changed Claude on Windows so that it can stop at launch with the message "Claude could not start" when another program keeps using a file that Claude needs. When Windows starts Claude at sign-in, it stops with no message. Close other programs or restart the computer, then open Claude again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed MCP servers added in the desktop app, desktop extensions included, to follow the MCP allow list, deny list and plugins-only setting in an administrator's Claude Code managed settings, in Code sessions on this computer. The session's MCP list says which servers are kept out.&lt;/li&gt;
+&lt;li&gt;Changed SSH sessions on Mac and Linux behind several jump hosts: once a jump host has asked you for a password or code in this version, a dropped session no longer redials it over and over. It retries rarely and tells you to sign in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cowork&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed Cowork so that edits Claude makes to a session's CLAUDE.md no longer update your global instructions. To change them, use Settings.&lt;/li&gt;
+&lt;li&gt;Fixed a comment you were typing on a file being lost when Claude sent an updated version of that file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3P&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added "Allow for 30 days" to the prompt shown before a scheduled Cowork task deletes files in one of its own folders. Later runs can then delete there without asking. &lt;code&gt;mcpScheduledTaskApprovalLifetimeDays&lt;/code&gt; sets the number of days, and &lt;code&gt;0&lt;/code&gt; turns the option off.&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;organizationAnnouncement&lt;/code&gt;: a message from your organization that each person can close, shown as a card on the start screen or as a dialog. It shows again when you change its &lt;code&gt;id&lt;/code&gt;, or its text if it has no &lt;code&gt;id&lt;/code&gt;. Update all devices before you put it in a device profile.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        <item>
+            <title>v4.23118.1</title>
+            <link>https://claude.com/docs/cowork/changelog#v4-23118-1</link>
+            <guid isPermaLink="false">bbb71f8affdf9f9e</guid>
+            <pubDate>Mon, 09 Nov 2026 19:03:51 GMT</pubDate>
+            <content:encoded>&lt;p&gt;Bundled Claude Code version: 2.1.321.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed how Claude Code finds the programs it starts itself on Windows, such as git: it no longer finds them through network (UNC) or relative PATH entries, or behind a link to a network share. Where Git is found only that way, sessions use PowerShell instead of Git Bash.&lt;/li&gt;
+&lt;li&gt;Changed the certificate that signs Claude Code on macOS to a newer Developer ID certificate of the same Anthropic team (Team ID Q6L2SF6YDW). Rules that match the Team ID are unaffected; rules that pin the certificate itself need the new certificate added beside the old one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed skills in a subfolder's &lt;code&gt;.claude/skills&lt;/code&gt; folder to no longer load during a session when Claude Code's sandbox is on. To use them, start the session in that subfolder.&lt;/li&gt;
+&lt;li&gt;Fixed Bash commands sometimes running in the wrong folder when Claude sent several at once and an earlier one changed folders.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cowork&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a task or chat showing "Claude Code crashed" at the next message when its saved state file was cut short.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3P&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed &lt;code&gt;fable&lt;/code&gt; in &lt;code&gt;inferenceModels&lt;/code&gt; to request the newest Fable model, unless your gateway's &lt;code&gt;/v1/models&lt;/code&gt; has an ID &lt;code&gt;fable&lt;/code&gt; or a model tagged Fable. Requests can fail if that model isn't served. To pick one, keep &lt;code&gt;fable&lt;/code&gt; and add an entry with its exact ID and &lt;code&gt;anthropicFamilyTier&lt;/code&gt; set to &lt;code&gt;fable&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Changed tool calls made by a plugin's own code (a mod), rather than by Claude, to never show an approval card. They now run where only the user's approval or Auto mode would have stopped them, including connector tools with no &lt;code&gt;toolPolicy&lt;/code&gt; entry. Such calls to a tool set to &lt;code&gt;ask&lt;/code&gt; are refused.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        </channel>
+</rss>

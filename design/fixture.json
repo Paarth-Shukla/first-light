@@ -1,0 +1,837 @@
+{
+ "note": "Real headlines fetched 2026-11-11 for design prototypes; sourceCount/ageHours are synthetic",
+ "stories": [
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+   "summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
+   "sourceCount": 3,
+   "ageHours": 3
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+   "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
+   "sourceCount": 4,
+   "ageHours": 1
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+   "summary": "Emails containing the false warnings were sent to schools in Rome, Naples, Vicenza, Florence, Pisa, Trieste and other Italian cities, officials say.",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+   "sourceCount": 3,
+   "ageHours": 1
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
+   "summary": "Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.",
+   "sourceCount": 9,
+   "ageHours": 5
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
+   "summary": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
+   "summary": "Nine members of the political dynasty say the 250ft structure would cast a shadow on gravesites.",
+   "sourceCount": 4,
+   "ageHours": 14
+  },
+  {
+   "section": "world",
+   "source": "BBC News",
+   "title": "Judge allows Trump's $10bn defamation case against BBC to proceed",
+   "summary": "But the court dismisses the other part of Trump's lawsuit that alleged the BBC had violated a Florida law.",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+   "summary": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent Lewis Hamilton has visited Egypt’s Rafah border crossing with the Gaza Strip to meet organisations sending humanitarian aid to the territory. The seven-ti",
+   "sourceCount": 1,
+   "ageHours": 14
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Collision of two trains in Egypt kills at least seven",
+   "summary": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash oc",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+   "summary": "See My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creatives African philosophies including exploring how lessons from the past can shape the present and near future have in",
+   "sourceCount": 2,
+   "ageHours": 1
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+   "summary": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in ",
+   "sourceCount": 4,
+   "ageHours": 1
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+   "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling t",
+   "sourceCount": 2,
+   "ageHours": 1
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+   "summary": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general f",
+   "sourceCount": 9,
+   "ageHours": 3
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
+   "summary": "Violent storms lash northern Iraq and parts of Iran, while Portugal faces strong winds and Japan braces for further snowfall Deadly flash floods hit northern Iraq on Saturday as severe thunderstorms swept across the region, including in neighbouring Iran. The ",
+   "sourceCount": 2,
+   "ageHours": 14
+  },
+  {
+   "section": "world",
+   "source": "The Guardian",
+   "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+   "summary": "Pontiff tells Argentina’s president the economy must benefit all on second stop of 12-day Latin America tour Pope Leo XIV has delivered a stinging critique of Argentine president Javier Milei’s harsh austerity measures, insisting growth must benefit all in a s",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Six arrested for murder of two minor boys at Samayapuram near Tiruchi",
+   "summary": "One of the accused was shot in the left knee by a police officer using his service weapon after he allegedly attempted to assault police personnel while being taken for weapon recovery",
+   "sourceCount": 2,
+   "ageHours": 3
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Krishnasamy seeks ban on ‘Sandiyar’ title for Kamal Haasan’s upcoming movie",
+   "summary": "He also recalled that when the same title was proposed for a movie by Mr. Haasan in 2003, it created a controversy, particularly in the southern districts of Tamil Nadu",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Punjab in a State of Flux",
+   "summary": "This e-book challenges us to understand the region through its transnational ties and its deep internal socio-religious heterogeneities.",
+   "sourceCount": 3,
+   "ageHours": 2
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Vinay Chand sworn in as TTD Specified Authority member",
+   "summary": "",
+   "sourceCount": 9,
+   "ageHours": 2
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Tamil Nadu to push green cracker production in meeting with Sivakasi manufacturers this month: Minister V.K. Rajeev",
+   "summary": "On Chennai recording higher pollution levels this Deepavali, the Minister said the government would take up targeted awareness campaigns in Valasaravakkam, where the air quality levels were the highest in the city",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Cabinet approves ₹2,390 crore metro rail link from Noida Sector 51 to Greater Noida Sector 4",
+   "summary": "The project, approved by the Cabinet chaired by Prime Minister Narendra Modi, represents a significant advancement in the city's infrastructure development, an official statement said",
+   "sourceCount": 6,
+   "ageHours": 14
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "The controversy surrounding procurement of books for Periyar Arivulagam in Coimbatore | Explained",
+   "summary": "The controversy caused a furore in Tamil Nadu, as the case heads into a Directorate of Vigilance and Anti-Corruption inquiry, court intervention and the scope of investigations has now expanded to include inventories in several other libraries.",
+   "sourceCount": 3,
+   "ageHours": 20
+  },
+  {
+   "section": "india",
+   "source": "The Hindu",
+   "title": "Opposition slams KCHR chairperson appointment amid allegations of search panel bypass and resignations",
+   "summary": "Two members of the panel have formally objected to the appointment, stating that Dr. Kallolikkal’s name was neither proposed nor discussed at any of its meetings",
+   "sourceCount": 6,
+   "ageHours": 11
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "The US is winning the AI race. Jensen Huang could have blown it",
+   "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of i",
+   "sourceCount": 2,
+   "ageHours": 5
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "ChatGPT is getting verified AI ‘Business Agents’",
+   "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a s",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "The indie game community is in disarray over AI and Big Walk",
+   "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI ",
+   "sourceCount": 1,
+   "ageHours": 8
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "Anthropic has its own AI-powered office suite now",
+   "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went throu",
+   "sourceCount": 9,
+   "ageHours": 20
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "eBay appears to have shut the door on third-party AI agents",
+   "summary": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for s",
+   "sourceCount": 3,
+   "ageHours": 20
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+   "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best sy",
+   "sourceCount": 2,
+   "ageHours": 2
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "Anthropic targets $1.4 trillion IPO",
+   "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, accord",
+   "sourceCount": 1,
+   "ageHours": 14
+  },
+  {
+   "section": "ai",
+   "source": "The Verge",
+   "title": "Adobe is going all in on agentic AI",
+   "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami",
+   "sourceCount": 1,
+   "ageHours": 11
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+   "sourceCount": 1,
+   "ageHours": 20
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+   "sourceCount": 4,
+   "ageHours": 1
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "What happens to mathematics when AI becomes an oracle?",
+   "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World .",
+   "sourceCount": 1,
+   "ageHours": 11
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+   "summary": "The new model is up to twice as successful at some tasks.",
+   "sourceCount": 3,
+   "ageHours": 11
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+   "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+   "sourceCount": 6,
+   "ageHours": 20
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "Claude Code is accidentally exposing secrets all over GitHub",
+   "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "Nvidia CEO's affair becomes a national security problem",
+   "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+   "sourceCount": 2,
+   "ageHours": 20
+  },
+  {
+   "section": "ai",
+   "source": "Ars Technica",
+   "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+   "summary": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "sourceCount": 1,
+   "ageHours": 1
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "llm-gemini 0.36",
+   "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 S",
+   "sourceCount": 2,
+   "ageHours": 20
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the",
+   "sourceCount": 2,
+   "ageHours": 14
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "Quoting Prompting Claude Fable 5.2",
+   "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the",
+   "sourceCount": 3,
+   "ageHours": 1
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "Yonkers Rises",
+   "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Mak",
+   "sourceCount": 6,
+   "ageHours": 11
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "llm-anthropic 0.31",
+   "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have bec",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "Locating the source of a mysterious beep with Claude",
+   "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the sourc",
+   "sourceCount": 6,
+   "ageHours": 1
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "The Web Is More Than Enough, by Paul Ford",
+   "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef",
+   "sourceCount": 2,
+   "ageHours": 8
+  },
+  {
+   "section": "llm",
+   "source": "Simon Willison",
+   "title": "Hide your slop PR descriptions behind",
+   "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then me",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "sourceCount": 4,
+   "ageHours": 14
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "sourceCount": 6,
+   "ageHours": 2
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Helping caregivers use AI in everyday life",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "sourceCount": 1,
+   "ageHours": 20
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Introducing Businesses in ChatGPT",
+   "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "sourceCount": 4,
+   "ageHours": 8
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Closing the AI guidance gap in education",
+   "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "sourceCount": 1,
+   "ageHours": 14
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "sourceCount": 9,
+   "ageHours": 8
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+   "sourceCount": 4,
+   "ageHours": 11
+  },
+  {
+   "section": "labs",
+   "source": "OpenAI",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "sourceCount": 4,
+   "ageHours": 5
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Gemini 4 Carbon is now available",
+   "summary": "",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "sourceCount": 1,
+   "ageHours": 3
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "sourceCount": 2,
+   "ageHours": 5
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "summary": "",
+   "sourceCount": 1,
+   "ageHours": 20
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "sourceCount": 1,
+   "ageHours": 8
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Speeding up planning decisions with AI",
+   "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+   "sourceCount": 2,
+   "ageHours": 1
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "summary": "",
+   "sourceCount": 1,
+   "ageHours": 14
+  },
+  {
+   "section": "ml",
+   "source": "Google DeepMind",
+   "title": "Genie 4: A new generation of world simulation",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "sourceCount": 9,
+   "ageHours": 11
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Tesla tuner Unplugged offers to take over Cybertruck production",
+   "summary": "Unplugged Performance, the biggest name in Tesla aftermarket tuning, wants to keep the Cybertruck alive. The company publicly offered on Tuesday to take the Cybertruck line off Tesla’s hands, funded by a consortium of investors. It comes just four days after E",
+   "sourceCount": 3,
+   "ageHours": 3
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Lucid CEO admits it ‘did not even know where cars were’ and lost orders",
+   "summary": "Lucid (LCID) CEO Silvio Napoli admitted on the company’s Q3 earnings call that, as recently as this summer, the automaker “did not even know where cars were.” Buyers placed orders, Lucid took up to two weeks to locate and deliver a car, and some of those buyer",
+   "sourceCount": 9,
+   "ageHours": 1
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Tesla’s China sales crash 66% to lowest level in over four years",
+   "summary": "Only 8,817 of the cars Tesla delivered from Giga Shanghai in October went to Chinese buyers. That’s down 66% from a year ago and Tesla’s worst month in China since July 2022, according to CPCA data. Back in July 2022, the Shanghai factory was partly shut down ",
+   "sourceCount": 6,
+   "ageHours": 14
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Musk admits Tesla doesn’t have enough talent to build more than one car at a time after exodus",
+   "summary": "Elon Musk now says Tesla can’t build the Cybertruck and the Cybercab at the same time because there are only so many “smart, dedicated people” to go around. Half the executives he showed off in 2023 as proof of Tesla’s “bench strength” have since left the comp",
+   "sourceCount": 4,
+   "ageHours": 14
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper",
+   "summary": "Tesla is launching its Robotaxi service in San Antonio, its eighth city, with a launch geofence covering about 274 square miles. That’s the biggest day-one map Tesla has ever posted, and more than four times the size of Waymo’s San Antonio service area. But if",
+   "sourceCount": 4,
+   "ageHours": 2
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Musk says Cybertruck isn’t dying from weak sales — the numbers disagree",
+   "summary": "Elon Musk now claims Cybertruck orders “far exceed” Tesla’s production rate, and that the truck isn’t being killed because it’s unprofitable. It’s his second explanation in three days for ending the pickup. The problem is that Tesla’s own numbers say the oppos",
+   "sourceCount": 6,
+   "ageHours": 14
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Tesla deemed liable for fraud after Solar Roof ‘experiment’ on a home",
+   "summary": "A California judge has deemed Tesla liable for fraud in a Solar Roof lawsuit, after the company repeatedly failed to hand over evidence. Tesla had already admitted it breached the contract, broke its warranty, and was negligent on the job. The homeowner says f",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "companies",
+   "source": "Electrek",
+   "title": "Tesla hikes Cybertruck prices up to 10% after announcing it will kill production",
+   "summary": "Tesla has raised Cybertruck prices in the US by up to 10% and stopped taking orders for the base Dual Motor AWD trim. The cheapest Cybertruck you can actually order now costs $92,490. The move comes right after Tesla confirmed it will end Cybertruck production",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "Kratos and Seagate Space Partner to Advance Mobile Offshore Launch Capabilities for National Security Missions",
+   "summary": "SAN DIEGO, CA, November 10, 2026 – Kratos Defense & Security Solutions, Inc., a technology company in defense, national security, and global markets, today announced a long-term agreement with Seagate […] The post Kratos and Seagate Space Partner to Advance Mo",
+   "sourceCount": 6,
+   "ageHours": 3
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "ESCAPADE on its way to Mars after Earth flybys",
+   "summary": "Two NASA smallsats are headed toward Mars after completing flybys of Earth nearly a year after their launch. The post ESCAPADE on its way to Mars after Earth flybys appeared first on SpaceNews .",
+   "sourceCount": 1,
+   "ageHours": 11
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "CCIA Report Highlights Satellite Connectivity’s Potential to Expand Internet Access and Drive Economic Growth",
+   "summary": "Washington — The Computer & Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a new report examining how satellite technology can expand internet access, […] The post CCIA Report Highlig",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
+   "summary": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] The post CesiumAstro Secures $730 Million in Janus Henderson-L",
+   "sourceCount": 1,
+   "ageHours": 3
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
+   "summary": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight […] The post Cork Takes the Heat So DRACO’s Data Can ",
+   "sourceCount": 9,
+   "ageHours": 2
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "Building a ‘highway to the moon and back’ with Winnie Lai",
+   "summary": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small launch vehicles could cut down on […] The post Building a ‘highway to the moon and back’ with Winni",
+   "sourceCount": 3,
+   "ageHours": 1
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "Simera Sense and Spacemanic to Collaborate on a New Complete Dual-Use Mission Solution",
+   "summary": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and heavier satellites. Simera Sense xScape200 […] The post Simera Sense and Spacemanic to Collaborate on ",
+   "sourceCount": 1,
+   "ageHours": 5
+  },
+  {
+   "section": "companies",
+   "source": "SpaceNews",
+   "title": "DETUMBLER: Airbus’ Passive Spin Stabilization Solution",
+   "summary": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, even when properly decommissioned, some dead satellites […] The post DETUMBLER: Airbus’ Passive Spin ",
+   "sourceCount": 4,
+   "ageHours": 3
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Nasdaq futures jump as CoreWeave earnings beat drives global tech rebound: Live updates",
+   "summary": "Stock futures rose Wednesday, boosted by sharp gains in CoreWeave and a rebound in Nvidia following back-to-back losing sessions for the chipmaker.",
+   "sourceCount": 2,
+   "ageHours": 11
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+   "summary": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+   "sourceCount": 3,
+   "ageHours": 20
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+   "summary": "Retail sales rose at their slowest pace in nearly a year in October as American consumers showed signs of strain from high prices.",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Stocks making the biggest moves premarket: CoreWeave, Nvidia, NextNav & more",
+   "summary": "Follow below as CNBC covers the biggest stock market moves of the day.",
+   "sourceCount": 6,
+   "ageHours": 20
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Mortgage rates jump sharply higher, after easing for four straight weeks. Here's why",
+   "summary": "After falling for a month, mortgage rates jumped sharply higher on a hotter-than-expected inflation report.",
+   "sourceCount": 6,
+   "ageHours": 20
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Baird downgrades Nvidia on CEO Huang worries, AI uncertainty",
+   "summary": "The investment bank moved its rating on the stock to neutral, and slashed its price target.",
+   "sourceCount": 2,
+   "ageHours": 2
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
+   "summary": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
+   "sourceCount": 1,
+   "ageHours": 2
+  },
+  {
+   "section": "markets",
+   "source": "CNBC",
+   "title": "How Democrats could snarl Trump administration stakes in private-sector companies",
+   "summary": "The Trump administration had established some form of equity position in 41 companies as of November, according to the CATO Institute's tally.",
+   "sourceCount": 3,
+   "ageHours": 8
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "Realty firms' land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock",
+   "summary": "In the first nine months of 2026, a notable drop in land acquisition activities by Indian real estate firms has been observed. Anarock attributes this decline to developers adopting a cautious strategy, influenced by rising costs and emphasized selectivity in ",
+   "sourceCount": 6,
+   "ageHours": 3
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "US Treasury rout hands India's 10-year bond its worst day in a month",
+   "summary": "On Wednesday, the Indian rupee gained strength against the dollar, reaching its highest point since April. This improvement was influenced by foreign investments in local stocks and upbeat sentiment in the non-deliverable forward market. Although inflation con",
+   "sourceCount": 9,
+   "ageHours": 1
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "These 12 midcap stocks rally up to 30% in just one month",
+   "summary": "While the Nifty 50 has rallied nearly 11% in a month, several midcap stocks have outperformed the broader index. Here are 12 midcap stocks that have surged between 15% and 30% during this period, according to ACE Equity data.",
+   "sourceCount": 2,
+   "ageHours": 11
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "Rupee touches strongest since April as foreign inflows offset firm dollar",
+   "summary": "On Wednesday, the Indian rupee surged to its healthiest value since April, closing at 93.69 against the dollar. This upswing was driven by a remarkable influx of foreign investments in local stocks, totaling nearly $6 billion in November. Even in light of a st",
+   "sourceCount": 1,
+   "ageHours": 1
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "Bajaj Finance to launch share sale worth up to Rs 11,700 cr this week: Report",
+   "summary": "Bajaj Finance Ltd. is gearing up for a major share sale aimed at raising an impressive 117 billion rupees. The initiative seeks to draw in institutional investors, with the specifics of the offering currently being finalized. Following the completion of invest",
+   "sourceCount": 9,
+   "ageHours": 8
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "CoreWeave stock jumps after earnings: 7 things driving the AI cloud company's rally",
+   "summary": "​CoreWeave shares surge after beating Q3 earnings expectations, reporting 168% revenue growth and a $132.5 billion backlog, while raising 2026 guidance despite mounting debt and infrastructure spending concerns.",
+   "sourceCount": 1,
+   "ageHours": 8
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "Nvidia Stock Sell-Off Deepens: Spy scandal, price target cuts put AI giant under pressure",
+   "summary": "Nvidia shares plunge nearly 10% amid technology sell-offs, leadership controversy and AI valuation concerns. Analyst price-target cuts deepen investor anxiety ahead of November 17 quarterly earnings.",
+   "sourceCount": 9,
+   "ageHours": 11
+  },
+  {
+   "section": "india-markets",
+   "source": "Economic Times",
+   "title": "India bonds slip as Treasury rout offsets oil slide",
+   "summary": "Indian government bonds declined on Wednesday as a sharp rise in US Treasury yields, triggered by hotter-than-expected inflation and hawkish signals from policymakers, overshadowed relief from lower crude oil prices. Higher US yields could erode the relative r",
+   "sourceCount": 1,
+   "ageHours": 11
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Biotech innovations are an opportunity to limit climate change",
+   "summary": "",
+   "sourceCount": 2,
+   "ageHours": 11
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Retractions of old papers are on the rise: when should bad science be culled?",
+   "summary": "",
+   "sourceCount": 2,
+   "ageHours": 5
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Author or just ‘acknowledged’? How women are not gaining full credit for research",
+   "summary": "",
+   "sourceCount": 2,
+   "ageHours": 14
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "PhD funding mechanisms should protect the right to disagree with supervisors",
+   "summary": "",
+   "sourceCount": 2,
+   "ageHours": 5
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "A practically perfect plesiosaur",
+   "summary": "",
+   "sourceCount": 9,
+   "ageHours": 20
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Chile’s postdoc rules risk driving talent away",
+   "summary": "",
+   "sourceCount": 3,
+   "ageHours": 1
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Students need AI-free spaces to learn core skills",
+   "summary": "",
+   "sourceCount": 1,
+   "ageHours": 8
+  },
+  {
+   "section": "science",
+   "source": "Nature",
+   "title": "Why your physics project needs an anthropologist",
+   "summary": "",
+   "sourceCount": 6,
+   "ageHours": 8
+  }
+ ]
+}

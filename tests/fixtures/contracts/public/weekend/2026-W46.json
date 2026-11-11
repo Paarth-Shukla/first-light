@@ -1,0 +1,432 @@
+{
+ "isoWeek": "2026-W46",
+ "from": "2026-11-04",
+ "to": "2026-11-10",
+ "generatedAt": "2026-11-11T15:46:01Z",
+ "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+ "method": "These are the papers that were most noticed this week, not a judgement of which are best. We took the 3,937 new arXiv papers submitted 4 November to 10 November 2026 in 19 computer-science and electronics categories and scored each on free public signals: Hugging Face upvotes, alphaXiv views and votes, Hacker News points, OpenAlex citations, coverage in our own news feeds. Each signal is put on a log scale against the week's highest value in its own track, so hardware papers compete with hardware papers. Strong attention from any one community counts on its own and agreement between communities counts more; scores are scaled to the signals that were available. Few people vote on electronics papers online, so that track also credits acceptance at a named venue, released code, cross-listing and measured results stated in the abstract. At least two picks are electronics, at most two share an arXiv category, and papers featured in an earlier week are skipped. Digest lines are sentences copied from each abstract, not written by us.",
+ "papers": [
+  {
+   "id": "2611.06910",
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "authors": [
+    "Bingran You",
+    "Wenjun Ke",
+    "Ria Rosenauer"
+   ],
+   "primary": "cs.AI",
+   "categories": [
+    "cs.AI"
+   ],
+   "track": "cs",
+   "published": "2026-11-04T18:56:22Z",
+   "abstract": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review the literature, develop a research plan, conduct research and experiments, and produce structured outputs and scientific manuscripts. Combining deterministic verifiers with expert-authored rubrics, FrontierPhysics evaluates whether agents' research is correct and publishable. Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts. Manual review of agent trajectories shows that frontier agents' main weaknesses are insufficiently rigorous reasoning and limited expert intuition, rather than gaps in physics knowledge or execution errors.",
+   "digest": {
+    "gist": "We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.",
+    "problem": "However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness.",
+    "method": "We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.",
+    "result": "Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts."
+   },
+   "signals": {
+    "hfUpvotes": 61,
+    "hnPoints": 3,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 126,
+    "alphaxivViews": 1133,
+    "venue": 0.0,
+    "code": 0,
+    "crossLists": 0,
+    "measured": 0
+   },
+   "score": 85.4,
+   "why": [
+    "61 upvotes on Hugging Face",
+    "126 votes on alphaXiv",
+    "1,133 views on alphaXiv this week",
+    "3 points on Hacker News"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.06910",
+    "pdf": "https://arxiv.org/pdf/2611.06910",
+    "code": null,
+    "hf": "https://huggingface.co/papers/2611.06910",
+    "hn": "https://news.ycombinator.com/item?id=50387067"
+   },
+   "rank": 1
+  },
+  {
+   "id": "2611.08449",
+   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+   "authors": [
+    "Yu-Cheng Chou",
+    "Shihao Wang",
+    "Jin Huang"
+   ],
+   "primary": "cs.RO",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "track": "cs",
+   "published": "2026-11-05T18:44:43Z",
+   "abstract": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans–points, bounding boxes, and trajectories–to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+   "digest": {
+    "gist": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+    "problem": "However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.",
+    "method": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+    "result": "A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline."
+   },
+   "signals": {
+    "hfUpvotes": 113,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 114,
+    "alphaxivViews": 1029,
+    "venue": 0.0,
+    "code": 0,
+    "crossLists": 1,
+    "measured": 3
+   },
+   "score": 85.2,
+   "why": [
+    "113 upvotes on Hugging Face",
+    "114 votes on alphaXiv",
+    "1,029 views on alphaXiv this week"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.08449",
+    "pdf": "https://arxiv.org/pdf/2611.08449",
+    "code": null,
+    "hf": "https://huggingface.co/papers/2611.08449",
+    "hn": null
+   },
+   "rank": 2
+  },
+  {
+   "id": "2611.07149",
+   "title": "FastAFD: When Does Attention-FFN Disaggregation Pay on Rack-Scale NVLink?",
+   "authors": [
+    "Yichao Fu",
+    "Yuxuan Zhang",
+    "Minshen Zhang"
+   ],
+   "primary": "cs.DC",
+   "categories": [
+    "cs.DC",
+    "cs.LG"
+   ],
+   "track": "electronics",
+   "published": "2026-11-04T21:21:57Z",
+   "abstract": "Attention-FFN disaggregation (AFD) separates attention from the experts of a mixture-of-experts (MoE) model and has been reported to raise decode throughput over colocated serving. Whether this advantage holds on rack-scale NVLink systems such as GB200 NVL72 remains unclear: prior results were obtained on other hardware, against narrower colocated baselines, or with analytical models, whereas production engines serve large MoE models on these systems with wide expert parallelism (wide EP). We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting. Experiments show that AFD has a throughput advantage of up to 1.17x over wide EP on Qwen3 and 1.16x on Qwen3.5, and matches it on MiniMax-M2.5. We derive an analytical model that predicts AFD throughput within 3% using only profiles of colocated vLLM, telling whether switching to AFD would pay off before deploying it. The model yields a concise insight: AFD's speedup factors into a batch gain (larger batches, since attention GPUs hold no expert weights), an overlap gain (shorter steps, since the MoE runs on the expert GPUs behind attention), and a disaggregation cost (the GPUs given to experts). AFD has the advantage when the two gains outweigh the cost. This view explains which models benefit from AFD, and shows that speculative decoding helps light-expert models most, where the enlarged overlap gain outweighs the larger disaggregation cost and adds a further 8% to AFD's advantage over wide EP. Looking ahead, serving the experts on accelerators that keep their weights in on-chip SRAM, such as the Groq LPX accelerators paired with Vera Rubin NVL72, would remove most of the disaggregation cost, raising the ideal speedup to 2.48x with speculative decoding. FastAFD is open source at https://github.com/hao-ai-lab/FastAFD.",
+   "digest": {
+    "gist": "We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting.",
+    "problem": "Whether this advantage holds on rack-scale NVLink systems such as GB200 NVL72 remains unclear: prior results were obtained on other hardware, against narrower colocated baselines, or with analytical models, whereas production engines serve large MoE models on these systems with wide expert parallelism (wide EP).",
+    "method": "We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting.",
+    "result": "Experiments show that AFD has a throughput advantage of up to 1.17x over wide EP on Qwen3 and 1.16x on Qwen3.5, and matches it on MiniMax-M2.5."
+   },
+   "signals": {
+    "hfUpvotes": 0,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 10,
+    "alphaxivViews": 48,
+    "venue": 0.0,
+    "code": 1,
+    "crossLists": 1,
+    "measured": 5
+   },
+   "score": 83.4,
+   "why": [
+    "10 votes on alphaXiv",
+    "48 views on alphaXiv this week",
+    "code available",
+    "reports measured results"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.07149",
+    "pdf": "https://arxiv.org/pdf/2611.07149",
+    "code": "https://github.com/hao-ai-lab/FastAFD",
+    "hf": null,
+    "hn": null
+   },
+   "rank": 3
+  },
+  {
+   "id": "2611.08373",
+   "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+   "authors": [
+    "Fuhao Li",
+    "Wenxuan Song",
+    "Qizhou Huang"
+   ],
+   "primary": "cs.RO",
+   "categories": [
+    "cs.RO"
+   ],
+   "track": "cs",
+   "published": "2026-11-05T17:52:16Z",
+   "abstract": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
+   "digest": {
+    "gist": "We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training.",
+    "problem": "However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation.",
+    "method": "We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training.",
+    "result": ""
+   },
+   "signals": {
+    "hfUpvotes": 86,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 77,
+    "alphaxivViews": 720,
+    "venue": 0.0,
+    "code": 1,
+    "crossLists": 0,
+    "measured": 0
+   },
+   "score": 83.3,
+   "why": [
+    "86 upvotes on Hugging Face",
+    "77 votes on alphaXiv",
+    "720 views on alphaXiv this week",
+    "code available"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.08373",
+    "pdf": "https://arxiv.org/pdf/2611.08373",
+    "code": "https://github.com/OpenHelix-Team/Spatial-Forcing/tree/master/SLA",
+    "hf": "https://huggingface.co/papers/2611.08373",
+    "hn": null
+   },
+   "rank": 4
+  },
+  {
+   "id": "2611.08543",
+   "title": "SAFTAC: Simulation-Augmented Fine-Tuning of Open-Source LLMs for Analog Circuit Design",
+   "authors": [
+    "Junsheng Huang",
+    "Yifan Sun",
+    "Zhuoer Zhang"
+   ],
+   "primary": "cs.AR",
+   "categories": [
+    "cs.AR",
+    "cs.AI"
+   ],
+   "track": "electronics",
+   "published": "2026-11-05T03:54:10Z",
+   "abstract": "Circuit design for analog integrated circuits (ICs) is challenging because circuit topology, device sizing, and circuit performance are tightly coupled. Existing large language model (LLM)-based methods either rely on inference-time correction around frozen models or train on limited circuit types without directly using simulation outcomes as training signals. A key bottleneck is that existing datasets do not provide sufficient task information for training LLMs on end-to-end specification-conditioned design. To fill this gap, we first construct a large-scale simulation-grounded dataset with 8,626 design tasks across 10 different types of analog circuits, where each task includes a textual description, labeled I/O ports, loading condition, target specifications, a testbench, and a reference netlist. Using this dataset, we present SAFTAC, a simulation-augmented fine-tuning framework that trains LLMs to generate and revise analog circuit design. SAFTAC combines three-stage supervised fine-tuning, which progressively builds the capabilities required for analog circuit design and feedback-guided correction, with simulation feedback-augmented reinforcement fine-tuning, which further optimizes models using simulation-grounded rewards. We evaluate SAFTAC under single-pass generation and two-pass generation with simulation feedback, showing improvements over the strongest closed-source LLM by 15.9% and 7.8%, respectively.",
+   "digest": {
+    "gist": "Using this dataset, we present SAFTAC, a simulation-augmented fine-tuning framework that trains LLMs to generate and revise analog circuit design.",
+    "problem": "Circuit design for analog integrated circuits (ICs) is challenging because circuit topology, device sizing, and circuit performance are tightly coupled.",
+    "method": "Using this dataset, we present SAFTAC, a simulation-augmented fine-tuning framework that trains LLMs to generate and revise analog circuit design.",
+    "result": "We evaluate SAFTAC under single-pass generation and two-pass generation with simulation feedback, showing improvements over the strongest closed-source LLM by 15.9% and 7.8%, respectively."
+   },
+   "signals": {
+    "hfUpvotes": 0,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 4,
+    "alphaxivViews": 16,
+    "venue": 1.0,
+    "code": 0,
+    "crossLists": 1,
+    "measured": 2
+   },
+   "score": 79.1,
+   "why": [
+    "accepted at NeurIPS 2026",
+    "4 votes on alphaXiv",
+    "16 views on alphaXiv this week",
+    "reports measured results"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.08543",
+    "pdf": "https://arxiv.org/pdf/2611.08543",
+    "code": null,
+    "hf": null,
+    "hn": null
+   },
+   "rank": 5
+  }
+ ],
+ "runnersUp": [
+  {
+   "id": "2611.08264",
+   "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+   "authors": [
+    "Hao Yu",
+    "Zhenwei Wang",
+    "Yongzhen Hu"
+   ],
+   "primary": "cs.CV",
+   "categories": [
+    "cs.CV"
+   ],
+   "track": "cs",
+   "published": "2026-11-05T16:37:29Z",
+   "abstract": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction. To rigorously assess our method, we further establish a systematic benchmark spanning diverse datasets, input sparsity levels, and challenging extrapolated viewpoints. Extensive experiments demonstrate that SplatAnything achieves state-of-the-art performance, with particularly strong gains under substantial variations in scene scale and viewpoint. Project page: https://zju3dv.github.io/SplatAnything",
+   "digest": {
+    "gist": "To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction.",
+    "problem": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
+    "method": "To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction.",
+    "result": "Extensive experiments demonstrate that SplatAnything achieves state-of-the-art performance, with particularly strong gains under substantial variations in scene scale and viewpoint."
+   },
+   "signals": {
+    "hfUpvotes": 70,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 161,
+    "mentions": 0,
+    "alphaxivVotes": 38,
+    "alphaxivViews": 260,
+    "venue": 0.0,
+    "code": 1,
+    "crossLists": 0,
+    "measured": 0
+   },
+   "score": 81.3,
+   "why": [
+    "70 upvotes on Hugging Face",
+    "38 votes on alphaXiv",
+    "260 views on alphaXiv this week",
+    "161 GitHub stars"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.08264",
+    "pdf": "https://arxiv.org/pdf/2611.08264",
+    "code": "https://github.com/zju3dv/SplatAnything",
+    "hf": "https://huggingface.co/papers/2611.08264",
+    "hn": null
+   },
+   "rank": 6
+  }
+ ],
+ "review": {
+  "stories": [
+   {
+    "id": "s9cdd66b81d",
+    "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+    "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+    "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+    "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
+    "section": "companies",
+    "sections": [
+     "companies",
+     "world"
+    ],
+    "entities": [
+     "nvidia",
+     "jensen-huang",
+     "united-states",
+     "china"
+    ],
+    "tickers": [
+     "NVDA"
+    ],
+    "publishedAt": "2026-11-09T19:58:01Z",
+    "updatedAt": "2026-11-11T14:39:33Z",
+    "day": "2026-11-10",
+    "sources": [
+     {
+      "id": "bbc-tech",
+      "name": "BBC News",
+      "tier": 1,
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+      "publishedAt": "2026-11-10T22:52:15Z"
+     },
+     {
+      "id": "wapo-world",
+      "name": "The Washington Post",
+      "tier": 1,
+      "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
+      "url": "https://www.washingtonpost.com/world/2026/11/10/phantom-life-alice-huang-alleged-chinese-spy-who-had-an-affair-with-nvidia-ceo",
+      "publishedAt": "2026-11-10T20:43:26Z"
+     },
+     {
+      "id": "ft-economy",
+      "name": "Financial Times",
+      "tier": 1,
+      "title": "A look at the alleged spy who had an affair with Nvidia’s CEO",
+      "url": "https://www.ft.com/content/67dda4a9-68b8-4c56-ae7d-4c5375e308b6?syn-25a6b1a6=1",
+      "publishedAt": "2026-11-11T05:00:00Z"
+     }
+    ],
+    "sourceCount": 10,
+    "signals": {
+     "breadth": 0.985,
+     "tier": 1.0,
+     "recency": 0.959,
+     "velocity": 0.356,
+     "attention": 0.0,
+     "editorial": 0.622
+    },
+    "score": 77.9,
+    "thread": {
+     "id": "t2e13192074",
+     "day": 3,
+     "history": [
+      {
+       "date": "2026-11-09",
+       "id": "s33552442cf",
+       "title": "Nvidia CEO's affair becomes a national security problem"
+      }
+     ]
+    },
+    "why": [
+     "10 outlets",
+     "top of BBC News",
+     "day 3"
+    ]
+   }
+  ],
+  "markets": [
+   {
+    "symbol": "^NSEI",
+    "name": "Nifty 50",
+    "weekPct": 6.07
+   },
+   {
+    "symbol": "^BSESN",
+    "name": "BSE Sensex",
+    "weekPct": 6.45
+   }
+  ],
+  "claude": [
+   {
+    "id": "uc487d5abf0",
+    "date": "2026-11-10",
+    "surface": "code",
+    "kind": "release",
+    "title": "Claude Code 2.1.322",
+    "summary": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it.",
+    "url": "https://code.claude.com/docs/en/changelog#2-1-322",
+    "source": "claude-code",
+    "features": [
+     "cc-model-and-effort"
+    ]
+   },
+   {
+    "id": "ue539ef5a34",
+    "date": "2026-11-10",
+    "surface": "cowork",
+    "kind": "release",
+    "title": "Claude Desktop v5.1231.0",
+    "summary": "Added run status to scheduled tasks that run on your computer, in Cowork and Code. A task's card can now say \"Last run failed\", \"Last run failed, will try again\", \"Needs input\" or \"Didn't run\", or why a run that is due hasn't started, such as \"Waiting for its previous run to finish\". Added \"Allow for 30 days\" to the prompt shown before a scheduled Cowork task deletes files in one of its own folders. Later runs can then delete there without asking. mcpScheduledTaskApprovalLifetimeDays sets the number of days, and 0 turns the option off. Added a warning when other Claude Code managed settings…",
+    "url": "https://claude.com/docs/cowork/changelog#v5-1231-0",
+    "source": "claude-cowork",
+    "features": []
+   }
+  ]
+ }
+}

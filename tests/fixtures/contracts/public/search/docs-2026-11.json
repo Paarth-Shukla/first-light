@@ -1,0 +1,312 @@
+[
+ {
+  "i": "s58ab6a31f9",
+  "k": "story",
+  "t": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+  "s": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+  "c": "labs",
+  "e": [
+   "google"
+  ],
+  "o": "Google",
+  "n": 1,
+  "d": "2026-11-11T16:00:00Z",
+  "u": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+  "x": 39.6
+ },
+ {
+  "i": "sf325a6eb17",
+  "k": "story",
+  "t": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+  "s": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power. Millions of people across Spain have joined the country’s first general strike in 14…",
+  "c": "world",
+  "e": [],
+  "o": "The Guardian",
+  "n": 11,
+  "d": "2026-11-11T15:54:40Z",
+  "u": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+  "x": 86.4
+ },
+ {
+  "i": "sbbb9b2d111",
+  "k": "story",
+  "t": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+  "s": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+  "c": "world",
+  "e": [
+   "ukraine",
+   "russia",
+   "uae",
+   "united-states",
+   "vladimir-putin",
+   "volodymyr-zelensky"
+  ],
+  "o": "BBC News",
+  "n": 13,
+  "d": "2026-11-11T15:05:11Z",
+  "u": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+  "x": 73.7
+ },
+ {
+  "i": "s36c3799829",
+  "k": "story",
+  "t": "Stock Market Today: Tech Stocks Poised to Jump After CoreWeave Earnings",
+  "s": "Cloud provider has been at center of AI jitters; its latest update reassured investors",
+  "c": "markets",
+  "e": [
+   "earnings",
+   "coreweave",
+   "nasdaq",
+   "semiconductors",
+   "nvidia"
+  ],
+  "o": "The Wall Street Journal",
+  "n": 4,
+  "d": "2026-11-11T14:52:12Z",
+  "u": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main",
+  "x": 53.5
+ },
+ {
+  "i": "s9cdd66b81d",
+  "k": "story",
+  "t": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+  "s": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+  "c": "companies",
+  "e": [
+   "nvidia",
+   "jensen-huang",
+   "united-states",
+   "china"
+  ],
+  "o": "BBC News",
+  "n": 10,
+  "d": "2026-11-11T14:39:33Z",
+  "u": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+  "x": 77.5
+ },
+ {
+  "i": "s19cbe3adaf",
+  "k": "story",
+  "t": "Porsche CEO takes a shot at Tesla’s ‘flying’ Roadster stunt show",
+  "s": "Tesla’s “flying” Roadster just took a hit from Porsche. Speaking at a conference in Berlin today, CEO Michael Leiters said Porsche wants “to completely steer clear from any kind of effects and shows,” according to…",
+  "c": "companies",
+  "e": [
+   "tesla",
+   "bloomberg",
+   "germany"
+  ],
+  "o": "Electrek",
+  "n": 2,
+  "d": "2026-11-11T14:34:00Z",
+  "u": "https://electrek.co/2026/11/11/porsche-ceo-tesla-flying-roadster-stunt",
+  "x": 44.2
+ },
+ {
+  "i": "s3b0ff5e8c9",
+  "k": "story",
+  "t": "Italy: Hundreds of schools evacuated after bomb threats",
+  "s": "Although the government believes the threat to be a hoax, it has nevertheless prompted concerns about \"hybrid warfare\" in Europe. Similar messages were sent in Northern Ireland, Ireland, and Bulgaria.",
+  "c": "world",
+  "e": [
+   "united-kingdom"
+  ],
+  "o": "DW",
+  "n": 17,
+  "d": "2026-11-11T14:04:39Z",
+  "u": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034",
+  "x": 85.0
+ },
+ {
+  "i": "s84aad15d38",
+  "k": "story",
+  "t": "US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base",
+  "s": "Bessent, driving force behind US push to cripple Iran’s economy, relocates over alleged threat to his life. The US Treasury secretary, Scott Bessent, has relocated from his home in the Washington area to a military base…",
+  "c": "world",
+  "e": [
+   "iran",
+   "scott-bessent",
+   "us-treasury",
+   "donald-trump",
+   "new-york-times",
+   "united-states"
+  ],
+  "o": "The Guardian",
+  "n": 4,
+  "d": "2026-11-11T13:37:55Z",
+  "u": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
+  "x": 57.3
+ },
+ {
+  "i": "s7fdf33692d",
+  "k": "story",
+  "t": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "s": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+  "c": "labs",
+  "e": [],
+  "o": "Google DeepMind",
+  "n": 1,
+  "d": "2026-11-10T12:02:28Z",
+  "u": "https://deepmind.google/blog/introducing-alphaproof-code",
+  "x": 38.8
+ },
+ {
+  "i": "u08ac387802",
+  "k": "update",
+  "t": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+  "s": "Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.",
+  "c": "apps",
+  "e": [],
+  "o": "Claude blog: product updates",
+  "n": null,
+  "d": "2026-11-09T18:30:00Z",
+  "u": "https://claude.com/resources/articles/sheets-whiteboards-data",
+  "x": null
+ },
+ {
+  "i": "u395a98b116",
+  "k": "update",
+  "t": "Anthropic launches roadshow for proposed initial public offering",
+  "s": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+  "c": "news",
+  "e": [
+   "anthropic",
+   "ipo"
+  ],
+  "o": "Anthropic newsroom",
+  "n": null,
+  "d": "2026-11-09T18:30:00Z",
+  "u": "https://www.anthropic.com/news/roadshow-launch",
+  "x": null
+ },
+ {
+  "i": "ub421f42166",
+  "k": "update",
+  "t": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+  "s": "Work at the speed of thought",
+  "c": "apps",
+  "e": [],
+  "o": "Claude blog: product updates",
+  "n": null,
+  "d": "2026-11-09T18:30:00Z",
+  "u": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+  "x": null
+ },
+ {
+  "i": "uc487d5abf0",
+  "k": "update",
+  "t": "Claude Code 2.1.322",
+  "s": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it.",
+  "c": "code",
+  "e": [
+   "claude-code"
+  ],
+  "o": "Claude Code changelog",
+  "n": null,
+  "d": "2026-11-09T18:30:00Z",
+  "u": "https://code.claude.com/docs/en/changelog#2-1-322",
+  "x": null
+ },
+ {
+  "i": "ue539ef5a34",
+  "k": "update",
+  "t": "Claude Desktop v5.1231.0",
+  "s": "Added run status to scheduled tasks that run on your computer, in Cowork and Code. A task's card can now say \"Last run failed\", \"Last run failed, will try again\", \"Needs input\" or \"Didn't run\", or why a run that is due…",
+  "c": "cowork",
+  "e": [
+   "claude",
+   "claude-cowork",
+   "claude-code"
+  ],
+  "o": "Claude Desktop and Cowork changelog",
+  "n": null,
+  "d": "2026-11-09T18:30:00Z",
+  "u": "https://claude.com/docs/cowork/changelog#v5-1231-0",
+  "x": null
+ },
+ {
+  "i": "2611.08449",
+  "k": "paper",
+  "t": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+  "s": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+  "c": "weekend",
+  "e": [],
+  "o": "cs.RO",
+  "n": null,
+  "d": "2026-11-05T18:44:43Z",
+  "u": "https://arxiv.org/abs/2611.08449",
+  "x": 85.2
+ },
+ {
+  "i": "2611.08373",
+  "k": "paper",
+  "t": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+  "s": "We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training.",
+  "c": "weekend",
+  "e": [
+   "alignment"
+  ],
+  "o": "cs.RO",
+  "n": null,
+  "d": "2026-11-05T17:52:16Z",
+  "u": "https://arxiv.org/abs/2611.08373",
+  "x": 83.3
+ },
+ {
+  "i": "2611.08264",
+  "k": "paper",
+  "t": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+  "s": "To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian…",
+  "c": "weekend",
+  "e": [],
+  "o": "cs.CV",
+  "n": null,
+  "d": "2026-11-05T16:37:29Z",
+  "u": "https://arxiv.org/abs/2611.08264",
+  "x": 81.3
+ },
+ {
+  "i": "2611.08543",
+  "k": "paper",
+  "t": "SAFTAC: Simulation-Augmented Fine-Tuning of Open-Source LLMs for Analog Circuit Design",
+  "s": "Using this dataset, we present SAFTAC, a simulation-augmented fine-tuning framework that trains LLMs to generate and revise analog circuit design.",
+  "c": "weekend",
+  "e": [
+   "fine-tuning",
+   "llm"
+  ],
+  "o": "cs.AR",
+  "n": null,
+  "d": "2026-11-05T03:54:10Z",
+  "u": "https://arxiv.org/abs/2611.08543",
+  "x": 79.1
+ },
+ {
+  "i": "2611.07149",
+  "k": "paper",
+  "t": "FastAFD: When Does Attention-FFN Disaggregation Pay on Rack-Scale NVLink?",
+  "s": "We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting.",
+  "c": "weekend",
+  "e": [
+   "blackwell",
+   "vllm"
+  ],
+  "o": "cs.DC",
+  "n": null,
+  "d": "2026-11-04T21:21:57Z",
+  "u": "https://arxiv.org/abs/2611.07149",
+  "x": 83.4
+ },
+ {
+  "i": "2611.06910",
+  "k": "paper",
+  "t": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+  "s": "We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.",
+  "c": "weekend",
+  "e": [],
+  "o": "cs.AI",
+  "n": null,
+  "d": "2026-11-04T18:56:22Z",
+  "u": "https://arxiv.org/abs/2611.06910",
+  "x": 85.4
+ }
+]

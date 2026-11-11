@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i7e5611257f",
+  "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
+  "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+  "summary": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T11:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://media.wired.com/photos/6aee70f5276d9711716c9d02/master/pass/Gemini-AI-Coached-Teen-Suicide-Business.jpg",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "i513a13fb0d",
+  "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds",
+  "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+  "summary": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-10T14:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://media.wired.com/photos/6af27401edee43782ec1ac6b/master/pass/gear_ai_operating_system_nerdy.jpg",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

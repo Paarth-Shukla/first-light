@@ -1,0 +1,192 @@
+{
+ "date": "2026-11-10",
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "stories": [
+  {
+   "id": "s9cdd66b81d",
+   "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+   "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+   "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+   "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
+   "section": "companies",
+   "sections": [
+    "companies",
+    "world"
+   ],
+   "entities": [
+    "nvidia",
+    "jensen-huang",
+    "united-states",
+    "china"
+   ],
+   "tickers": [
+    "NVDA"
+   ],
+   "publishedAt": "2026-11-09T19:58:01Z",
+   "updatedAt": "2026-11-11T14:39:33Z",
+   "day": "2026-11-10",
+   "sources": [
+    {
+     "id": "bbc-tech",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+     "publishedAt": "2026-11-10T22:52:15Z"
+    },
+    {
+     "id": "wapo-world",
+     "name": "The Washington Post",
+     "tier": 1,
+     "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
+     "url": "https://www.washingtonpost.com/world/2026/11/10/phantom-life-alice-huang-alleged-chinese-spy-who-had-an-affair-with-nvidia-ceo",
+     "publishedAt": "2026-11-10T20:43:26Z"
+    },
+    {
+     "id": "ft-economy",
+     "name": "Financial Times",
+     "tier": 1,
+     "title": "A look at the alleged spy who had an affair with Nvidia’s CEO",
+     "url": "https://www.ft.com/content/67dda4a9-68b8-4c56-ae7d-4c5375e308b6?syn-25a6b1a6=1",
+     "publishedAt": "2026-11-11T05:00:00Z"
+    }
+   ],
+   "sourceCount": 10,
+   "signals": {
+    "breadth": 0.985,
+    "tier": 1.0,
+    "recency": 0.936,
+    "velocity": 0.356,
+    "attention": 0.0,
+    "editorial": 0.622
+   },
+   "score": 77.5,
+   "thread": {
+    "id": "t2e13192074",
+    "day": 3,
+    "history": [
+     {
+      "date": "2026-11-09",
+      "id": "s33552442cf",
+      "title": "Nvidia CEO's affair becomes a national security problem"
+     }
+    ]
+   },
+   "why": [
+    "10 outlets",
+    "top of BBC News",
+    "day 3"
+   ]
+  },
+  {
+   "id": "sbbb9b2d111",
+   "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+   "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+   "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+   "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/93dc/live/ae624920-ddd7-11f1-93e1-3b657b665bcf.jpg",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [
+    "ukraine",
+    "russia",
+    "uae",
+    "united-states",
+    "vladimir-putin",
+    "volodymyr-zelensky"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-09T21:22:11Z",
+   "updatedAt": "2026-11-11T15:05:11Z",
+   "day": "2026-11-10",
+   "sources": [
+    {
+     "id": "bbc-top",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+     "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+     "publishedAt": "2026-11-11T15:05:11Z"
+    },
+    {
+     "id": "wapo-world",
+     "name": "The Washington Post",
+     "tier": 1,
+     "title": "Russia and Ukraine agree to prisoner swap, but little else, in U.S.-mediated talks",
+     "url": "https://www.washingtonpost.com/world/2026/11/11/russia-ukraine-agree-prisoner-swap-little-else-us-mediated-talks",
+     "publishedAt": "2026-11-11T14:39:45Z"
+    },
+    {
+     "id": "scmp-world",
+     "name": "South China Morning Post",
+     "tier": 2,
+     "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
+     "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
+     "publishedAt": "2026-11-11T14:54:11Z"
+    }
+   ],
+   "sourceCount": 13,
+   "signals": {
+    "breadth": 1.0,
+    "tier": 1.0,
+    "recency": 0.952,
+    "velocity": 0.0,
+    "attention": 0.0,
+    "editorial": 0.539
+   },
+   "score": 73.7,
+   "thread": {
+    "id": "t0fd5e31c94",
+    "day": 2,
+    "history": []
+   },
+   "why": [
+    "13 outlets",
+    "day 2"
+   ]
+  },
+  {
+   "id": "s7fdf33692d",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+   "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+   "section": "labs",
+   "sections": [
+    "labs",
+    "llm"
+   ],
+   "entities": [],
+   "tickers": [],
+   "publishedAt": "2026-11-10T12:02:28Z",
+   "updatedAt": "2026-11-10T12:02:28Z",
+   "day": "2026-11-10",
+   "sources": [
+    {
+     "id": "deepmind",
+     "name": "Google DeepMind",
+     "tier": 1,
+     "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+     "publishedAt": "2026-11-10T12:02:28Z"
+    }
+   ],
+   "sourceCount": 1,
+   "signals": {
+    "breadth": 0.1,
+    "tier": 1.0,
+    "recency": 0.336,
+    "velocity": 0.0,
+    "attention": 0.959,
+    "editorial": 0.2
+   },
+   "score": 38.8,
+   "thread": null,
+   "why": [
+    "659 points on Hacker News",
+    "first-party source"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>overflow probe</title>
+<body style="margin:0">
+<pre id="out"></pre>
+<script>
+/* Lists the elements that stick out past the viewport at a given width. ?src=index.html&w=390 */
+var q = new URLSearchParams(location.search);
+var f = document.createElement('iframe');
+f.src = '../' + q.get('src'); f.width = q.get('w') || 390; f.height = 900; f.style.border = 0;
+f.onload = function () {
+  setTimeout(function () {
+    var d = f.contentDocument, w = d.documentElement.clientWidth, rows = [];
+    d.querySelectorAll('body *').forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.width && (r.right > w + 1 || r.left < -1)) rows.push(el.tagName + '.' + el.className + ' L' + Math.round(r.left) + ' R' + Math.round(r.right));
+    });
+    document.getElementById('out').textContent = 'W=' + w + '\n' + rows.slice(0, 40).join('\n');
+  }, 400);
+};
+document.body.appendChild(f);
+</script>

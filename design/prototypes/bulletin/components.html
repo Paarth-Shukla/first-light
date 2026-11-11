@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>First Light · The Stylebook</title>
+<meta name="description" content="First Light: a personal daily newspaper. One finite edition every morning.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="preload" href="fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Theme before first paint: ?theme=dark|light, then the saved choice, else the OS. */
+(function () {
+  var t = new URLSearchParams(location.search).get("theme");
+  if (!t) { try { t = localStorage.getItem("fl-theme"); } catch (e) {} }
+  if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#edition">Skip to the edition</a>
+<div class="progress" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="a-up" viewBox="0 0 12 12"><path d="M6 11V2M2 6l4-4 4 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-down" viewBox="0 0 12 12"><path d="M6 1v9M2 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-flat" viewBox="0 0 12 12"><path d="M2 6h8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-right" viewBox="0 0 12 12"><path d="M1 6h9M6 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-ne" viewBox="0 0 12 12"><path d="M2.5 9.5l7-7M4 2.5h5.5V8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-copy" viewBox="0 0 12 12"><path d="M4 4h7v7H4zM1 8V1h7" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="a-find" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 10l4.5 4.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"/></symbol>
+  </defs>
+</svg>
+<header class="mast">
+  <div class="topbar">
+  <div class="wrap topbar__in">
+    <p class="topbar__date label"><b><time datetime="2026-11-11">Wednesday 11 November 2026</time></b><span>Morning edition</span><span>Frozen 05:30 IST</span></p>
+    <ul class="topbar__links label">
+      <li><a href="#">Back Issues</a></li>
+      <li><a href="components.html">Stylebook</a></li>
+      <li><a href="#colophon">Colophon</a></li>
+    </ul>
+    <button class="theme-toggle label" type="button" aria-pressed="false">
+      <span class="theme-toggle__lamp" aria-hidden="true"></span>
+      <span class="when-light">Night edition</span><span class="when-dark">Day edition</span>
+    </button>
+  </div>
+</div>
+  <div class="wrap grid plate plate--inner">
+    <div class="nameplate">
+      <p class="nameplate__tag label">A personal daily · typeset by software<span class="opt"> · finite by design</span></p>
+      <p class="nameplate__row"><a class="nameplate__name" href="index.html">First Light</a><span class="sun" aria-hidden="true"></span></p>
+    </div>
+    <div class="plate__title"><p class="label">For whoever builds the rest</p><h1 class="pagehead">The Stylebook</h1></div>
+  </div>
+  <nav class="nav" aria-label="Primary">
+  <div class="wrap grid nav__in">
+    <ul class="nav__main">
+      <li><a href="index.html">Front Page<kbd aria-hidden="true">F</kbd></a></li><li><a href="#">The Wire<span class="nav__count"><span class="unread" aria-hidden="true"></span>42<span class="vh"> new</span></span><kbd aria-hidden="true">W</kbd></a></li><li><a href="#">Markets<kbd aria-hidden="true">M</kbd></a></li><li><a href="#">Weekend Review<kbd aria-hidden="true">R</kbd></a></li><li><a href="#">Claude Desk<kbd aria-hidden="true">C</kbd></a></li><li><a href="#">Clippings<span class="nav__count">7</span><kbd aria-hidden="true">K</kbd></a></li>
+    </ul>
+    <form class="search" role="search" action="#">
+      <svg class="search__glyph" aria-hidden="true"><use href="#a-find"/></svg>
+      <label class="vh" for="q">Search every edition</label>
+      <input id="q" data-search type="search" placeholder="Search every edition" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+  </div>
+</nav>
+<nav class="desks" aria-label="Desks">
+  <div class="wrap desks__in">
+    <span class="label">Desks</span>
+    <ul><li><a href="#desk-01"><span class="num">01</span>World</a></li><li><a href="#desk-02"><span class="num">02</span>India</a></li><li><a href="#desk-03"><span class="num">03</span>AI</a></li><li><a href="#desk-04"><span class="num">04</span>Machine Learning</a></li><li><a href="#desk-05"><span class="num">05</span>LLMs</a></li><li><a href="#desk-06"><span class="num">06</span>Frontier Labs</a></li><li><a href="#desk-07"><span class="num">07</span>Companies</a></li><li><a href="#desk-08"><span class="num">08</span>Markets</a></li><li><a href="#desk-09"><span class="num">09</span>Dalal Street</a></li><li><a href="#desk-10"><span class="num">10</span>Science</a></li></ul>
+  </div>
+</nav>
+</header>
+
+<main id="edition" class="book">
+  <div class="wrap">
+    <div class="folio label">
+      <p><b>Stylebook</b> · eight parts<span class="opt"> · every sample is set from today’s fixture</span></p>
+      <p class="folio__key"><span>Day and night share one sheet: styles.css</span></p>
+    </div>
+    <section class="grid spec" aria-labelledby="spec-01">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">01</span><h2 class="spec__name" id="spec-01">Coverage scale</h2></div>
+        <p class="spec__note">The one idea. A headline is set at the step its coverage earns: more outlets, bigger and narrower type, wider column. Ticks repeat the count, one stroke per outlet. The lead and the top story of a wide desk also carry it as a numeral.</p>
+        <p class="label">.lead__hl · .hl-6 to .hl-1 · .cov · .ticks · .cov-xl · .cov-foot</p>
+      </div>
+      <div class="spec__body">
+        <div class="ladder"><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">9</span><span class="ticks" style="--n:9" aria-hidden="true"></span></span><p class="label"><b>The lead</b><br>step 7 · 108 px · width 62 · weight 800</p></div>
+          <p class="rung__hl lead__hl">Genie 4: A new generation of world simulation</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">9</span><span class="ticks" style="--n:9" aria-hidden="true"></span></span><p class="label"><b>9+ outlets</b><br>step 6 · 64 px · second story, headline rail</p></div>
+          <p class="rung__hl story__hl hl-6">A practically perfect plesiosaur</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">9</span><span class="ticks" style="--n:9" aria-hidden="true"></span></span><p class="label"><b>9+ outlets</b><br>step 5 · 46 px · front page, first on a wide desk</p></div>
+          <p class="rung__hl story__hl hl-5">Singapore Airlines elevates travel &amp; work with OpenAI technology</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">6</span><span class="ticks" style="--n:6" aria-hidden="true"></span></span><p class="label"><b>6 to 8</b><br>step 4 · 34 px · width 68 · weight 800</p></div>
+          <p class="rung__hl story__hl hl-4">Why your physics project needs an anthropologist</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">3</span><span class="ticks" style="--n:3" aria-hidden="true"></span></span><p class="label"><b>3 to 5</b><br>step 3 · 26 px · width 74 · weight 750</p></div>
+          <p class="rung__hl story__hl hl-3">Chile’s postdoc rules risk driving talent away</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">3</span><span class="ticks" style="--n:3" aria-hidden="true"></span></span><p class="label"><b>3 to 5, on a desk</b><br>step 2 · 20 px · width 82 · weight 700</p></div>
+          <p class="rung__hl story__hl hl-2">eBay appears to have shut the door on third-party AI agents</p>
+        </div><div class="rung">
+          <div class="rung__cov"><span class="cov-l"><span class="cov-l__n">1</span><span class="ticks" style="--n:1" aria-hidden="true"></span></span><p class="label"><b>1 or 2</b><br>step 1 · 17 px · width 90 · weight 650</p></div>
+          <p class="rung__hl story__hl hl-1">Students need AI-free spaces to learn core skills</p>
+        </div></div>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-02">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">02</span><h2 class="spec__name" id="spec-02">Navigation</h2></div>
+        <p class="spec__note">On a laptop it is the two rows at the top of this page: six places with their keys, then ten numbered desks. On a phone the same places sit in a bar under the thumb, and Desks opens a board.</p>
+        <p class="label">.nav · .desks · .tabbar · .sheet</p>
+      </div>
+      <div class="spec__body">
+        <div class="phones">
+          <figure class="phone"><iframe title="Front Page on a phone" data-src="index.html" loading="eager"></iframe><figcaption class="label"><b>Phone</b> · Front Page, tab bar</figcaption></figure>
+          <figure class="phone"><iframe title="Desk index on a phone" data-src="index.html#desk-index" loading="eager"></iframe><figcaption class="label"><b>Phone</b> · Desks tab pressed</figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-03">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">03</span><h2 class="spec__name" id="spec-03">The Wire row</h2></div>
+        <p class="spec__note">Live, dense, one line each, built for the keyboard. Weight still follows coverage. The black row is the cursor. A square marks unread; read rows step back.</p>
+        <p class="label">.wire__row · .is-cursor · .is-read · .unread</p>
+      </div>
+      <div class="spec__body">
+        <div class="wire">
+          <div class="wire__bar label">
+            <span class="live"><span class="unread" aria-hidden="true"></span>Live · 42 new since 05:30</span>
+            <span>All desks</span><span>Any coverage</span>
+            <span class="push"><span>Unread only</span><kbd>U</kbd></span>
+          </div>
+          <div class="wire__row wire__row--head label" aria-hidden="true"><span></span><span>Time</span><span>Desk</span><span>Headline</span><span>Outlets</span><span style="text-align:right">Source</span></div>
+          <ol>
+            <li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">09:41</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">09</span><span class="label">Dalal Street</span></span>
+            <a class="wire__hl wire__hl--3" href="#">Nvidia Stock Sell-Off Deepens: Spy scandal, price target cuts put AI giant under pressure</a>
+            <span class="cov label" title="9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><b>9</b></span>
+            <span class="wire__src label">Economic Times</span>
+          </li><li class="wire__row is-cursor" aria-current="true">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">09:38</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">07</span><span class="label">Companies</span></span>
+            <a class="wire__hl" href="#">Tesla launches Robotaxi in San Antonio with a 274 sq mi geofence on paper</a>
+            <span class="cov label" title="4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><b>4</b></span>
+            <span class="wire__src label">Electrek</span>
+          </li><li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">09:22</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">08</span><span class="label">Markets</span></span>
+            <a class="wire__hl wire__hl--1" href="#">Nasdaq futures jump as CoreWeave earnings beat drives global tech rebound: Live updates</a>
+            <span class="cov label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><b>2</b></span>
+            <span class="wire__src label">CNBC</span>
+          </li><li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">09:07</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">01</span><span class="label">World</span></span>
+            <a class="wire__hl wire__hl--1" href="#">Hundreds of Italian schools hit by threats in suspected bomb hoax</a>
+            <span class="cov label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><b>1</b></span>
+            <span class="wire__src label">BBC News</span>
+          </li><li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">08:51</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">06</span><span class="label">Frontier Labs</span></span>
+            <a class="wire__hl" href="#">Introducing Businesses in ChatGPT</a>
+            <span class="cov label" title="4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><b>4</b></span>
+            <span class="wire__src label">OpenAI</span>
+          </li><li class="wire__row is-read">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">08:30</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">01</span><span class="label">World</span></span>
+            <a class="wire__hl wire__hl--1" href="#">Deadly floods hit Iraq as thunderstorms sweep across region</a>
+            <span class="cov label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><b>2</b></span>
+            <span class="wire__src label">The Guardian</span>
+          </li><li class="wire__row is-read">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">08:12</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">03</span><span class="label">AI</span></span>
+            <a class="wire__hl wire__hl--1" href="#">Adobe is going all in on agentic AI</a>
+            <span class="cov label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><b>1</b></span>
+            <span class="wire__src label">The Verge</span>
+          </li><li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">07:55</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">09</span><span class="label">Dalal Street</span></span>
+            <a class="wire__hl wire__hl--3" href="#">Bajaj Finance to launch share sale worth up to Rs 11,700 cr this week: Report</a>
+            <span class="cov label" title="9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><b>9</b></span>
+            <span class="wire__src label">Economic Times</span>
+          </li><li class="wire__row is-read">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">07:40</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">05</span><span class="label">LLMs</span></span>
+            <a class="wire__hl wire__hl--1" href="#">llm-anthropic 0.31</a>
+            <span class="cov label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><b>1</b></span>
+            <span class="wire__src label">Simon Willison</span>
+          </li><li class="wire__row ">
+            <span class="unread" title="Unread"></span>
+            <time class="wire__time">07:18</time>
+            <span class="wire__desk"><span class="tile tile--sm" aria-hidden="true">02</span><span class="label">India</span></span>
+            <a class="wire__hl wire__hl--1" href="#">Six arrested for murder of two minor boys at Samayapuram near Tiruchi</a>
+            <span class="cov label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><b>2</b></span>
+            <span class="wire__src label">The Hindu</span>
+          </li>
+          </ol>
+          <p class="wire__keys label"><span><kbd>J</kbd><kbd>K</kbd> move</span><span><kbd>O</kbd> open at source</span><span><kbd>S</kbd> clip</span><span><kbd>X</kbd> mark read</span><span><kbd>1</kbd>–<kbd>0</kbd> filter to a desk</span><span><kbd>/</kbd> search</span></p>
+        </div>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-04">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">04</span><h2 class="spec__name" id="spec-04">Markets row</h2></div>
+        <p class="spec__note">Figures in tabular mono, right-aligned. Direction is said three times: sign, arrow, and only then colour on the falling arrow. The dot is the close; the dotted line is the previous close.</p>
+        <p class="label">.mkt · .chg--up · .chg--down · .spark · .range</p>
+      </div>
+      <div class="spec__body">
+        <table class="mkt">
+          <caption class="vh">Markets at close, Tuesday 10 November</caption>
+          <thead><tr class="label"><th scope="col">Instrument</th><th scope="col">Last</th><th scope="col">Change</th><th scope="col">Points</th><th scope="col">52-week range</th><th scope="col">Session</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="mkt__name"><b>Nifty 50</b><span class="label">NSE</span></span></td>
+              <td class="data mkt__last">27,418.35</td>
+              <td class="data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.62%</span><span class="vh"> up</span></span></td>
+              <td class="data">+168.90</td>
+              <td class="data"><span class="range" style="--at:93%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="Nifty 50 through the session, closing up"><line class="spark__base" x1="0" x2="120" y1="25.0" y2="25.0"/><polyline class="spark__line" points="0.0,25.0 4.3,22.8 8.6,20.6 12.9,18.9 17.2,17.8 21.5,16.5 25.8,14.7 30.1,14.5 34.4,13.7 38.7,12.9 43.0,13.7 47.3,12.2 51.6,12.2 55.9,10.7 60.1,10.2 64.4,8.4 68.7,8.1 73.0,6.6 77.3,7.5 81.6,7.2 85.9,5.9 90.2,5.9 94.5,6.4 98.8,7.3 103.1,6.3 107.4,6.2 111.7,4.1 116.0,3.0"/><circle class="spark__now" cx="116" cy="3.0" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>Sensex</b><span class="label">BSE</span></span></td>
+              <td class="data mkt__last">89,204.10</td>
+              <td class="data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.58%</span><span class="vh"> up</span></span></td>
+              <td class="data">+514.25</td>
+              <td class="data"><span class="range" style="--at:91%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="Sensex through the session, closing up"><line class="spark__base" x1="0" x2="120" y1="25.0" y2="25.0"/><polyline class="spark__line" points="0.0,25.0 4.3,23.8 8.6,24.9 12.9,23.5 17.2,21.2 21.5,20.3 25.8,20.9 30.1,22.0 34.4,21.8 38.7,20.6 43.0,21.3 47.3,21.6 51.6,20.7 55.9,20.2 60.1,19.3 64.4,17.1 68.7,16.2 73.0,15.2 77.3,15.6 81.6,13.8 85.9,12.9 90.2,13.1 94.5,12.3 98.8,10.8 103.1,8.3 107.4,5.4 111.7,4.2 116.0,3.0"/><circle class="spark__now" cx="116" cy="3.0" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>S&amp;P 500</b><span class="label">SPX</span></span></td>
+              <td class="data mkt__last">7,312.44</td>
+              <td class="data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.84%</span><span class="vh"> down</span></span></td>
+              <td class="data">−61.94</td>
+              <td class="data"><span class="range" style="--at:78%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="S&amp;P 500 through the session, closing down"><line class="spark__base" x1="0" x2="120" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 4.3,4.5 8.6,4.4 12.9,10.3 17.2,11.3 21.5,12.8 25.8,13.9 30.1,12.2 34.4,15.7 38.7,19.7 43.0,21.2 47.3,19.1 51.6,17.0 55.9,17.9 60.1,16.0 64.4,14.4 68.7,19.0 73.0,19.9 77.3,18.1 81.6,18.6 85.9,22.9 90.2,24.3 94.5,25.0 98.8,24.8 103.1,23.7 107.4,21.9 111.7,24.5 116.0,23.8"/><circle class="spark__now" cx="116" cy="23.8" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>Nasdaq 100</b><span class="label">NDX</span></span></td>
+              <td class="data mkt__last">24,106.92</td>
+              <td class="data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−1.61%</span><span class="vh"> down</span></span></td>
+              <td class="data">−394.45</td>
+              <td class="data"><span class="range" style="--at:66%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="Nasdaq 100 through the session, closing down"><line class="spark__base" x1="0" x2="120" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 4.3,4.3 8.6,3.7 12.9,3.1 17.2,5.0 21.5,6.6 25.8,7.8 30.1,8.8 34.4,10.0 38.7,11.5 43.0,12.5 47.3,11.9 51.6,13.4 55.9,15.4 60.1,17.3 64.4,17.6 68.7,19.3 73.0,19.9 77.3,20.1 81.6,19.3 85.9,20.6 90.2,21.0 94.5,22.5 98.8,23.1 103.1,24.9 107.4,24.4 111.7,25.0 116.0,25.0"/><circle class="spark__now" cx="116" cy="25.0" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>USD/INR</b><span class="label">FX</span></span></td>
+              <td class="data mkt__last">93.69</td>
+              <td class="data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.21%</span><span class="vh"> down</span></span></td>
+              <td class="data">−0.20</td>
+              <td class="data"><span class="range" style="--at:22%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="USD/INR through the session, closing down"><line class="spark__base" x1="0" x2="120" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 4.3,5.7 8.6,4.8 12.9,5.8 17.2,8.3 21.5,8.4 25.8,10.4 30.1,12.2 34.4,14.5 38.7,14.0 43.0,16.6 47.3,15.5 51.6,15.9 55.9,16.3 60.1,17.3 64.4,16.6 68.7,16.2 73.0,17.5 77.3,16.6 81.6,16.0 85.9,17.2 90.2,19.6 94.5,21.7 98.8,21.5 103.1,22.3 107.4,23.3 111.7,22.8 116.0,25.0"/><circle class="spark__now" cx="116" cy="25.0" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>India 10Y</b><span class="label">G-SEC</span></span></td>
+              <td class="data mkt__last">6.71%</td>
+              <td class="data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+9 bp</span><span class="vh"> up</span></span></td>
+              <td class="data">+0.09</td>
+              <td class="data"><span class="range" style="--at:57%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="India 10Y through the session, closing up"><line class="spark__base" x1="0" x2="120" y1="25.0" y2="25.0"/><polyline class="spark__line" points="0.0,25.0 4.3,24.9 8.6,23.6 12.9,23.4 17.2,23.2 21.5,24.1 25.8,23.2 30.1,23.1 34.4,20.4 38.7,19.6 43.0,20.2 47.3,20.1 51.6,17.9 55.9,16.4 60.1,15.3 64.4,14.3 68.7,12.9 73.0,13.6 77.3,11.6 81.6,11.7 85.9,9.3 90.2,7.1 94.5,5.7 98.8,3.9 103.1,3.0 107.4,3.5 111.7,3.2 116.0,3.7"/><circle class="spark__now" cx="116" cy="3.7" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>Brent</b><span class="label">ICE</span></span></td>
+              <td class="data mkt__last">61.20</td>
+              <td class="data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−1.92%</span><span class="vh"> down</span></span></td>
+              <td class="data">−1.20</td>
+              <td class="data"><span class="range" style="--at:12%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="Brent through the session, closing down"><line class="spark__base" x1="0" x2="120" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 4.3,4.2 8.6,5.5 12.9,5.1 17.2,4.9 21.5,6.3 25.8,7.4 30.1,7.4 34.4,8.7 38.7,9.9 43.0,11.8 47.3,13.5 51.6,13.1 55.9,13.3 60.1,15.6 64.4,16.1 68.7,18.4 73.0,18.4 77.3,17.8 81.6,16.8 85.9,16.4 90.2,17.9 94.5,17.9 98.8,20.0 103.1,21.5 107.4,24.0 111.7,24.9 116.0,25.0"/><circle class="spark__now" cx="116" cy="25.0" r="2.6"/></svg></td>
+            </tr><tr>
+              <td><span class="mkt__name"><b>Gold</b><span class="label">COMEX</span></span></td>
+              <td class="data mkt__last">4,412.60</td>
+              <td class="data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.35%</span><span class="vh"> up</span></span></td>
+              <td class="data">+15.40</td>
+              <td class="data"><span class="range" style="--at:88%" title="Position in the 52-week range"><i></i></span></td>
+              <td><svg class="spark" viewBox="0 0 120 28" preserveAspectRatio="none" role="img" aria-label="Gold through the session, closing up"><line class="spark__base" x1="0" x2="120" y1="24.6" y2="24.6"/><polyline class="spark__line" points="0.0,24.6 4.3,24.6 8.6,25.0 12.9,24.0 17.2,24.3 21.5,23.1 25.8,22.0 30.1,21.0 34.4,21.7 38.7,20.9 43.0,20.8 47.3,19.3 51.6,18.6 55.9,17.8 60.1,16.5 64.4,16.5 68.7,15.0 73.0,13.8 77.3,13.5 81.6,12.4 85.9,10.6 90.2,9.9 94.5,10.3 98.8,8.7 103.1,6.8 107.4,5.1 111.7,3.0 116.0,3.8"/><circle class="spark__now" cx="116" cy="3.8" r="2.6"/></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-05">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">05</span><h2 class="spec__name" id="spec-05">Weekend Review</h2></div>
+        <p class="spec__note">Saturday’s reading list of papers. The numeral is the rank. Chips say why it surfaced. The digest is extractive: three sentences lifted from the abstract, never rewritten. Stand-in data: three well-known papers; the chips are placeholders.</p>
+        <p class="label">.paper · .paper__rank · .chip · .paper__digest</p>
+      </div>
+      <div class="spec__body">
+        <div class="papers"><article class="paper">
+            <span class="paper__rank" aria-label="Rank 1">1</span>
+            <div class="paper__main">
+              <h3 class="paper__title"><a href="#">Attention Is All You Need</a></h3>
+              <p class="paper__authors">Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin</p>
+              <ul class="chips" aria-label="Why it surfaced"><li class="chip chip--solid">Desk match: LLMs</li><li class="chip">On 3 reading lists</li><li class="chip">Code released</li></ul>
+              <p class="paper__foot label"><b>arXiv 1706.03762</b><span>PDF <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></span><span>Clip <kbd>S</kbd></span></p>
+            </div>
+            <ol class="paper__digest" aria-label="Three lines from the abstract">
+              <li>We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.</li><li>Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.</li><li>Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU.</li>
+            </ol>
+          </article><article class="paper">
+            <span class="paper__rank" aria-label="Rank 2">2</span>
+            <div class="paper__main">
+              <h3 class="paper__title"><a href="#">Deep Residual Learning for Image Recognition</a></h3>
+              <p class="paper__authors">Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun</p>
+              <ul class="chips" aria-label="Why it surfaced"><li class="chip chip--solid">Desk match: Machine Learning</li><li class="chip">Cited by a clipping</li></ul>
+              <p class="paper__foot label"><b>arXiv 1512.03385</b><span>PDF <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></span><span>Clip <kbd>S</kbd></span></p>
+            </div>
+            <ol class="paper__digest" aria-label="Three lines from the abstract">
+              <li>We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.</li><li>We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.</li><li>An ensemble of these residual nets achieves 3.57% error on the ImageNet test set.</li>
+            </ol>
+          </article><article class="paper">
+            <span class="paper__rank" aria-label="Rank 3">3</span>
+            <div class="paper__main">
+              <h3 class="paper__title"><a href="#">Adam: A Method for Stochastic Optimization</a></h3>
+              <p class="paper__authors">Diederik P. Kingma, Jimmy Ba</p>
+              <ul class="chips" aria-label="Why it surfaced"><li class="chip chip--solid">Desk match: Machine Learning</li><li class="chip">Short read</li></ul>
+              <p class="paper__foot label"><b>arXiv 1412.6980</b><span>PDF <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></span><span>Clip <kbd>S</kbd></span></p>
+            </div>
+            <ol class="paper__digest" aria-label="Three lines from the abstract">
+              <li>We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments.</li><li>The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters.</li><li>Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods.</li>
+            </ol>
+          </article></div>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-06">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">06</span><h2 class="spec__name" id="spec-06">Claude Desk card</h2></div>
+        <p class="spec__note">One technique: a name, when to reach for it, a prompt to copy, and where you are with it. On the Front Page it runs as the one solid block of spot colour. In the desk’s own list it sits on paper, as here.</p>
+        <p class="label">.claude · .claude--paper · .prompt · .copy · .seg</p>
+      </div>
+      <div class="spec__body">
+        <article class="claude claude--paper">
+          <header class="claude__head"><span class="tile" aria-hidden="true">C</span><p class="claude__name">Claude Desk</p><span class="label">Technique 14 · coding</span></header>
+          <div class="claude__pitch">
+            <h3 class="claude__title">Give it the test command</h3>
+            <p class="claude__when"><b>Reach for it when</b> you hand over a coding task you do not want to babysit. Say how the work gets checked: the command to run and what passing looks like. Then it can check itself before it reports back.</p>
+            <div class="adopt">
+              <span class="label" id="adopt-2">Where are you with this?</span>
+              <div class="seg seg--paper" role="radiogroup" aria-labelledby="adopt-2">
+                <label><input type="radio" name="adopt2"><span>Not tried</span></label>
+                <label><input type="radio" name="adopt2"><span>Tried</span></label>
+                <label><input type="radio" name="adopt2" checked><span>In my workflow</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="claude__work">
+            <div class="prompt">
+              <div class="prompt__bar"><span class="label">Prompt · two slots to fill</span><button class="copy" type="button"><svg class="arw" aria-hidden="true"><use href="#a-copy"/></svg><span>Copy</span></button></div>
+<pre>Fix <span class="slot">{{THE BUG}}</span>.
+
+Before you say you are done, run <span class="slot">{{TEST COMMAND}}</span> and read the output. If anything fails, keep going.
+
+When it passes, show me the last 20 lines of the run.</pre>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-07">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">07</span><h2 class="spec__name" id="spec-07">Search</h2></div>
+        <p class="spec__note">One field, set as large as a headline. The query is widened with names, tickers and spellings, and the widening is shown, so nothing is searched behind your back.</p>
+        <p class="label">.find · .also · .chip · .hit mark</p>
+      </div>
+      <div class="spec__body">
+        <form class="find" role="search" action="#">
+          <svg class="search__glyph" aria-hidden="true"><use href="#a-find"/></svg>
+          <label class="vh" for="q2">Search every edition</label>
+          <input id="q2" type="search" value="nvidia" autocomplete="off">
+          <span class="find__count label"><b>23 stories</b> · 9 editions</span>
+          <kbd aria-hidden="true">/</kbd>
+        </form>
+        <p class="also"><span class="label">Also searching</span>
+          <button class="chip" type="button" aria-label="Stop searching NVDA">NVDA<span class="x" aria-hidden="true">×</span></button>
+          <button class="chip" type="button" aria-label="Stop searching Jensen Huang">Jensen Huang<span class="x" aria-hidden="true">×</span></button>
+          <button class="chip" type="button" aria-label="Stop searching Huang">Huang<span class="x" aria-hidden="true">×</span></button>
+          <button class="chip" type="button" aria-label="Stop searching GeForce">GeForce<span class="x" aria-hidden="true">×</span></button>
+          <span class="label">Tap a chip to drop it</span>
+        </p>
+        <ol><li class="hit"><span class="label">No. 315 · In brief</span><a class="story__hl hl-2" href="#">Baird downgrades <mark>Nvidia</mark> on CEO <mark>Huang</mark> worries, AI uncertainty</a><span class="label"><b>CNBC</b></span></li><li class="hit"><span class="label">No. 315 · Markets</span><a class="story__hl hl-2" href="#"><mark>Nvidia</mark> shares rebound 5% as <mark>Huang</mark> faces scrutiny ahead of earnings</a><span class="label"><b>CNBC</b></span></li><li class="hit"><span class="label">No. 315 · The Wire</span><a class="story__hl hl-2" href="#">The US is winning the AI race. <mark>Jensen Huang</mark> could have blown it</a><span class="label"><b>The Verge</b></span></li><li class="hit"><span class="label">No. 314 · AI</span><a class="story__hl hl-2" href="#"><mark>Nvidia</mark> CEO’s affair becomes a national security problem</a><span class="label"><b>Ars Technica</b></span></li></ol>
+      </div>
+    </section>
+    <section class="grid spec" aria-labelledby="spec-08">
+      <div class="spec__label">
+        <div class="spec__head"><span class="tile" aria-hidden="true">08</span><h2 class="spec__name" id="spec-08">Tokens</h2></div>
+        <p class="spec__note">Every colour, size, space and rule is a custom property at the top of styles.css. The night edition swaps the colour block and nothing else.</p>
+        <p class="label">--paper · --ink · --spot · --step-1…7 · --sp-1…9 · --rule-*</p>
+      </div>
+      <div class="spec__body">
+        <div class="swatches"><div class="swatch"><i style="background:var(--paper)"></i><span class="label"><b>paper</b><br>--paper</span></div><div class="swatch"><i style="background:var(--paper-2)"></i><span class="label"><b>paper 2</b><br>--paper-2</span></div><div class="swatch"><i style="background:var(--ink)"></i><span class="label"><b>ink</b><br>--ink</span></div><div class="swatch"><i style="background:var(--ink-2)"></i><span class="label"><b>ink 2</b><br>--ink-2</span></div><div class="swatch"><i style="background:var(--ink-3)"></i><span class="label"><b>ink 3</b><br>--ink-3</span></div><div class="swatch"><i style="background:var(--hair)"></i><span class="label"><b>hair</b><br>--hair</span></div><div class="swatch"><i style="background:var(--spot)"></i><span class="label"><b>spot</b><br>--spot</span></div><div class="swatch"><i style="background:var(--spot-ink)"></i><span class="label"><b>spot ink</b><br>--spot-ink</span></div><div class="swatch"><i style="background:var(--board)"></i><span class="label"><b>board</b><br>--board</span></div></div>
+        <div class="specimen">
+          <div><p class="specimen__a">Aa 315</p><span class="label"><b>Display</b> · Archivo, 62 to 90 wide, 650 to 900</span></div>
+          <div><p class="specimen__b">Aa 315</p><span class="label"><b>Text</b> · Archivo, 84 to 100 wide, 400 to 600</span></div>
+          <div><p class="specimen__c">Aa 315</p><span class="label"><b>Data</b> · Martian Mono, 75 wide, 500 to 700</span></div>
+        </div>
+        <div class="parts">
+          <span class="tile">07</span><span class="tile tile--sm">07</span>
+          <span class="flap" role="img" aria-label="315"><span>3</span><span>1</span><span>5</span></span>
+          <div class="parts__foot"><p class="cov-foot" title="Carried by 9 outlets"><span class="cov-foot__n">9</span><span class="cov-foot__what"><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label"><b>outlets<br>carried<br>this</b></span></span><span class="cov-foot__who label">Google DeepMind<br>+ 8 others</span></p></div>
+          <span class="cov-l" title="Carried by 6 outlets"><span class="cov-l__n">6</span><span class="ticks" style="--n:6" aria-hidden="true"></span><span class="label"><b>outlets</b></span></span><span class="label"><span class="cov" title="Carried by 3 outlets"><span class="ticks" style="--n:3" aria-hidden="true"></span><span><b>3</b> outlets</span></span></span>
+          <span class="data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.62%</span><span class="vh"> up</span></span></span><span class="data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−1.61%</span><span class="vh"> down</span></span></span><span class="data"><span class="chg chg--flat"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-flat"/></svg><span>0.00%</span><span class="vh"> unchanged</span></span></span>
+          <span class="chip chip--solid">Chip</span><span class="chip">Chip</span>
+          <kbd>J</kbd><span class="unread" title="Unread"></span>
+          <a class="readon" href="#">Read at source <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></a>
+        </div>
+        <div class="steps"><div><i style="width:var(--sp-1)"></i><span class="label">sp-1</span></div><div><i style="width:var(--sp-2)"></i><span class="label">sp-2</span></div><div><i style="width:var(--sp-3)"></i><span class="label">sp-3</span></div><div><i style="width:var(--sp-4)"></i><span class="label">sp-4</span></div><div><i style="width:var(--sp-5)"></i><span class="label">sp-5</span></div><div><i style="width:var(--sp-6)"></i><span class="label">sp-6</span></div><div><i style="width:var(--sp-7)"></i><span class="label">sp-7</span></div><div><i style="width:var(--sp-8)"></i><span class="label">sp-8</span></div><div><i style="width:var(--sp-9)"></i><span class="label">sp-9</span></div></div>
+        <div class="rules-demo"><div style="border-top:var(--rule-hair) solid var(--rule)"><span class="label"><b>hair</b> · --rule-hair</span></div><div style="border-top:var(--rule-thin) solid var(--rule)"><span class="label"><b>thin</b> · --rule-thin</span></div><div style="border-top:var(--rule-thick) solid var(--rule)"><span class="label"><b>thick</b> · --rule-thick</span></div><div style="border-top:var(--rule-bar) solid var(--rule)"><span class="label"><b>bar</b> · --rule-bar</span></div></div>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="colophon" id="colophon">
+  <div class="wrap grid colophon__in">
+    <div class="colophon__col colophon__col--wide">
+      <p class="colophon__name">First Light</p>
+      <p>One edition every morning at 05:30 IST. It is frozen when it is built and it ends. Anything that happens after that is on The Wire.</p>
+      <p>Headline size is not decoration: it is the number of outlets that carried the story.</p>
+    </div>
+    <div class="colophon__col colophon__col--narrow">
+      <span class="label">The paper</span>
+      <ul>
+        <li><a href="index.html">Front Page</a></li><li><a href="#">The Wire</a></li><li><a href="#">Markets</a></li>
+        <li><a href="#">Weekend Review</a></li><li><a href="#">Claude Desk</a></li><li><a href="#">Clippings</a></li>
+        <li><a href="#">Back Issues</a></li><li><a href="components.html">Stylebook</a></li>
+      </ul>
+    </div>
+    <div class="colophon__col colophon__keys">
+      <span class="label">Keys</span>
+      <ul><li><span>Front Page</span><span><kbd>F</kbd></span></li><li><span>The Wire</span><span><kbd>W</kbd></span></li><li><span>Next / previous story</span><span><kbd>J</kbd><kbd>K</kbd></span></li><li><span>Open at source</span><span><kbd>O</kbd></span></li><li><span>Clip it</span><span><kbd>S</kbd></span></li><li><span>Search</span><span><kbd>/</kbd></span></li><li><span>Night edition</span><span><kbd>N</kbd></span></li></ul>
+    </div>
+    <div class="colophon__col">
+      <span class="label">Colophon</span>
+      <p>Set in Archivo, one variable file from 62 to 125 per cent wide, and Martian Mono for figures. Both open licence, both served from this site.</p>
+      <p>No tracking, no images, no framework. A few lines of script run the theme switch, the copy button and the / key.</p>
+      <p>Prototype note: headlines are real, fetched 11 Nov 2026. Outlet counts, times and market figures are placeholders.</p>
+    </div>
+  </div>
+</footer>
+<div class="sheet" id="desk-index" role="dialog" aria-label="Desks">
+  <div class="sheet__head">
+    <p class="sheet__title">Desks</p>
+    <a class="sheet__close label" href="#edition">Close</a>
+  </div>
+  <ul class="sheet__list"><li><a href="#desk-01"><span class="num">01</span><span class="name">World</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-02"><span class="num">02</span><span class="name">India</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-03"><span class="num">03</span><span class="name">AI</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-04"><span class="num">04</span><span class="name">Machine Learning</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-05"><span class="num">05</span><span class="name">LLMs</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-06"><span class="num">06</span><span class="name">Frontier Labs</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-07"><span class="num">07</span><span class="name">Companies</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-08"><span class="num">08</span><span class="name">Markets</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-09"><span class="num">09</span><span class="name">Dalal Street</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-10"><span class="num">10</span><span class="name">Science</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li></ul>
+  <div class="sheet__more">
+    <a href="#">Weekend Review <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a><a href="#">Claude Desk <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a>
+    <a href="#">Clippings <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a><a href="#">Back Issues <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a>
+  </div>
+</div>
+<nav class="tabbar" aria-label="Sections"><a href="index.html">Front<span class="label">No. 315</span></a><a href="#">Wire<span class="label"><span class="unread"></span>42 new</span></a><a href="#desk-index">Desks<span class="label">01–10</span></a><a href="#">Markets<span class="label">At close</span></a><a href="#">More<span class="label">Search</span></a></nav>
+<script>
+(function () {
+  var root = document.documentElement;
+  function current() {
+    return root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  }
+  var btn = document.querySelector(".theme-toggle");
+  function sync() { if (btn) btn.setAttribute("aria-pressed", String(current() === "dark")); }
+  if (btn) btn.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("fl-theme", next); } catch (e) {}
+    sync(); frames();
+  });
+  sync();
+  /* "/" puts the cursor in search */
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || /input|textarea/i.test(e.target.tagName)) return;
+    var f = document.querySelector("[data-search]");
+    if (f) { e.preventDefault(); f.focus(); }
+  });
+  /* copy a prompt block */
+  document.querySelectorAll(".copy").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var pre = b.closest(".prompt").querySelector("pre");
+      var done = function () { b.setAttribute("data-done", ""); b.lastChild.textContent = "Copied"; };
+      if (navigator.clipboard) navigator.clipboard.writeText(pre.textContent).then(done, done); else done();
+    });
+  });
+  /* stylebook only: phone previews follow the page theme */
+  function frames() {
+    document.querySelectorAll("iframe[data-src]").forEach(function (f) {
+      var parts = f.getAttribute("data-src").split("#");
+      f.src = parts[0] + "?theme=" + current() + (parts[1] ? "#" + parts[1] : "");
+    });
+  }
+  frames();
+})();
+</script>
+</body>
+</html>

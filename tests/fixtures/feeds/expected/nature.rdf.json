@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i745d24720e",
+  "url": "https://www.nature.com/articles/d41586-026-03515-z",
+  "title": "How to avoid aliens and live",
+  "summary": "",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "i5459c3a707",
+  "url": "https://www.nature.com/articles/d41586-026-03621-y",
+  "title": "Biotech innovations are an opportunity to limit climate change",
+  "summary": "Agricultural biotechnology once found itself in opposition to environmental science. Now it could reduce the impact of food systems on global warming and biodiversity loss.",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

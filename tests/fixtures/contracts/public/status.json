@@ -1,0 +1,141 @@
+{
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "stages": [
+  {
+   "stage": "fetch",
+   "ok": true,
+   "startedAt": "2026-11-11T16:21:52Z",
+   "durationSec": 27.24,
+   "error": null,
+   "counts": {
+    "sources": 169,
+    "ok": 169,
+    "failed": 0,
+    "unchanged": 37,
+    "items": 1398,
+    "newItems": 161,
+    "filesWritten": 3,
+    "pruned": 0
+   }
+  },
+  {
+   "stage": "markets",
+   "ok": true,
+   "startedAt": "2026-11-11T16:22:20Z",
+   "durationSec": 1.05,
+   "error": null,
+   "counts": {
+    "symbols": 46,
+    "fresh": 46,
+    "stale": 0,
+    "missing": 0,
+    "movers": 10
+   }
+  },
+  {
+   "stage": "claude",
+   "ok": true,
+   "startedAt": "2026-11-11T16:22:21Z",
+   "durationSec": 5.47,
+   "error": null,
+   "counts": {
+    "entries": 254,
+    "newEntries": 0,
+    "linkedEntries": 99,
+    "sourcesOk": 8,
+    "sourcesFailed": 0,
+    "features": 120,
+    "recipes": 24,
+    "contentErrors": 0,
+    "contentFilesSkipped": 0
+   }
+  },
+  {
+   "stage": "papers",
+   "ok": true,
+   "startedAt": "2026-11-11T16:22:26Z",
+   "durationSec": 0.01,
+   "error": null,
+   "counts": {
+    "skipped": true
+   }
+  },
+  {
+   "stage": "process",
+   "ok": true,
+   "startedAt": "2026-11-11T16:22:26Z",
+   "durationSec": 1.6,
+   "error": null,
+   "counts": {
+    "items": 1972,
+    "skippedItems": 0,
+    "stories": 1574,
+    "newStories": 117,
+    "multiSource": 211,
+    "threaded": 40,
+    "latest": 500,
+    "trending": 12,
+    "prunedFiles": 0,
+    "edition": null
+   }
+  },
+  {
+   "stage": "search",
+   "ok": true,
+   "startedAt": "2026-11-11T16:22:28Z",
+   "durationSec": 0.38,
+   "error": null,
+   "counts": {
+    "dayFiles": 3,
+    "stories": 1574,
+    "papers": 15,
+    "updates": 254,
+    "features": 120,
+    "recipes": 24,
+    "terms": 211,
+    "shards": 7,
+    "staleShardsRemoved": 0,
+    "relatedTerms": 844,
+    "relatedTrimmed": 0,
+    "shardBytes": 886778,
+    "lexiconBytes": 203071,
+    "invalidDocs": 0
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "bbc-top",
+   "name": "BBC News",
+   "section": "world",
+   "ok": true,
+   "items": 20,
+   "newItems": 0,
+   "ms": 193,
+   "error": null,
+   "lastOkAt": "2026-11-11T16:21:52Z"
+  },
+  {
+   "id": "bbc-world",
+   "name": "BBC News",
+   "section": "world",
+   "ok": true,
+   "items": 20,
+   "newItems": 0,
+   "ms": 634,
+   "error": null,
+   "lastOkAt": "2026-11-11T16:21:52Z"
+  },
+  {
+   "id": "nyt-home",
+   "name": "The New York Times",
+   "section": "world",
+   "ok": true,
+   "items": 20,
+   "newItems": 1,
+   "ms": 303,
+   "error": null,
+   "lastOkAt": "2026-11-11T16:21:52Z"
+  }
+ ]
+}

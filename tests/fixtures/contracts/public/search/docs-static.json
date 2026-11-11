@@ -1,0 +1,139 @@
+[
+ {
+  "i": "feature:cc-model-and-effort",
+  "k": "feature",
+  "t": "Model, effort level and fast mode",
+  "s": "Claude Code lets you pick the model, set an effort level that controls how much it reasons, and toggle a faster, more expensive fast mode on supported models. Change these when the default is slower, costlier or…",
+  "c": "code",
+  "e": [
+   "claude-code"
+  ],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/cc-model-and-effort",
+  "x": null
+ },
+ {
+  "i": "feature:cc-routines",
+  "k": "feature",
+  "t": "Cloud scheduled tasks (routines)",
+  "s": "A cloud scheduled task, formerly called a routine, is a saved prompt with repositories and connectors that runs as a Claude Code cloud session on a schedule, an API call or a GitHub event. Use one for unattended…",
+  "c": "code",
+  "e": [
+   "claude-code",
+   "github"
+  ],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/cc-routines",
+  "x": null
+ },
+ {
+  "i": "feature:claude-data",
+  "k": "feature",
+  "t": "Claude Data",
+  "s": "Claude Data turns plain-language questions about your company's data into dashboards, data stories, narrated short videos and written analyses, with Claude writing the SQL. Use it for quick, exploratory questions…",
+  "c": "apps",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/claude-data",
+  "x": null
+ },
+ {
+  "i": "feature:claude-sheets",
+  "k": "feature",
+  "t": "Claude Sheets",
+  "s": "Claude Sheets is a spreadsheet built into Claude, where you and Claude edit the same cells and formulas stay visible in the cells. Use it for a light, shared tracker, budget or model you build with Claude. When the file…",
+  "c": "apps",
+  "e": [
+   "google"
+  ],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/claude-sheets",
+  "x": null
+ },
+ {
+  "i": "feature:claude-whiteboards",
+  "k": "feature",
+  "t": "Claude Whiteboards",
+  "s": "Claude Whiteboards is a shared board where you talk, type or sketch and Claude organizes your ideas into diagrams, flows and groups. Use a board before you know what the final version should be, such as laying out…",
+  "c": "apps",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/claude-whiteboards",
+  "x": null
+ },
+ {
+  "i": "feature:connectors",
+  "k": "feature",
+  "t": "Connectors",
+  "s": "Connectors let Claude access your apps and services, retrieve your data and take actions in them, using the permissions you already have there. Connect a service when you keep copying its content into Claude or carrying…",
+  "c": "apps",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/connectors",
+  "x": null
+ },
+ {
+  "i": "feature:file-creation",
+  "k": "feature",
+  "t": "Create and edit files",
+  "s": "Claude can run code in a sandboxed computing environment to create and edit real files in a chat, including Excel, PowerPoint, Word and PDF. Use it when you need a downloadable file or an analysis of an uploaded CSV…",
+  "c": "apps",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/file-creation",
+  "x": null
+ },
+ {
+  "i": "feature:interactive-connectors",
+  "k": "feature",
+  "t": "Interactive connectors",
+  "s": "Some connectors can display live, interactive apps inside a Claude conversation, such as a task board or analytics dashboard, instead of a text-only reply. Use one when you want to see and adjust the real thing while…",
+  "c": "apps",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/feature/interactive-connectors",
+  "x": null
+ },
+ {
+  "i": "recipe:analyse-a-spreadsheet",
+  "k": "recipe",
+  "t": "Analyse a CSV export and get charts and findings",
+  "s": "The file creation guide says to describe the structure, content and formatting you want, and to review the output. Profiling first shows you the cleaning decisions while a wrong one is cheap to fix. A workbook with…",
+  "c": "analysis",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/claude/recipe/analyse-a-spreadsheet",
+  "x": null
+ },
+ {
+  "i": "term:ai agent",
+  "k": "term",
+  "t": "AI agent",
+  "s": "A system in which a model plans and takes actions, such as using tools, browsing or editing files, to complete a goal over several steps.",
+  "c": "glossary",
+  "e": [],
+  "o": null,
+  "n": null,
+  "d": null,
+  "u": "#/search?q=AI%20agent",
+  "x": null
+ }
+]

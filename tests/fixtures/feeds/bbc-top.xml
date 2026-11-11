@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News]]></title>
+        <description><![CDATA[BBC News - News Front Page]]></description>
+        <link>https://www.bbc.co.uk/news</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News</title>
+            <link>https://www.bbc.co.uk/news</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Nov 2026 13:52:43 GMT</lastBuildDate>
+        <atom:link href="https://feeds.bbci.co.uk/news/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Jonathan Ross 'horrified' by Walliams allegations and Brand conviction]]></title>
+            <description><![CDATA[The TV presenter says he was once "friendly" with David Walliams and Russell Brand, but was "genuinely unaware" of their conduct.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cmwy9jl18840o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cmwy9jl18840o#1</guid>
+            <pubDate>Wed, 11 Nov 2026 10:14:22 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecf2/live/e5fa1a90-ddad-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+<item>
+            <title><![CDATA['I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager]]></title>
+            <description><![CDATA[Lilly Creightmore, who has alleged Walliams "groomed" her as a teenager, has told BBC Newsnight that she was "angry" at his behaviour.]]></description>
+            <link>https://www.bbc.co.uk/news/videos/c8g46y14ye3zo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/c8g46y14ye3zo#1</guid>
+            <pubDate>Wed, 11 Nov 2026 09:29:45 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d504/live/93f888e0-ddd4-11f1-b441-2b33b063138f.jpg"/>
+        </item>
+<item>
+            <title><![CDATA[Watch: UK falls silent to mark Armistice Day]]></title>
+            <description><![CDATA[People from Belfast to Cardiff, London to Edinburgh held the two-minute silence to mark the end of World War One and to remember those who have died in conflicts.]]></description>
+            <link>https://www.bbc.co.uk/news/videos/c6lymnz44gn4o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/videos/c6lymnz44gn4o#1</guid>
+            <pubDate>Wed, 11 Nov 2026 12:38:34 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e659/live/ee4e1330-ddd6-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+</channel>
+</rss>

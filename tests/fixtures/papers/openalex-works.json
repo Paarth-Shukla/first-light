@@ -1,0 +1,18 @@
+{
+ "meta": {
+  "count": 2
+ },
+ "results": [
+  {
+   "doi": "https://doi.org/10.48550/arxiv.2611.00859",
+   "cited_by_count": 0,
+   "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation"
+  },
+  {
+   "doi": "https://doi.org/10.48550/arxiv.2611.07496",
+   "cited_by_count": 0,
+   "title": "ZYFA: Speed and Accuracy of FP8 FlashAttention on AMD CDNA4"
+  }
+ ],
+ "group_by": []
+}

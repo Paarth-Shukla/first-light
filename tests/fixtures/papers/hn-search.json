@@ -1,0 +1,95 @@
+{
+ "hits": [
+  {
+   "_tags": [
+    "story",
+    "author_theanonymousone",
+    "story_50447363"
+   ],
+   "author": "theanonymousone",
+   "created_at": "2026-11-10T22:44:49Z",
+   "created_at_i": 1794350689,
+   "num_comments": 0,
+   "objectID": "50447363",
+   "points": 27,
+   "story_id": 50447363,
+   "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+   "updated_at": "2026-11-11T13:35:16Z",
+   "url": "https://arxiv.org/abs/2611.10866"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_theanonymousone",
+    "story_50422168"
+   ],
+   "author": "theanonymousone",
+   "children": [
+    50423325,
+    50424751,
+    50424432,
+    50422711,
+    50422558,
+    50422808,
+    50423128,
+    50423175,
+    50422495,
+    50425312,
+    50423508
+   ],
+   "created_at": "2026-11-09T07:20:37Z",
+   "created_at_i": 1794208837,
+   "num_comments": 45,
+   "objectID": "50422168",
+   "points": 180,
+   "story_id": 50422168,
+   "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+   "updated_at": "2026-11-11T13:10:42Z",
+   "url": "https://arxiv.org/abs/2610.14162"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_based2",
+    "story_50416397"
+   ],
+   "author": "based2",
+   "children": [
+    50416746,
+    50417050
+   ],
+   "created_at": "2026-11-08T19:41:32Z",
+   "created_at_i": 1794166892,
+   "num_comments": 2,
+   "objectID": "50416397",
+   "points": 5,
+   "story_id": 50416397,
+   "title": "NCM: Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+   "updated_at": "2026-11-10T22:33:28Z",
+   "url": "https://arxiv.org/abs/2610.14162"
+  },
+  {
+   "_tags": [
+    "story",
+    "author_1equalsequals1",
+    "story_50354250"
+   ],
+   "author": "1equalsequals1",
+   "children": [
+    50355558,
+    50357214,
+    50356674
+   ],
+   "created_at": "2026-11-03T16:40:02Z",
+   "created_at_i": 1793724002,
+   "num_comments": 8,
+   "objectID": "50354250",
+   "points": 49,
+   "story_id": 50354250,
+   "title": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
+   "updated_at": "2026-11-05T19:30:27Z",
+   "url": "https://arxiv.org/abs/2611.02618"
+  }
+ ],
+ "nbHits": 4
+}

@@ -1,0 +1,117 @@
+/* Fixture page for the harness selfcheck. Each rule exists because a test reads it. */
+:root {
+  --paper: #f6f1e7;
+  --ink: #1c1a17;
+  --rule: #c9bfae;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14130f;
+    --ink: #ece5d6;
+    --rule: #4a443a;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.5 Georgia, serif;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+
+section {
+  border-top: 1px solid var(--rule);
+  padding: 12px 0;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font: 600 12px/1 system-ui, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  padding: 6px 10px;
+}
+
+output {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: ui-monospace, monospace;
+}
+
+#columns {
+  display: flex;
+  gap: 24px;
+}
+
+@media (max-width: 600px) {
+  #columns {
+    flex-direction: column;
+  }
+}
+
+#list li.selected {
+  font-weight: 700;
+}
+
+#palette {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  width: 320px;
+  margin-left: -160px;
+  padding: 16px;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+}
+
+/* A button that sits under an overlay: a real click can never reach it. */
+#cover-wrap {
+  position: relative;
+  width: 220px;
+  height: 44px;
+}
+
+#overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(128, 128, 128, 0.35);
+}
+
+/* A drawer that slides in: its button moves for 250 ms after "Open drawer". The
+   track clips it so the parked drawer does not make the page scroll sideways. */
+#drawer-track {
+  overflow: hidden;
+}
+
+#drawer {
+  transform: translateX(300px);
+  transition: transform 250ms linear;
+}
+
+#drawer.open {
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #drawer {
+    transition: none;
+  }
+}
+
+#spacer {
+  height: 2400px;
+}

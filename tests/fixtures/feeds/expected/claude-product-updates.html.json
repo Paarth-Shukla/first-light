@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i7737e173e3",
+  "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+  "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+  "summary": "Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-10T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "ieb06b7a71c",
+  "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+  "title": "Your apps can now open in Claude, and Claude can work in them",
+  "summary": "Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-10T00:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": "https://claude.com/resources/articles/interactive-connectors-full-tool/opengraph-image/og",
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

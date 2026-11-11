@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "builtAt": "2026-11-11T16:21:52Z",
+ "site": {
+  "name": "First Light",
+  "tagline": "The morning edition",
+  "timezone": "Asia/Kolkata",
+  "editionHour": 6
+ },
+ "sections": [
+  {
+   "id": "world",
+   "name": "World"
+  },
+  {
+   "id": "india",
+   "name": "India"
+  },
+  {
+   "id": "ai",
+   "name": "AI"
+  },
+  {
+   "id": "ml",
+   "name": "Machine Learning"
+  },
+  {
+   "id": "llm",
+   "name": "LLMs"
+  },
+  {
+   "id": "labs",
+   "name": "Frontier Labs"
+  },
+  {
+   "id": "companies",
+   "name": "Companies"
+  },
+  {
+   "id": "markets",
+   "name": "Markets"
+  },
+  {
+   "id": "india-markets",
+   "name": "Dalal Street"
+  },
+  {
+   "id": "science",
+   "name": "Science"
+  }
+ ],
+ "edition": {
+  "date": "2026-11-11",
+  "number": 1
+ },
+ "editions": [
+  "2026-11-11"
+ ],
+ "days": [
+  "2026-11-11",
+  "2026-11-10"
+ ],
+ "weekends": [
+  "2026-W46"
+ ],
+ "counts": {
+  "stories": 9,
+  "sources": 3,
+  "sourcesOk": 3
+ },
+ "nextBuild": null
+}

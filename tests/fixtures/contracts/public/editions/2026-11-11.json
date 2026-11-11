@@ -1,0 +1,796 @@
+{
+ "date": "2026-11-11",
+ "number": 1,
+ "generatedAt": "2026-11-11T15:45:30Z",
+ "headline": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+ "lead": {
+  "id": "sf325a6eb17",
+  "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+  "summary": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power. Millions of people across ",
+  "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+  "image": "https://i.guim.co.uk/img/media/e4af29620a5814814f978cf7c4c77fa08bb7b3bf/882_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=1476d54cda51fee0cb217959af27341c",
+  "section": "world",
+  "sections": [
+   "world"
+  ],
+  "entities": [],
+  "tickers": [],
+  "publishedAt": "2026-11-11T05:14:53Z",
+  "updatedAt": "2026-11-11T15:34:08Z",
+  "day": "2026-11-11",
+  "sources": [
+   {
+    "id": "guardian-world",
+    "name": "The Guardian",
+    "tier": 1,
+    "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+    "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+    "publishedAt": "2026-11-11T13:54:36Z"
+   },
+   {
+    "id": "dw-top",
+    "name": "DW",
+    "tier": 1,
+    "title": "Spain: Housing crisis prompts general strike",
+    "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike/a-79915208",
+    "publishedAt": "2026-11-11T09:11:00Z"
+   },
+   {
+    "id": "nyt-world",
+    "name": "The New York Times",
+    "tier": 1,
+    "title": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+    "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+    "publishedAt": "2026-11-11T15:34:08Z"
+   }
+  ],
+  "sourceCount": 10,
+  "signals": {
+   "breadth": 1.0,
+   "tier": 1.0,
+   "recency": 0.993,
+   "velocity": 0.827,
+   "attention": 0.0,
+   "editorial": 0.865
+  },
+  "score": 86.5,
+  "thread": null,
+  "why": [
+   "10 outlets",
+   "top of New York Times",
+   "rising"
+  ]
+ },
+ "front": [
+  {
+   "id": "s3b0ff5e8c9",
+   "title": "Italy: Hundreds of schools evacuated after bomb threats",
+   "summary": "Although the government believes the threat to be a hoax, it has nevertheless prompted concerns about \"hybrid warfare\" in Europe. Similar messages were sent in ",
+   "url": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034",
+   "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/80c9/live/fc093bd0-ddc7-11f1-9053-236ccb99630c.jpg",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [
+    "united-kingdom"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-11T10:57:35Z",
+   "updatedAt": "2026-11-11T14:04:39Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "dw-top",
+     "name": "DW",
+     "tier": 1,
+     "title": "Italy: Hundreds of schools evacuated after bomb threats",
+     "url": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034",
+     "publishedAt": "2026-11-11T13:43:00Z"
+    },
+    {
+     "id": "bbc-world",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+     "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o",
+     "publishedAt": "2026-11-11T12:30:29Z"
+    },
+    {
+     "id": "ndtv-top",
+     "name": "NDTV",
+     "tier": 2,
+     "title": "300 Schools In Italy Evacuated After Bomb Threat Emails From 'Misoginistan'",
+     "url": "https://www.ndtv.com/world-news/300-schools-in-italy-evacuated-after-bomb-threat-emails-from-misoginistan-12313294",
+     "publishedAt": "2026-11-11T13:23:30Z"
+    }
+   ],
+   "sourceCount": 16,
+   "signals": {
+    "breadth": 1.0,
+    "tier": 1.0,
+    "recency": 0.937,
+    "velocity": 1.0,
+    "attention": 0.0,
+    "editorial": 0.729
+   },
+   "score": 85.7,
+   "thread": null,
+   "why": [
+    "16 outlets",
+    "top of ABC News",
+    "rising"
+   ]
+  },
+  {
+   "id": "s9cdd66b81d",
+   "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+   "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+   "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+   "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
+   "section": "companies",
+   "sections": [
+    "companies",
+    "world"
+   ],
+   "entities": [
+    "nvidia",
+    "jensen-huang",
+    "united-states",
+    "china"
+   ],
+   "tickers": [
+    "NVDA"
+   ],
+   "publishedAt": "2026-11-09T19:58:01Z",
+   "updatedAt": "2026-11-11T14:39:33Z",
+   "day": "2026-11-10",
+   "sources": [
+    {
+     "id": "bbc-tech",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go",
+     "publishedAt": "2026-11-10T22:52:15Z"
+    },
+    {
+     "id": "wapo-world",
+     "name": "The Washington Post",
+     "tier": 1,
+     "title": "The phantom life of Alice Huang, alleged Chinese spy who had affair with Nvidia CEO",
+     "url": "https://www.washingtonpost.com/world/2026/11/10/phantom-life-alice-huang-alleged-chinese-spy-who-had-an-affair-with-nvidia-ceo",
+     "publishedAt": "2026-11-10T20:43:26Z"
+    },
+    {
+     "id": "ft-economy",
+     "name": "Financial Times",
+     "tier": 1,
+     "title": "A look at the alleged spy who had an affair with Nvidia’s CEO",
+     "url": "https://www.ft.com/content/67dda4a9-68b8-4c56-ae7d-4c5375e308b6?syn-25a6b1a6=1",
+     "publishedAt": "2026-11-11T05:00:00Z"
+    }
+   ],
+   "sourceCount": 10,
+   "signals": {
+    "breadth": 0.985,
+    "tier": 1.0,
+    "recency": 0.959,
+    "velocity": 0.356,
+    "attention": 0.0,
+    "editorial": 0.622
+   },
+   "score": 77.9,
+   "thread": {
+    "id": "t2e13192074",
+    "day": 3,
+    "history": [
+     {
+      "date": "2026-11-09",
+      "id": "s33552442cf",
+      "title": "Nvidia CEO's affair becomes a national security problem"
+     }
+    ]
+   },
+   "why": [
+    "10 outlets",
+    "top of BBC News",
+    "day 3"
+   ]
+  },
+  {
+   "id": "s8e0de48c67",
+   "title": "3 CRPF jawans injured in terror attack in Jammu-Kashmir’s Kulgam",
+   "summary": "A CCTV video from Kulgam, Jammu and Kashmir, shows CRPF personnel scrambling for cover as two suspected terrorists on a motorcycle opened fire at a checkpost ne",
+   "url": "https://indianexpress.com/article/india/kulgam-terror-attack-jammu-kashmir-crpf-jawans-injured-10958851",
+   "image": "https://images.indianexpress.com/2026/11/kulgam.jpg",
+   "section": "india",
+   "sections": [
+    "india"
+   ],
+   "entities": [
+    "crpf",
+    "kashmir"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-11T09:21:12Z",
+   "updatedAt": "2026-11-11T15:41:50Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "ie-india",
+     "name": "The Indian Express",
+     "tier": 1,
+     "title": "3 CRPF jawans injured in terror attack in Jammu-Kashmir’s Kulgam",
+     "url": "https://indianexpress.com/article/india/kulgam-terror-attack-jammu-kashmir-crpf-jawans-injured-10958851",
+     "publishedAt": "2026-11-11T09:21:12Z"
+    },
+    {
+     "id": "toi-top",
+     "name": "The Times of India",
+     "tier": 2,
+     "title": "Kulgam terror attack: Chilling CCTV video captures CRPF jawans dodging bullets",
+     "url": "https://timesofindia.indiatimes.com/city/srinagar/humare-goli-lagi-hai-chilling-cctv-video-captures-crpf-jawans-dodging-bullets-in-kulgam/articleshow/135736914.cms",
+     "publishedAt": "2026-11-11T12:25:21Z"
+    },
+    {
+     "id": "ndtv-top",
+     "name": "NDTV",
+     "tier": 2,
+     "title": "Terrorists Fire At Security Personnel In J&K's Kulgam. CRPF's Full Statement",
+     "url": "https://www.ndtv.com/india-news/jammu-and-kashmir-firing-terrorists-fire-at-security-personnel-in-jammu-and-kashmis-kulgam-crpfs-full-statement-12312211",
+     "publishedAt": "2026-11-11T09:48:16Z"
+    }
+   ],
+   "sourceCount": 7,
+   "signals": {
+    "breadth": 0.684,
+    "tier": 1.0,
+    "recency": 0.998,
+    "velocity": 1.0,
+    "attention": 0.0,
+    "editorial": 0.567
+   },
+   "score": 74.0,
+   "thread": null,
+   "why": [
+    "7 outlets",
+    "rising",
+    "top of Times of India"
+   ]
+  },
+  {
+   "id": "s9dae6fe28b",
+   "title": "Noida-Greater Noida Metro: Cabinet clears Rs 2,390 crore Aqua Line extension. Check route map, station list",
+   "summary": "The extension, which spans a route length of 8.449 kilometres, will include five elevated stations from Noida Sector 51 to Greater Noida Sector 4. After the cor",
+   "url": "https://indianexpress.com/article/india/noida-greater-noida-metro-aqua-line-extension-cabinet-approval-narendra-modi-10958979",
+   "image": "https://images.indianexpress.com/2026/11/Noida-metro-Image_-NMRC_Enhanced-using-AI.jpg",
+   "section": "india",
+   "sections": [
+    "india"
+   ],
+   "entities": [],
+   "tickers": [],
+   "publishedAt": "2026-11-11T10:24:00Z",
+   "updatedAt": "2026-11-11T15:06:09Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "ie-india",
+     "name": "The Indian Express",
+     "tier": 1,
+     "title": "Noida-Greater Noida Metro: Cabinet clears Rs 2,390 crore Aqua Line extension. Check route map, station list",
+     "url": "https://indianexpress.com/article/india/noida-greater-noida-metro-aqua-line-extension-cabinet-approval-narendra-modi-10958979",
+     "publishedAt": "2026-11-11T11:48:07Z"
+    },
+    {
+     "id": "ndtv-top",
+     "name": "NDTV",
+     "tier": 2,
+     "title": "Big Boost For Noida-Greater Noida Metro Connectivity. PM Shares \"Good News\"",
+     "url": "https://www.ndtv.com/india-news/big-boost-for-noida-greater-noida-metro-connectivity-pm-shares-good-news-12312850",
+     "publishedAt": "2026-11-11T12:38:01Z"
+    },
+    {
+     "id": "bs-economy",
+     "name": "Business Standard",
+     "tier": 2,
+     "title": "Cabinet clears ₹2,390 crore Noida Metro Aqua Line expansion over 8.5 km",
+     "url": "https://www.business-standard.com/economy/news/cabinet-clears-2-390-crore-noida-metro-aqua-line-expansion-over-8-5-km-126111101461_1.html",
+     "publishedAt": "2026-11-11T15:06:09Z"
+    }
+   ],
+   "sourceCount": 10,
+   "signals": {
+    "breadth": 0.774,
+    "tier": 1.0,
+    "recency": 0.975,
+    "velocity": 1.0,
+    "attention": 0.0,
+    "editorial": 0.235
+   },
+   "score": 72.7,
+   "thread": null,
+   "why": [
+    "10 outlets",
+    "rising"
+   ]
+  }
+ ],
+ "briefs": [
+  {
+   "id": "s230ec80065",
+   "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+   "summary": "A member of the US Army has been arrested near Gloucester in England. Police said he was suspected of espionage activity in connection with Russia. Investigator",
+   "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240",
+   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10int-uk-soldier-1-qlpj/10int-uk-soldier-1-qlpj-mediumSquareAt3X.jpg",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [
+    "united-states",
+    "russia",
+    "united-kingdom"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-10T19:35:00Z",
+   "updatedAt": "2026-11-11T12:23:22Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "dw-top",
+     "name": "DW",
+     "tier": 1,
+     "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+     "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240",
+     "publishedAt": "2026-11-10T19:35:00Z"
+    },
+    {
+     "id": "nyt-world",
+     "name": "The New York Times",
+     "tier": 1,
+     "title": "US Soldier Is Arrested in UK on Suspicion of Spying for Russia",
+     "url": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+     "publishedAt": "2026-11-10T22:24:05Z"
+    },
+    {
+     "id": "wapo-world",
+     "name": "The Washington Post",
+     "tier": 1,
+     "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+     "url": "https://www.washingtonpost.com/world/2026/11/10/us-army-officer-arrested-uk-suspicion-trying-steal-secrets-russia",
+     "publishedAt": "2026-11-11T10:33:27Z"
+    }
+   ],
+   "sourceCount": 6,
+   "signals": {
+    "breadth": 0.754,
+    "tier": 1.0,
+    "recency": 0.878,
+    "velocity": 0.712,
+    "attention": 0.0,
+    "editorial": 0.354
+   },
+   "score": 69.1,
+   "thread": null,
+   "why": [
+    "6 outlets"
+   ]
+  },
+  {
+   "id": "safd2e288e4",
+   "title": "Canadian Authorities Kill 4 Bears Involved in Deadly Attack on Hikers",
+   "summary": "Wildlife authorities said evidence, including animal DNA, conclusively linked a sow and her three cubs to the deaths of two women along a hiking trail in Britis",
+   "url": "https://www.nytimes.com/2026/11/10/world/canada/british-columbia-bear-attack.html",
+   "image": "https://static01.nyt.com/images/2026/11/10/multimedia/10xp-bear/10xp-bear-mediumSquareAt3X.jpg",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [
+    "canada"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-10T21:36:04Z",
+   "updatedAt": "2026-11-11T13:24:29Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "nyt-world",
+     "name": "The New York Times",
+     "tier": 1,
+     "title": "Canadian Authorities Kill 4 Bears Involved in Deadly Attack on Hikers",
+     "url": "https://www.nytimes.com/2026/11/10/world/canada/british-columbia-bear-attack.html",
+     "publishedAt": "2026-11-11T07:32:18Z"
+    },
+    {
+     "id": "bbc-world",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+     "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo",
+     "publishedAt": "2026-11-11T13:24:29Z"
+    },
+    {
+     "id": "abc-intl",
+     "name": "ABC News",
+     "tier": 2,
+     "title": "4 grizzly bears linked by DNA to deadly attack on mother and daughter in Canada",
+     "url": "https://abcnews.com/International/wireStory/4-grizzly-bears-linked-dna-deadly-attack-mother-138026387",
+     "publishedAt": "2026-11-10T21:36:04Z"
+    }
+   ],
+   "sourceCount": 7,
+   "signals": {
+    "breadth": 0.673,
+    "tier": 1.0,
+    "recency": 0.913,
+    "velocity": 0.356,
+    "attention": 0.0,
+    "editorial": 0.695
+   },
+   "score": 67.4,
+   "thread": null,
+   "why": [
+    "7 outlets",
+    "top of Sky News"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "world",
+   "name": "World",
+   "stories": [
+    {
+     "id": "sbbb9b2d111",
+     "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+     "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+     "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+     "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/93dc/live/ae624920-ddd7-11f1-93e1-3b657b665bcf.jpg",
+     "section": "world",
+     "sections": [
+      "world"
+     ],
+     "entities": [
+      "ukraine",
+      "russia",
+      "united-states",
+      "uae",
+      "vladimir-putin",
+      "volodymyr-zelensky"
+     ],
+     "tickers": [],
+     "publishedAt": "2026-11-09T21:22:11Z",
+     "updatedAt": "2026-11-11T15:05:11Z",
+     "day": "2026-11-10",
+     "sources": [
+      {
+       "id": "bbc-top",
+       "name": "BBC News",
+       "tier": 1,
+       "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+       "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+       "publishedAt": "2026-11-11T15:05:11Z"
+      },
+      {
+       "id": "wapo-world",
+       "name": "The Washington Post",
+       "tier": 1,
+       "title": "Russia and Ukraine agree to prisoner swap, but little else, in U.S.-mediated talks",
+       "url": "https://www.washingtonpost.com/world/2026/11/11/russia-ukraine-agree-prisoner-swap-little-else-us-mediated-talks",
+       "publishedAt": "2026-11-11T14:39:45Z"
+      },
+      {
+       "id": "scmp-world",
+       "name": "South China Morning Post",
+       "tier": 2,
+       "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
+       "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
+       "publishedAt": "2026-11-11T14:54:11Z"
+      }
+     ],
+     "sourceCount": 12,
+     "signals": {
+      "breadth": 1.0,
+      "tier": 1.0,
+      "recency": 0.974,
+      "velocity": 0.0,
+      "attention": 0.0,
+      "editorial": 0.412
+     },
+     "score": 72.5,
+     "thread": {
+      "id": "t0fd5e31c94",
+      "day": 2,
+      "history": []
+     },
+     "why": [
+      "12 outlets",
+      "day 2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "name": "India",
+   "stories": [
+    {
+     "id": "s49f6fc712f",
+     "title": "Cabinet decisions today 11 Nov full list: ₹12.6 lakh crore Mudra loans, ₹62,370 crore subsidy, metro boost and more",
+     "summary": "The Union Cabinet approved measures supporting small businesses, farmers, urban transport and cultural infrastructure. It extended Stand-Up India and micro-unit",
+     "url": "https://www.livemint.com/news/india/cabinet-decisions-today-11-nov-full-list-12-6-lakh-crore-mudra-loans-62-370-crore-subsidy-metro-boost-and-more-11794391951196.html",
+     "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1261111/full-126111100867.jpg",
+     "section": "india",
+     "sections": [
+      "india",
+      "india-markets"
+     ],
+     "entities": [
+      "india"
+     ],
+     "tickers": [],
+     "publishedAt": "2026-11-11T09:40:23Z",
+     "updatedAt": "2026-11-11T12:41:51Z",
+     "day": "2026-11-11",
+     "sources": [
+      {
+       "id": "mint-news",
+       "name": "Mint",
+       "tier": 2,
+       "title": "Cabinet decisions today 11 Nov full list: ₹12.6 lakh crore Mudra loans, ₹62,370 crore subsidy, metro boost and more",
+       "url": "https://www.livemint.com/news/india/cabinet-decisions-today-11-nov-full-list-12-6-lakh-crore-mudra-loans-62-370-crore-subsidy-metro-boost-and-more-11794391951196.html",
+       "publishedAt": "2026-11-11T11:15:08Z"
+      },
+      {
+       "id": "ht-india",
+       "name": "Hindustan Times",
+       "tier": 2,
+       "title": "Centre raises fertiliser subsidy budget by 64% to ₹62,370 crore amid West Asia crisis",
+       "url": "https://www.hindustantimes.com/india-news/union-cabinet-approves-62-370-crore-subsidy-budget-for-p-k-fertilisers-for-rabi-season-101794395870885.html",
+       "publishedAt": "2026-11-11T11:17:50Z"
+      },
+      {
+       "id": "bs-economy",
+       "name": "Business Standard",
+       "tier": 2,
+       "title": "Cabinet approves ₹62,370 crore fertiliser subsidy for Rabi 2026-27 season",
+       "url": "https://www.business-standard.com/economy/news/cabinet-approves-62-370-crore-fertiliser-subsidy-for-rabi-2026-27-season-126111100867_1.html",
+       "publishedAt": "2026-11-11T10:32:17Z"
+      }
+     ],
+     "sourceCount": 11,
+     "signals": {
+      "breadth": 0.775,
+      "tier": 0.6,
+      "recency": 0.889,
+      "velocity": 1.0,
+      "attention": 0.0,
+      "editorial": 0.3
+     },
+     "score": 65.0,
+     "thread": null,
+     "why": [
+      "11 outlets",
+      "rising"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "name": "AI",
+   "stories": [
+    {
+     "id": "sb4266ad9ab",
+     "title": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+     "summary": "Office for Students says institutions in England should return to traditional exams and in-person presentations. Universities should go back to traditional exam",
+     "url": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+     "image": "https://i.guim.co.uk/img/media/d3a1271d3a03313b67f28cd9ca99f9f80e115ce7/671_0_5849_4679/master/5849.jpg?width=700&quality=85&auto=format&fit=max&s=29a13e26ee9898444a9e635cb0c94fc8",
+     "section": "ai",
+     "sections": [
+      "ai"
+     ],
+     "entities": [],
+     "tickers": [],
+     "publishedAt": "2026-11-11T07:00:33Z",
+     "updatedAt": "2026-11-11T11:54:46Z",
+     "day": "2026-11-11",
+     "sources": [
+      {
+       "id": "guardian-ai",
+       "name": "The Guardian",
+       "tier": 2,
+       "title": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+       "url": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+       "publishedAt": "2026-11-11T07:00:33Z"
+      },
+      {
+       "id": "decoder",
+       "name": "The Decoder",
+       "tier": 2,
+       "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+       "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats",
+       "publishedAt": "2026-11-11T11:54:46Z"
+      }
+     ],
+     "sourceCount": 2,
+     "signals": {
+      "breadth": 0.226,
+      "tier": 0.6,
+      "recency": 0.862,
+      "velocity": 0.356,
+      "attention": 0.0,
+      "editorial": 0.0
+     },
+     "score": 35.8,
+     "thread": null,
+     "why": [
+      "2 outlets"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ml",
+   "name": "Machine Learning",
+   "stories": [
+    {
+     "id": "sd705dbd447",
+     "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+     "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to",
+     "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+     "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/MSR-BLG_LAZ_HERO.png",
+     "section": "ml",
+     "sections": [
+      "ml",
+      "ai",
+      "llm",
+      "companies",
+      "science"
+     ],
+     "entities": [
+      "ai-agents",
+      "microsoft"
+     ],
+     "tickers": [
+      "MSFT"
+     ],
+     "publishedAt": "2026-11-10T20:52:56Z",
+     "updatedAt": "2026-11-11T04:09:44Z",
+     "day": "2026-11-11",
+     "sources": [
+      {
+       "id": "msr-blog",
+       "name": "Microsoft Research",
+       "tier": 1,
+       "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+       "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+       "publishedAt": "2026-11-10T20:52:56Z"
+      },
+      {
+       "id": "reddit-llm",
+       "name": "Reddit",
+       "tier": 3,
+       "title": "Microsoft Research backdoored an AI agent by directly editing fewer than 10 dormant neurons",
+       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by",
+       "publishedAt": "2026-11-11T04:09:44Z"
+      }
+     ],
+     "sourceCount": 2,
+     "signals": {
+      "breadth": 0.144,
+      "tier": 1.0,
+      "recency": 0.64,
+      "velocity": 0.0,
+      "attention": 0.0,
+      "editorial": 0.2
+     },
+     "score": 35.5,
+     "thread": null,
+     "why": [
+      "first-party source",
+      "2 outlets"
+     ]
+    }
+   ]
+  }
+ ],
+ "markets": {
+  "asOf": "2026-11-11T15:45:55Z",
+  "quotes": [
+   {
+    "symbol": "^NSEI",
+    "name": "Nifty 50",
+    "short": "Nifty",
+    "kind": "index",
+    "currency": "INR",
+    "price": 25255.05,
+    "change": 210.4,
+    "changePct": 0.84,
+    "spark": [
+     23053.1,
+     23440.8,
+     23810.85,
+     23960.6,
+     24536.6,
+     25030.35,
+     25044.65,
+     25255.05
+    ],
+    "asOf": "2026-11-11T10:01:28Z",
+    "exchange": "NSE",
+    "entity": "nifty-50",
+    "high52": 26373.2,
+    "low52": 22179.9,
+    "stale": false
+   },
+   {
+    "symbol": "^BSESN",
+    "name": "BSE Sensex",
+    "short": "Sensex",
+    "kind": "index",
+    "currency": "INR",
+    "price": 81879.4,
+    "change": 772.75,
+    "changePct": 0.95,
+    "spark": [
+     74459.53,
+     75692.78,
+     76917.85,
+     77301.4,
+     79310.01,
+     81028.02,
+     81106.65,
+     81879.4
+    ],
+    "asOf": "2026-11-11T10:02:32Z",
+    "exchange": "BSE",
+    "entity": "sensex",
+    "high52": 86159.02,
+    "low52": 71292.88,
+    "stale": false
+   },
+   {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "short": "S&P 500",
+    "kind": "index",
+    "currency": "USD",
+    "price": 7596.25,
+    "change": 75.32,
+    "changePct": 1.0,
+    "spark": [
+     7541.4,
+     7568.92,
+     7688.62,
+     7353.73,
+     7376.86,
+     7549.94,
+     7520.93,
+     7596.25
+    ],
+    "asOf": "2026-11-11T15:45:55Z",
+    "exchange": "SNP",
+    "entity": "sp-500",
+    "high52": 7844.52,
+    "low52": 6316.91,
+    "stale": false
+   }
+  ]
+ },
+ "claude": {
+  "kind": "feature",
+  "update": null,
+  "featureId": "cc-routines"
+ },
+ "weekend": null,
+ "stats": {
+  "storiesConsidered": 1157,
+  "sourcesOk": 169,
+  "sourcesTotal": 169,
+  "readMinutes": 7
+ }
+}

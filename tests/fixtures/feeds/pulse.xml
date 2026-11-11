@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Pulse by Zerodha</title>
+	<description> Latest financial and market news from all major Indian news sources aggregated in one place</description>
+	<link>http://pulse.zerodha.com</link>
+	<pubDate></pubDate>
+		<item>
+		<title>Air India’s losses narrow in H1 by ₹2,000 crore</title>
+		<link>https://www.thehindu.com/business/Industry/air-indias-losses-narrow-in-h1-by-2000-crore/article71689628.ece</link>
+		<description>Air India is under pressure to cut costs after a consolidated net loss of ₹22,238 crore in FY2025-26</description>
+		<pubDate>Wed, 11 Nov 2026 18:58:03 +0530</pubDate>
+	</item>
+<item>
+		<title>No Takers For MBBS Seats: Over 400 Remain Unoccupied Despite NEET UG 2026 Special Stray Round</title>
+		<link>https://www.ndtvprofit.com/education/no-takers-for-mbbs-seats-over-400-remain-unoccupied-despite-neet-ug-2026-special-stray-round-12313277#publisher=newsstand</link>
+		<description>Of the total 948 seats included in Medical Counselling Committee&#039;s special stray vacancy round, 537 were allotted to candidates, leaving 411 vacant</description>
+		<pubDate>Wed, 11 Nov 2026 18:51:14 +0530</pubDate>
+	</item>
+</channel>
+</rss>

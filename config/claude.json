@@ -1,0 +1,99 @@
+{
+  "windowDays": 180,
+  "maxEntries": 400,
+  "summaryChars": 300,
+  "sources": [
+    {
+      "id": "claude-apps",
+      "name": "Claude apps release notes",
+      "kind": "apps-notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes.md",
+      "page": "https://support.claude.com/en/articles/12138966-release-notes",
+      "surface": "apps",
+      "maxEntries": 120,
+      "enabled": true
+    },
+    {
+      "id": "claude-platform",
+      "name": "Claude Platform release notes",
+      "kind": "platform-notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md",
+      "page": "https://platform.claude.com/docs/en/release-notes/overview",
+      "surface": "platform",
+      "maxEntries": 150,
+      "enabled": true
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code changelog",
+      "kind": "changelog-rss",
+      "url": "https://code.claude.com/docs/en/changelog/rss.xml",
+      "surface": "code",
+      "titlePrefix": "Claude Code",
+      "maxItemsPerRelease": 6,
+      "summaryChars": 600,
+      "maxEntries": 120,
+      "enabled": true
+    },
+    {
+      "id": "claude-cowork",
+      "name": "Claude Desktop and Cowork changelog",
+      "kind": "changelog-rss",
+      "url": "https://claude.com/docs/cowork/changelog/rss.xml",
+      "surface": "cowork",
+      "titlePrefix": "Claude Desktop",
+      "maxItemsPerRelease": 6,
+      "summaryChars": 600,
+      "maxEntries": 80,
+      "enabled": true
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic newsroom",
+      "kind": "anthropic-listing",
+      "url": "https://www.anthropic.com/news",
+      "surface": "news",
+      "maxEntries": 60,
+      "enabled": true
+    },
+    {
+      "id": "anthropic-engineering",
+      "name": "Anthropic engineering blog",
+      "kind": "anthropic-listing",
+      "url": "https://www.anthropic.com/engineering",
+      "surface": "news",
+      "maxEntries": 30,
+      "enabled": true
+    },
+    {
+      "id": "claude-blog",
+      "name": "Claude blog: product updates",
+      "kind": "claude-blog",
+      "url": "https://claude.com/resources/product-updates",
+      "surface": "apps",
+      "productSurfaces": {
+        "Claude apps": "apps",
+        "Claude Enterprise": "apps",
+        "Claude Code": "code",
+        "Claude Platform": "platform",
+        "Claude Cowork": "cowork",
+        "MCP": "platform"
+      },
+      "maxEntries": 60,
+      "enabled": true
+    },
+    {
+      "id": "claude-youtube",
+      "name": "Claude on YouTube",
+      "kind": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCV03SRZXJEz-hchIAogeJOg",
+      "surface": "learn",
+      "maxEntries": 60,
+      "enabled": true
+    }
+  ],
+  "status": {
+    "url": "https://status.claude.com/api/v2/summary.json",
+    "enabled": true
+  }
+}

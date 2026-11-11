@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e2gW+F/hl6m5ACB79PdoZnZGSsg</id>
+  <title>arXiv Query: search_query=cat:cs.AR AND submittedDate:"202611032330 TO 202611101829"&amp;id_list=&amp;start=0&amp;max_results=200</title>
+  <updated>2026-11-11T13:53:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=cat:cs.AR+AND+submittedDate:%22202611032330+TO+202611101829%22&amp;start=0&amp;max_results=200&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>200</opensearch:itemsPerPage>
+  <opensearch:totalResults>66</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+    <entry>
+    <id>http://arxiv.org/abs/2611.13931v1</id>
+    <title>TAPCO-G: LLM-Guided Design-Adaptive Timing and Power Co-Optimization with Graph-Based Physical Priors</title>
+    <updated>2026-11-10T11:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2611.13931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.13931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-placement timing and power co-optimization is critical to meeting setup timing targets and reducing power within placement constraints. A cell replacement can improve timing along one path while increasing power or reducing slack on others. Conventional optimizers follow fixed rules for scheduling and accepting repairs, limiting their ability to address design-specific bottlenecks. A large language model (LLM) can propose changes to these rules, but on its own it cannot reliably estimate how a cell replacement affects endpoint slack and power. TAPCO-G combines LLM-guided optimizer adaptation with graph-based physical priors to evaluate candidate cell replacements. The outer loop tunes tool settings using physical-design feedback and revises executable repair policies when tuning stalls. The inner loop anchors delay estimates to static timing analysis snapshots, accounts for upstream driver-load changes, and propagates delay shifts to timing endpoints. It combines these estimates with coarse-to-fine power screening to prioritize candidates for physical trials. TAPCO-G produced placement-legal, logic-equivalent implementations and outscored CERBERUS on all eight ASAP7 benchmarks from the MLCAD 2026 Contest, with a mean quality score gain of 5.516 points, and scored 21.648 points higher than TAPCO on average. These results demonstrate the effectiveness of the proposed co-optimization framework.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-10T11:19:50Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Wuqian Tang</name>
+    </author>
+    <author>
+      <name>Zixiao Wang</name>
+    </author>
+    <author>
+      <name>Che-Chien Lin</name>
+    </author>
+    <author>
+      <name>Fong-Hua Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.12435v1</id>
+    <title>To SIMD or Not to SIMD: Comparing RVV vs. CGRA SoCs for Non-Linear Functions in AI</title>
+    <updated>2026-11-09T13:58:23Z</updated>
+    <link href="https://arxiv.org/abs/2611.12435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.12435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-linear functions are an important class of operations in modern large language models. However, chip vendors building for AI have so far relied on traditional vector or scalar processing units for non-linear functions. The performance of these units has not kept pace with matrix multiplication units (MMUs), which can be found in both high-performance and edge-computing devices from almost every vendor. Reconfigurable units such as FPGAs and CGRAs have been proposed in the literature, but have not been systematically compared with traditional units backed by MMUs. In this paper, we build two SoCs: one using an RVV vector processor and the other using a latency-insensitive (\emph{elastic}) CGRA, both coupled with an MMU and driven by a single-core CPU. We then propose mappings for common feed-forward networks on our SoCs and find that the CGRA reaches a maximum speedup in clock cycles of 7.12x over RVV on the activation stage of simple point-wise non-linear functions like SiLU, whereas the RVV reaches a maximum speedup of \textbf{9.8x} over the CGRA on complex non-linear functions such as $\mathrm{softmax}$. Over the enclosing feed-forward block the corresponding maxima are 3.16x and 4.24x.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-09T13:58:23Z</published>
+    <arxiv:comment>Published in the H2RC workshop at the International Conference on High Performance Computing, Networking, Storage and Analysis 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Sameer Deshmukh</name>
+    </author>
+    <author>
+      <name>Naoya Mizuki</name>
+    </author>
+    <author>
+      <name>Takumi Honda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.10913v1</id>
+    <title>Bit-level Perceptron Prediction for Indirect Branches</title>
+    <updated>2026-11-07T19:05:56Z</updated>
+    <link href="https://arxiv.org/abs/2611.10913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.10913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern software uses indirect branches for various purposes including, but not limited to, virtual method dispatch and implementation of switch statements. Because an indirect branch's target address cannot be determined prior to execution, high-performance processors depend on highly-accurate indirect branch prediction techniques to mitigate control hazards. This paper proposes a new indirect branch prediction scheme that predicts target addresses at the bit level. Using a series of perceptron-based predictors, our predictor predicts individual branch target address bits based on correlations within branch history. Our evaluations show this new branch target predictor is competitive with state-of-the-art branch target predictors at an equivalent hardware budget. For instance, over a set of workloads including SPEC and mobile applications, our predictor achieves a misprediction rate of 0.183 mispredictions per 1000 instructions, compared with 0.193 for the state-of-the-art ITTAGE predictor and 0.29 for a VPC-based indirect predictor.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-07T19:05:56Z</published>
+    <arxiv:comment>Author manuscript of Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19), pp. 27-38 (2019). 12 manuscript pages plus publication-notice page</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19), pp. 27-38 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Elba Garza</name>
+    </author>
+    <author>
+      <name>Samira Mirbagher-Ajorpaz</name>
+    </author>
+    <author>
+      <name>Tahsin Ahmad Khan</name>
+    </author>
+    <author>
+      <name>Daniel A. Jiménez</name>
+    </author>
+    <arxiv:doi>10.1145/3307650.3322217</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3307650.3322217" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.10316v1</id>
+    <title>The World Model Planning Accelerator (WMPA): Hardware-Algorithm Co-Design for Embedded AI in Robotics</title>
+    <updated>2026-11-06T23:31:12Z</updated>
+    <link href="https://arxiv.org/abs/2611.10316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.10316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embedded AI is moving from perception to prediction. Robots now use world models$\unicode{x2014}$learned simulators that predict the outcome of candidate actions in a compressed latent space before any is executed. Every predicted step must be computed on board within a tight power and thermal budget, yet the energy these steps fundamentally require, and how far real hardware sits from it, have not been characterized. We derive lower bounds on the arithmetic operations and the CMOS dynamic energy of a latent state transition from information theory and Boolean circuit complexity. Profiling a DreamerV3-style Recurrent State Space Model (RSSM) shows that every rollout operation is memory-bandwidth bound and that a GPU consumes at least $5.9\times10^{10}$ times the CMOS energy floor. Transient 3D thermal simulations show that this inefficiency is also a thermal one, since sustained back-to-back planning heats a millimeter-scale silicon tile to 556 K even behind an ideal copper heat spreader. Guided by this chain from bound to bottleneck, we propose the World Model Planning Accelerator (WMPA), a chip architecture for embedded world model planning that combines near-memory computation, real-time entropy estimation, variable-precision rollout units, and copy-on-write latent scratchpads. With a design target of 40x lower power, the same tile stays near ambient at 306 K in simulation, pointing toward practical planning on thermally constrained robots.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-06T23:31:12Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Prerana Ramkumar</name>
+    </author>
+    <author>
+      <name>Suhas Suresh Bharadwaj</name>
+    </author>
+    <author>
+      <name>Fazal Hameed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.08380v1</id>
+    <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
+    <updated>2026-11-05T17:57:49Z</updated>
+    <link href="https://arxiv.org/abs/2611.08380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.08380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings. This may cause systems that act on such data, such as flight controllers and industrial processes, to behave incorrectly or unsafely. Existing defences, such as trusted execution environments and trusted I/O paths, still depend on trusted driver software and correctly configured access control, which remain fragile in practice. In response, we present SensorGuard-RV, a hardware-first approach that delivers sensor samples into processor registers without trusting intermediate software, buses, or memory. After configuration, a write-once ownership switch hands the sensor to a fixed-function controller that performs hardware-level authenticated encryption on sensor samples under a key inaccessible to software. We develop a new RISC-V instruction then instructs the CPU to decrypt the sample and writes it to a register only after verifying its tag and rejecting replays, including across resets. We implement SensorGuard-RV on the NEORV32 core with an ADXL362 SPI accelerometer on an Artix-7 FPGA. At 100 MHz, a protected sample reaches a register in 5,191 cycles (51.9 $μ$s), of which the two Ascon authenticated encryption engines account for 30. Because fixed-function acquisition removes per-byte software polling, the protected loop sustains 19,015 transactions/s, 5.3% above a software-driven SPI baseline. The added logic (3,155 LUTs and 2,215 registers; 5.0% and 1.7% of the device) is dominated by the Ascon engine and preserves the 100 MHz clock, while estimated power rises from 118 to 368 mW.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T17:57:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hamid Noori</name>
+    </author>
+    <author>
+      <name>Carlton Shepherd</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07324v1</id>
+    <title>Rule-Guided and Trajectory-Aware Repair for LLM-Based HLS Generation</title>
+    <updated>2026-11-05T02:09:44Z</updated>
+    <link href="https://arxiv.org/abs/2611.07324v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07324v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) offer a promising path for directly generating functionally correct and synthesizable HLS-C from natural-language specifications. However, existing approaches often struggle to turn multi-round tool feedback and reusable HLS knowledge into effective revisions, limiting end-to-end generation success. We propose MementoHLS, an agentic HLS generation framework built around executable and falsifiable dual-memory-guided repair. MementoHLS combines an Executable Repair Contract Library (ERCL), which converts cross-task HLS knowledge into evidence-gated repair actions, with a Reviewer-Grounded Falsification Ledger (RFL), which converts task-local repair history into trajectory evidence to suppress ineffective routes and preserve validated progress. To ensure reliable outcome attribution, a Same-Candidate Reviewer binds Parse, Compile, Testbench (TB), and Synthesis (Synth) outcomes to the corresponding candidate, while a Single-Commit Arbiter commits at most one candidate per round. Evaluated on 94 HLS-Eval and 170 Bench4HLS tasks, MementoHLS improves same-candidate TB$\wedge$Synth pass@1/pass@5 from 41.7%/57.4% to 58.9%/68.1% on HLS-Eval, and from 15.5%/32.9% to 32.4%/50.6% on Bench4HLS, demonstrating substantial improvements in end-to-end HLS generation reliability.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T02:09:44Z</published>
+    <arxiv:comment>9 pages, 6 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Xianjing Zhu</name>
+    </author>
+    <author>
+      <name>Wenqi Lou</name>
+    </author>
+    <author>
+      <name>Yuanbo Wen</name>
+    </author>
+    <author>
+      <name>Teng Wang</name>
+    </author>
+  </entry>
+</feed>

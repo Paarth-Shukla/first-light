@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i5bc8db155f",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed",
+  "title": "Sources: Anthropic's IPO draws multiple times the orders for the shares available; a source says Dario Amodei and Jamie Dimon have a livestream event on Friday",
+  "summary": "Anthropic PBC's initial public offering has drawn multiple times the orders for the shares available, according to people familiar …",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T13:40:01Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": 0,
+  "publisher": "Bloomberg",
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "i1a2976e6da",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-11/utah-based-startup-raises-500-million-for-modular-ai-data-center",
+  "title": "Salt Lake City-based energy storage startup Torus raised a $500M Series C led by Magnetar to build shipping container-sized AI data centers at 1MW to 20MW sizes",
+  "summary": "Torus, an energy-storage startup, said it raised $500 million in funding to help launch a new shipping container-sized product …",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T13:25:02Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": 1,
+  "publisher": "Bloomberg",
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

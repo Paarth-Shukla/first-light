@@ -1,0 +1,73 @@
+# Fetches the news, sets the edition and publishes the site to GitHub Pages.
+# The pipeline's state and output live on the "data" branch (one squashed commit), never on main.
+name: Update and publish
+
+on:
+  schedule:
+    # Every three hours. 00:35 UTC is 06:05 IST: the first run after the edition hour sets the morning edition.
+    - cron: "35 0,3,6,9,12,15,18,21 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["docs/**", "design/**", "**.md"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-publish
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore pipeline data from the data branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$remote" data >/dev/null 2>&1; then
+            git clone --quiet --depth 1 --branch data "$remote" data
+            rm -rf data/.git
+          else
+            mkdir -p data
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the pipeline
+        run: python -m pipeline all -v
+
+      - name: Save pipeline data to the data branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd data
+          git init --quiet --initial-branch data
+          git add --all
+          git -c user.name="first-light" -c user.email="first-light@users.noreply.github.com" \
+            commit --quiet --message "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --quiet --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" data
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publish:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

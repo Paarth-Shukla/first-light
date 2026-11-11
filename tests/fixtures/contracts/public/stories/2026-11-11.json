@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "stories": [
+  {
+   "id": "s84aad15d38",
+   "title": "US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base",
+   "summary": "Bessent, driving force behind US push to cripple Iran’s economy, relocates over alleged threat to his life. The US Treasury secretary, Scott Bessent, has reloca",
+   "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
+   "image": "https://i.guim.co.uk/img/media/36b9da6acba28c654b99b345f25e497170ef452b/117_48_3687_2950/master/3687.jpg?width=700&quality=85&auto=format&fit=max&s=a62fd2d181a7374a7f47330ae9897f0e",
+   "section": "world",
+   "sections": [
+    "world",
+    "markets"
+   ],
+   "entities": [
+    "iran",
+    "scott-bessent",
+    "us-treasury",
+    "donald-trump",
+    "new-york-times",
+    "united-states"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-11T07:45:52Z",
+   "updatedAt": "2026-11-11T13:37:55Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "guardian-world",
+     "name": "The Guardian",
+     "tier": 1,
+     "title": "US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base",
+     "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
+     "publishedAt": "2026-11-11T09:11:31Z"
+    },
+    {
+     "id": "scmp-world",
+     "name": "South China Morning Post",
+     "tier": 2,
+     "title": "US Treasury chief Bessent moved to military base over alleged Iran threats",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374046/us-treasury-chief-bessent-moved-military-base-after-iran-threats",
+     "publishedAt": "2026-11-11T07:45:52Z"
+    },
+    {
+     "id": "cnbc-top",
+     "name": "CNBC",
+     "tier": 2,
+     "title": "Bessent reportedly moved to military base over Iranian threats on his life",
+     "url": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
+     "publishedAt": "2026-11-11T13:37:55Z"
+    }
+   ],
+   "sourceCount": 4,
+   "signals": {
+    "breadth": 0.495,
+    "tier": 1.0,
+    "recency": 0.9,
+    "velocity": 0.712,
+    "attention": 0.0,
+    "editorial": 0.083
+   },
+   "score": 57.3,
+   "thread": {
+    "id": "t62be9e8f4b",
+    "day": 2,
+    "history": [
+     {
+      "date": "2026-11-10",
+      "id": "s22bfcee8a2",
+      "title": "Exclusive | U.S. Aircraft Evacuated From Second U.K. Base Due to Iran Threat"
+     }
+    ]
+   },
+   "why": [
+    "4 outlets",
+    "rising",
+    "day 2"
+   ]
+  },
+  {
+   "id": "sf325a6eb17",
+   "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+   "summary": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power. Millions of people across ",
+   "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+   "image": "https://i.guim.co.uk/img/media/e4af29620a5814814f978cf7c4c77fa08bb7b3bf/882_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=1476d54cda51fee0cb217959af27341c",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [],
+   "tickers": [],
+   "publishedAt": "2026-11-11T05:14:53Z",
+   "updatedAt": "2026-11-11T15:54:40Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "guardian-world",
+     "name": "The Guardian",
+     "tier": 1,
+     "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
+     "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+     "publishedAt": "2026-11-11T13:54:36Z"
+    },
+    {
+     "id": "dw-top",
+     "name": "DW",
+     "tier": 1,
+     "title": "Spain: Housing crisis prompts general strike",
+     "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike/a-79915208",
+     "publishedAt": "2026-11-11T09:11:00Z"
+    },
+    {
+     "id": "nyt-world",
+     "name": "The New York Times",
+     "tier": 1,
+     "title": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+     "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+     "publishedAt": "2026-11-11T15:34:08Z"
+    }
+   ],
+   "sourceCount": 11,
+   "signals": {
+    "breadth": 1.0,
+    "tier": 1.0,
+    "recency": 0.983,
+    "velocity": 0.827,
+    "attention": 0.0,
+    "editorial": 0.865
+   },
+   "score": 86.4,
+   "thread": null,
+   "why": [
+    "11 outlets",
+    "top of New York Times",
+    "rising"
+   ]
+  },
+  {
+   "id": "s3b0ff5e8c9",
+   "title": "Italy: Hundreds of schools evacuated after bomb threats",
+   "summary": "Although the government believes the threat to be a hoax, it has nevertheless prompted concerns about \"hybrid warfare\" in Europe. Similar messages were sent in ",
+   "url": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034",
+   "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/80c9/live/fc093bd0-ddc7-11f1-9053-236ccb99630c.jpg",
+   "section": "world",
+   "sections": [
+    "world"
+   ],
+   "entities": [
+    "united-kingdom"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-11-11T10:57:35Z",
+   "updatedAt": "2026-11-11T14:04:39Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "dw-top",
+     "name": "DW",
+     "tier": 1,
+     "title": "Italy: Hundreds of schools evacuated after bomb threats",
+     "url": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034",
+     "publishedAt": "2026-11-11T13:43:00Z"
+    },
+    {
+     "id": "bbc-world",
+     "name": "BBC News",
+     "tier": 1,
+     "title": "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+     "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o",
+     "publishedAt": "2026-11-11T12:30:29Z"
+    },
+    {
+     "id": "ndtv-top",
+     "name": "NDTV",
+     "tier": 2,
+     "title": "300 Schools In Italy Evacuated After Bomb Threat Emails From 'Misoginistan'",
+     "url": "https://www.ndtv.com/world-news/300-schools-in-italy-evacuated-after-bomb-threat-emails-from-misoginistan-12313294",
+     "publishedAt": "2026-11-11T13:23:30Z"
+    }
+   ],
+   "sourceCount": 17,
+   "signals": {
+    "breadth": 1.0,
+    "tier": 1.0,
+    "recency": 0.916,
+    "velocity": 1.0,
+    "attention": 0.0,
+    "editorial": 0.693
+   },
+   "score": 85.0,
+   "thread": null,
+   "why": [
+    "17 outlets",
+    "rising",
+    "top of ABC News"
+   ]
+  },
+  {
+   "id": "s58ab6a31f9",
+   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+   "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
+   "section": "labs",
+   "sections": [
+    "labs",
+    "companies",
+    "science"
+   ],
+   "entities": [
+    "google"
+   ],
+   "tickers": [
+    "GOOGL"
+   ],
+   "publishedAt": "2026-11-11T16:00:00Z",
+   "updatedAt": "2026-11-11T16:00:00Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "google-ai-blog",
+     "name": "Google",
+     "tier": 1,
+     "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+     "publishedAt": "2026-11-11T16:00:00Z"
+    }
+   ],
+   "sourceCount": 1,
+   "signals": {
+    "breadth": 0.1,
+    "tier": 1.0,
+    "recency": 0.986,
+    "velocity": 0.0,
+    "attention": 0.0,
+    "editorial": 0.2
+   },
+   "score": 39.6,
+   "thread": null,
+   "why": [
+    "first-party source"
+   ]
+  },
+  {
+   "id": "s36c3799829",
+   "title": "Stock Market Today: Tech Stocks Poised to Jump After CoreWeave Earnings",
+   "summary": "Cloud provider has been at center of AI jitters; its latest update reassured investors",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main",
+   "image": "https://images.wsj.net/im-925349",
+   "section": "markets",
+   "sections": [
+    "markets",
+    "ai",
+    "companies"
+   ],
+   "entities": [
+    "earnings",
+    "coreweave",
+    "nasdaq",
+    "semiconductors",
+    "nvidia"
+   ],
+   "tickers": [
+    "CRWV",
+    "^IXIC",
+    "NVDA"
+   ],
+   "publishedAt": "2026-11-11T08:21:53Z",
+   "updatedAt": "2026-11-11T14:52:12Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "wsj-markets",
+     "name": "The Wall Street Journal",
+     "tier": 1,
+     "title": "Stock Market Today: Tech Stocks Poised to Jump After CoreWeave Earnings",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main",
+     "publishedAt": "2026-11-11T08:21:53Z"
+    },
+    {
+     "id": "cnbctv18-market",
+     "name": "CNBC-TV18",
+     "tier": 2,
+     "title": "US stock market today: Nasdaq futures rally as CoreWeave earnings lift AI stocks",
+     "url": "https://www.cnbctv18.com/market/us-stock-market-today-nasdaq-dow-jones-futures-tech-ai-20031722.htm",
+     "publishedAt": "2026-11-11T11:48:27Z"
+    },
+    {
+     "id": "gn-wallstreet",
+     "name": "Quartz",
+     "tier": 3,
+     "title": "Nasdaq jumps 1.6% as CoreWeave’s earnings beat leads a tech rebound",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DX3dUbTdISGFYMlo1Mk50MHVZZVB5aEg5VmlWQzZ2c25sQXlpaEZ0ZmVZOHV2eUlqZlcxR0RTQk9meDZIYkZueW84Rl9kNEcwS2tjbjNHYWtyckQzQ213enpGS21kNXhDQzFBTy1iaWpwQUR6?oc=5",
+     "publishedAt": "2026-11-11T14:45:36Z"
+    }
+   ],
+   "sourceCount": 4,
+   "signals": {
+    "breadth": 0.433,
+    "tier": 1.0,
+    "recency": 0.944,
+    "velocity": 0.565,
+    "attention": 0.0,
+    "editorial": 0.0
+   },
+   "score": 53.5,
+   "thread": null,
+   "why": [
+    "4 outlets",
+    "rising"
+   ]
+  },
+  {
+   "id": "s19cbe3adaf",
+   "title": "Porsche CEO takes a shot at Tesla’s ‘flying’ Roadster stunt show",
+   "summary": "Tesla’s “flying” Roadster just took a hit from Porsche. Speaking at a conference in Berlin today, CEO Michael Leiters said Porsche wants “to completely steer cl",
+   "url": "https://electrek.co/2026/11/11/porsche-ceo-tesla-flying-roadster-stunt",
+   "image": "https://electrek.co/wp-content/uploads/sites/3/2026/11/porsche-tesla-roadster-mission-s.jpg?quality=82&strip=all&w=1600",
+   "section": "companies",
+   "sections": [
+    "companies"
+   ],
+   "entities": [
+    "tesla",
+    "bloomberg",
+    "germany"
+   ],
+   "tickers": [
+    "TSLA"
+   ],
+   "publishedAt": "2026-11-11T12:46:21Z",
+   "updatedAt": "2026-11-11T14:34:00Z",
+   "day": "2026-11-11",
+   "sources": [
+    {
+     "id": "electrek-tesla",
+     "name": "Electrek",
+     "tier": 2,
+     "title": "Porsche CEO takes a shot at Tesla’s ‘flying’ Roadster stunt show",
+     "url": "https://electrek.co/2026/11/11/porsche-ceo-tesla-flying-roadster-stunt",
+     "publishedAt": "2026-11-11T14:34:00Z"
+    },
+    {
+     "id": "gn-tesla",
+     "name": "Bloomberg",
+     "tier": 1,
+     "title": "Porsche CEO Throws Shade at Tesla Roadster Spectacle",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVzVmSFhXQmcyNWtFSkt4dGdEVGZOOUxnZHJIMFNWNk10eTc4UXhzb3hQQ0d1cTYtTnM4UDIzZVA2UjhrdWM4R3pBYjcyMk83aGt2bW9IU1Vpem42eEZmR1NnbEx4V29vLXFHajRqb0RjM2lJeW90Z2g5Z3doRkxDMHFxRWt1NUNYeGk5bHJLajJnMDRVRGo2OXFfOGw1N1l0WkJ0VW1n?oc=5",
+     "publishedAt": "2026-11-11T12:46:21Z"
+    }
+   ],
+   "sourceCount": 2,
+   "signals": {
+    "breadth": 0.226,
+    "tier": 1.0,
+    "recency": 0.933,
+    "velocity": 0.356,
+    "attention": 0.0,
+    "editorial": 0.0
+   },
+   "score": 44.2,
+   "thread": null,
+   "why": [
+    "2 outlets"
+   ]
+  }
+ ]
+}

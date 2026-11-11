@@ -1,0 +1,68 @@
+{
+  "name": "First Light",
+  "tagline": "The morning edition",
+  "timezone": "Asia/Kolkata",
+  "retentionDays": 90,
+  "edition": {
+    "hour": 6,
+    "frontCount": 4,
+    "briefCount": 10,
+    "perSection": 3
+  },
+  "weekend": {
+    "weekday": 5
+  },
+  "ranking": {
+    "weights": {
+      "breadth": 0.34,
+      "tier": 0.18,
+      "recency": 0.16,
+      "velocity": 0.1,
+      "attention": 0.1,
+      "editorial": 0.12
+    },
+    "recencyHalfLifeHours": 18
+  },
+  "sections": [
+    {
+      "id": "world",
+      "name": "World"
+    },
+    {
+      "id": "india",
+      "name": "India"
+    },
+    {
+      "id": "ai",
+      "name": "AI"
+    },
+    {
+      "id": "ml",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "llm",
+      "name": "LLMs"
+    },
+    {
+      "id": "labs",
+      "name": "Frontier Labs"
+    },
+    {
+      "id": "companies",
+      "name": "Companies"
+    },
+    {
+      "id": "markets",
+      "name": "Markets"
+    },
+    {
+      "id": "india-markets",
+      "name": "Dalal Street"
+    },
+    {
+      "id": "science",
+      "name": "Science"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCV03SRZXJEz-hchIAogeJOg"/>
+ <id>yt:channel:V03SRZXJEz-hchIAogeJOg</id>
+ <yt:channelId>V03SRZXJEz-hchIAogeJOg</yt:channelId>
+ <title>Claude</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg"/>
+ <author>
+  <name>Claude</name>
+  <uri>https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg</uri>
+ </author>
+ <published>2026-01-22T16:44:50+00:00</published>
+ <entry>
+  <id>yt:video:YewAJPawE7I</id>
+  <yt:videoId>YewAJPawE7I</yt:videoId>
+  <yt:channelId>UCV03SRZXJEz-hchIAogeJOg</yt:channelId>
+  <title>Introducing Claude Whiteboards, Sheets, and Data</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YewAJPawE7I"/>
+  <author>
+   <name>Claude</name>
+   <uri>https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg</uri>
+  </author>
+  <published>2026-11-10T17:26:09+00:00</published>
+  <updated>2026-11-10T17:26:10+00:00</updated>
+  <media:group>
+   <media:title>Introducing Claude Whiteboards, Sheets, and Data</media:title>
+   <media:content url="https://www.youtube.com/v/YewAJPawE7I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YewAJPawE7I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Claude Whiteboards and Claude Sheets are in beta, and Claude Dashboards is now generally available as Claude Data. Brainstorm on whiteboards, build sheets, and share data directly in Claude, with your team working alongside you.
+
+Claude Whiteboards: Talk through a messy plan out loud, and Claude turns it into a board with a timeline, owners, and dates that your team can work on in real time. Drag a box around any part of the board to ask Claude about it.
+
+Claude Sheets: Ask for a campaign tracker or a hiring budget, and Claude builds a spreadsheet with tabs, formulas, formatting, and drop-downs, outlining each edit so you can track changes. Share it, and you, your team, and Claude work on it together.
+
+Claude Data: Your data team certifies the queries everyone should use, and Claude helps you draft data stories or narrated videos from your metrics. With live sharing, colleagues see up-to-date numbers when they open a shared dashboard.
+
+Read the announcement: https://claude.com/resources/articles/sheets-whiteboards-data</media:description>
+   <media:community>
+    <media:starRating count="4495" average="5.00" min="1" max="5"/>
+    <media:statistics views="372520"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4sV2Wzo1V1s</id>
+  <yt:videoId>4sV2Wzo1V1s</yt:videoId>
+  <yt:channelId>UCV03SRZXJEz-hchIAogeJOg</yt:channelId>
+  <title>Meet Claude Fable 5.2</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/4sV2Wzo1V1s"/>
+  <author>
+   <name>Claude</name>
+   <uri>https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg</uri>
+  </author>
+  <published>2026-11-09T19:04:05+00:00</published>
+  <updated>2026-11-09T19:11:50+00:00</updated>
+  <media:group>
+   <media:title>Meet Claude Fable 5.2</media:title>
+   <media:content url="https://www.youtube.com/v/4sV2Wzo1V1s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4sV2Wzo1V1s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Fable 5.2 is designed to tackle the most daunting technical challenges. It’s a capable collaborator on ambitious projects in many different fields, and shows improvements in areas like coding, reasoning, and vision. 
+
+Fable 5.2 is best for the most ambitious, open-ended technical work. For most coding and knowledge tasks, we recommend starting with Opus 5.5.
+
+Available today on Pro, Max, Team, and Enterprise plans.
+
+Learn more: https://www.anthropic.com/claude-fable-and-mythos-5-2</media:description>
+   <media:community>
+    <media:starRating count="946" average="5.00" min="1" max="5"/>
+    <media:statistics views="35397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5tnMvn6nvtM</id>
+  <yt:videoId>5tnMvn6nvtM</yt:videoId>
+  <yt:channelId>UCV03SRZXJEz-hchIAogeJOg</yt:channelId>
+  <title>Claude's new mobile app updates are here</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/5tnMvn6nvtM"/>
+  <author>
+   <name>Claude</name>
+   <uri>https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg</uri>
+  </author>
+  <published>2026-10-30T14:25:12+00:00</published>
+  <updated>2026-11-03T03:23:21+00:00</updated>
+  <media:group>
+   <media:title>Claude's new mobile app updates are here</media:title>
+   <media:content url="https://www.youtube.com/v/5tnMvn6nvtM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5tnMvn6nvtM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A few upgrades to the Claude mobile apps this week.
+
+• On iPad and iPhone Duo, what Claude makes opens beside the chat
+• You can stay signed into more than one account on iOS and Android
+• On Chromebooks and foldables, Claude on Android works like a laptop app
+• Voice mode answers sooner, and on iPhone it works with Apple CarPlay
+• The app is now available in 24 more languages, 33 in all
+• Pull down to search is coming soon to iPhone and iPad
+
+What would you like to see next?</media:description>
+   <media:community>
+    <media:starRating count="546" average="5.00" min="1" max="5"/>
+    <media:statistics views="18192"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SkpwzfR4A1E</id>
+  <yt:videoId>SkpwzfR4A1E</yt:videoId>
+  <yt:channelId>UCV03SRZXJEz-hchIAogeJOg</yt:channelId>
+  <title>Claude's new mobile app updates are here</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SkpwzfR4A1E"/>
+  <author>
+   <name>Claude</name>
+   <uri>https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg</uri>
+  </author>
+  <published>2026-10-29T18:02:37+00:00</published>
+  <updated>2026-11-05T19:15:46+00:00</updated>
+  <media:group>
+   <media:title>Claude's new mobile app updates are here</media:title>
+   <media:content url="https://www.youtube.com/v/SkpwzfR4A1E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/SkpwzfR4A1E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A few upgrades to the Claude mobile apps this week.
+
+• On iPad and iPhone Duo, what Claude makes opens beside the chat
+• You can stay signed into more than one account on iOS and Android
+• On Chromebooks and foldables, Claude on Android works like a laptop app
+• Voice mode answers sooner, and on iPhone it works with Apple CarPlay
+• The app is now available in 24 more languages, 33 in all
+• Pull down to search is coming soon to iPhone and iPad
+
+What would you like to see next?</media:description>
+   <media:community>
+    <media:starRating count="4739" average="5.00" min="1" max="5"/>
+    <media:statistics views="392688"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

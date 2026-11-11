@@ -1,0 +1,223 @@
+{
+ "about": "Real feed fields fetched 2026-11-11, trimmed. Expected values were reviewed by hand.",
+ "text": [
+  {
+   "source": "decoder",
+   "field": "description",
+   "raw": "<p><img width=\"1376\" height=\"768\" src=\"https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png\" class=\"attachment-full size-full wp-post-image\" alt=\"\" style=\"height: auto; margin-bottom: 10px;\" decoding=\"async\" fetchpriority=\"high\" /></p>\n<p>        Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain accessible.</p>\n<p>The article <a href=\"https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/\">Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI&#039;s own sales pipeline</a> appeared first on <a href=\"https://the-decoder.com\">The Decoder</a>.</p>\n",
+   "limit": 300,
+   "clean": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain\u2026"
+  },
+  {
+   "source": "teslarati",
+   "field": "description",
+   "raw": "<p>The FCC accepted SpaceX's bid for Grain's 800 MHz spectrum, opening review for Starlink Mobile.</p>\n<p>The post <a href=\"https://www.teslarati.com/spacex-fcc-verizon-att-approved/\">SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&#038;T</a> appeared first on <a href=\"https://www.teslarati.com\">TESLARATI</a>.</p>\n",
+   "limit": 300,
+   "clean": "The FCC accepted SpaceX's bid for Grain's 800 MHz spectrum, opening review for Starlink Mobile."
+  },
+  {
+   "source": "guardian-world",
+   "field": "description",
+   "raw": "<p>Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent</p><p>Lewis Hamilton has visited Egypt\u2019s Rafah border crossing with the Gaza Strip to meet organisations sending humanitarian aid to the territory.</p><p>The seven-time Formula One world champion has spoken out about conflict and humanitarian crises in the region, and has called for peace. He has frequently posted on social media about children killed in Israeli airstrikes in Gaza and called for a ceasefire.</p> <a href=\"https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities\">Continue reading...</a>",
+   "limit": 300,
+   "clean": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent. Lewis Hamilton has visited Egypt\u2019s Rafah border crossing with the Gaza Strip to meet organisations sending humanitarian aid to the territory. The seven-time Formula One world champion has\u2026"
+  },
+  {
+   "source": "verge",
+   "field": "summary",
+   "raw": "Every TV company is spying on you, not just LG. Like other tech companies, they collect lots of information, and while some is necessary for products to work, not all of it is - and could include details you'd prefer to keep private. Many customers are concerned about how TVs and streaming devices might be [&#8230;]",
+   "limit": 300,
+   "clean": "Every TV company is spying on you, not just LG. Like other tech companies, they collect lots of information, and while some is necessary for products to work, not all of it is - and could include details you'd prefer to keep private. Many customers are concerned about how TVs and streaming devices\u2026"
+  },
+  {
+   "source": "techmeme",
+   "field": "description",
+   "raw": "<A HREF=\"https://www.poynter.org/fact-checking/2026/ai-generated-political-ads-2026-midterm-elections/\"><IMG VSPACE=\"4\" HSPACE=\"4\" BORDER=\"0\" ALIGN=\"RIGHT\" SRC=\"http://www.techmeme.com/261111/i24.jpg\"></A>\n<P><A HREF=\"https://www.techmeme.com/261111/p24#a261111p24\" TITLE=\"Techmeme permalink\"><IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;margin:0;\"></A> Loreben Tuquero / <A HREF=\"http://www.poynter.org/\">Poynter</A>:<BR>\n<SPAN STYLE=\"font-size:1.3em;\"><B><A HREF=\"https://www.poynter.org/fact-checking/2026/ai-generated-political-ads-2026-midterm-elections/\">Wesleyan Media Project: political campaigns spent ~$187M on ~300 AI-generated or AI-enhanced ads in the midterms; 90% of tracked AI ads were for GOP candidates</A></B></SPAN>&nbsp; &mdash;&nbsp; Deepfakes and AI-enhanced imagery became commonplace, but campaigns remained wary of voter backlash and the risks of misleading political content</P>\n",
+   "limit": 300,
+   "clean": "Loreben Tuquero / Poynter: Wesleyan Media Project: political campaigns spent ~$187M on ~300 AI-generated or AI-enhanced ads in the midterms; 90% of tracked AI ads were for GOP candidates \u2014 Deepfakes and AI-enhanced imagery became commonplace, but campaigns remained wary of voter backlash and the\u2026"
+  },
+  {
+   "source": "indiatoday",
+   "field": "description",
+   "raw": " <a href=\"https://www.indiatoday.in/india/story/du-student-alleges-anas-khan-offered-women-cash-diljit-dosanjh-concert-tickets-3036818-2026-11-11\"> <img align=\"left\" hspace=\"2\" height=\"180\" width=\"305\" alt=\"\" border=\"0\" src=\"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/anas-khan-10281527-16x9_1.jpg?VersionId=P_Cx.IrI3mzJLP1m9jz9YQAdk.OdNQsR\"> </a> Good shape, under 22: DU student details NSUI leader's trap for NRI companionship ",
+   "limit": 300,
+   "clean": "Good shape, under 22: DU student details NSUI leader's trap for NRI companionship"
+  },
+  {
+   "source": "rbi",
+   "field": "description",
+   "raw": "<table width=\"100%\" border=\"0\" align=\"center\" class=\"td\">  <tr>    <td><p>The Reserve Bank has today released data on <a href=\"https://rbidocs.rbi.org.in/rdocs/content/docs/PR1479RM11112026.xlsx\" target=\"_blank\" class=\"links\">Reserve Money</a> and <a href=\"https://rbidocs.rbi.org.in/rdocs/content/docs/PR1479MS11112026.xlsx\" target=\"_blank\" class=\"links\">Money Supply</a> for the fortnight ended on October 31, 2026.</p>      <p align=\"right\"><span class=\"head\">Ajit Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br aria-hidden=\"true\">        Deputy General Manager<br aria-hidden=\"true\">        (Communications)&nbsp;&nbsp;&nbsp;&nbsp;</p>    <p class=\"head\">Press Release: 2026-2027/1479</p></td>  </tr></table>",
+   "limit": 300,
+   "clean": "The Reserve Bank has today released data on Reserve Money and Money Supply for the fortnight ended on October 31, 2026. Ajit Prasad. Deputy General Manager. (Communications) Press Release: 2026-2027/1479"
+  },
+  {
+   "source": "simonw",
+   "field": "summary",
+   "raw": "\n    \n        <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.36\">llm-gemini 0.36</a></p>\n        <p>Gemini 4 Carbon was announced <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">two weeks ago</a> for \"a subset of cyber defenders\", but today it's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">available to everyone else</a>.</p>\n<p>This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5).</p><p>Tags: <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>\n    \n\n",
+   "limit": 300,
+   "clean": "Release: llm-gemini 0.36. Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but\u2026"
+  },
+  {
+   "source": "aljazeera",
+   "field": "description",
+   "raw": "Kylian Mbappe left the pitch during France&#039;s game in September but has been playing regularly for Real Madrid.",
+   "limit": 300,
+   "clean": "Kylian Mbappe left the pitch during France's game in September but has been playing regularly for Real Madrid."
+  },
+  {
+   "source": "hindu-national",
+   "field": "description",
+   "raw": "The judges direct the authorities to freeze the bank accounts of Agal Vilakku Publications, its proprietor Mohan, and others involved. The government should immediately take disciplinary action, including the suspension of the officials involved, they say",
+   "limit": 300,
+   "clean": "The judges direct the authorities to freeze the bank accounts of Agal Vilakku Publications, its proprietor Mohan, and others involved. The government should immediately take disciplinary action, including the suspension of the officials involved, they say"
+  },
+  {
+   "source": "ieee-semis",
+   "field": "description",
+   "raw": "\n<img src=\"https://spectrum.ieee.org/media-library/conceptual-illustration-of-a-radar-scanning-a-large-computer-chip-with-pieces-of-the-chip-featuring-different-regions-of-the-un.jpg?id=68612492&width=1200&height=400&coordinates=0%2C1041%2C0%2C1042\"/><br/><br/><p>In a bid to limit China\u2019s AI capabilities, the United States imposed <a href=\"https://spectrum.ieee.org/chip-ban\" target=\"_self\">restrictions</a> in 2022 on the export of certain advanced chips to China. But throughout the AI boom those chips have kept <a href=\"https://www.theinformation.com/articles/smugglers-get-expensive-memory-chips-china-south-korea?rc=lgnx6w\" rel=\"noopener noreferrer\" target=\"_blank\">turning up in China anyway</a>.</p><p>R\u00f6nn views sovereignty certificates as essential tools in the future, likening it to a \u201clie detector\u201d for data centers that answers the \u201cwhere, how, what, and who questions for us to know that they comply with a basic standard of security when it comes to AI systems.\u201d</p>",
+   "limit": 300,
+   "clean": "In a bid to limit China\u2019s AI capabilities, the United States imposed restrictions in 2022 on the export of certain advanced chips to China. But throughout the AI boom those chips have kept turning up in China anyway. R\u00f6nn views sovereignty certificates as essential tools in the future, likening it\u2026"
+  },
+  {
+   "source": "teslarati",
+   "field": "title",
+   "raw": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T",
+   "limit": null,
+   "clean": "SpaceX just cleared a key FCC hurdle in its fight with Verizon and AT&T"
+  },
+  {
+   "source": "gnews-top-in",
+   "field": "title",
+   "raw": "Hijack scare on Kolkata-Mumbai Air India flight, plane moved to isolation bay | India News - Hindustan Times",
+   "limit": null,
+   "clean": "Hijack scare on Kolkata-Mumbai Air India flight, plane moved to isolation bay | India News - Hindustan Times"
+  },
+  {
+   "source": "gnews-top-in",
+   "field": "description",
+   "raw": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXlxdXZUcVVCcHEyOHpXWVZnemdzUWZsUmVfa2ZSOTBaN08wUC1CMGxTSUlOSkM0ajNCZUN5MGlzS0dZcTBkSVJ0RlRKS3VNb0xSOWViWTJpUkF3U0YyU3hWbjVZU1JUa1laV0tSYnR5WktuSE1ERzRQeFpPdjFTVWpwMEtNaFppeUo5bElySHpzeUJyU0lGbEg1NU5ubEc1a2xoS1htejJCTnBDLXZIU2hGZ1hvZWs?oc=5\" target=\"_blank\">J&K attack: Three injured after terrorists open fire on CRPF personnel in Kulgam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font></li><li><a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX3NQTTVtTVdQdDFfRC1RUFJGT3dFaWJfalBlczVVLVlkX29YMVpSQUVUQVNuYnhKSWRYbTBKQTJOV1pFSnBSXzJBNVlOYjhFMi1GYjN1NFVDem1EanZjQWlVcE5WQlVSYmF6R1dOVFhHTDRsLWZxNXFLZllYRDNzWUhBVU1PemtwVGFWWHFZOUFYYkRmWnl1bExic29zTFEtQ3IwbGxXTDhpd2RrWWc0dFVGelhiaDByakZaNzNIU1lNRW11SEFWUVhQYzFBemFXMkYxaGR2VFFXNzg1cUE?oc=5\" target=\"_blank\">Nearly 30 Rounds Fired In 15 Seconds: Terror Attack On CRPF Camp On Camera</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font></li></ol>",
+   "limit": null,
+   "clean": "J&K attack: Three injured after terrorists open fire on CRPF personnel in Kulgam The Hindu. Nearly 30 Rounds Fired In 15 Seconds: Terror Attack On CRPF Camp On Camera NDTV"
+  }
+ ],
+ "urls": [
+  {
+   "source": "bbc-world",
+   "in": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+   "out": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo"
+  },
+  {
+   "source": "aljazeera",
+   "in": "https://www.aljazeera.com/news/2026/11/11/climate-crisis-is-outrunning-us-un-chief-guterres-says-at-cop31?traffic_source=rss",
+   "out": "https://www.aljazeera.com/news/2026/11/11/climate-crisis-is-outrunning-us-un-chief-guterres-says-at-cop31"
+  },
+  {
+   "source": "dw",
+   "in": "https://www.dw.com/en/germany-news-only-1-3-of-germans-satisfied-with-state-of-democracy/live-79915066?maca=en-rss-en-top-1022-rdf",
+   "out": "https://www.dw.com/en/germany-news-only-1-3-of-germans-satisfied-with-state-of-democracy/live-79915066"
+  },
+  {
+   "source": "indiatoday",
+   "in": " https://www.indiatoday.in/india/story/du-student-alleges-anas-khan-offered-women-cash-diljit-dosanjh-concert-tickets-3036818-2026-11-11?utm_source=rss ",
+   "out": "https://www.indiatoday.in/india/story/du-student-alleges-anas-khan-offered-women-cash-diljit-dosanjh-concert-tickets-3036818-2026-11-11"
+  },
+  {
+   "source": "ndtv-profit",
+   "in": "https://www.ndtvprofit.com/entertainment/ramayana-chetan-hansraj-reveals-the-4-hour-process-behind-his-raja-mali-look-12312616#publisher=newsstand",
+   "out": "https://www.ndtvprofit.com/entertainment/ramayana-chetan-hansraj-reveals-the-4-hour-process-behind-his-raja-mali-look-12312616"
+  },
+  {
+   "source": "gnews-top-in",
+   "in": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXlxdXZUcVVCcHEyOHpXWVZnemdzUWZsUmVfa2ZSOTBaN08wUC1CMGxTSUlOSkM0ajNCZUN5MGlzS0dZcTBkSVJ0RlRKS3VNb0xSOWViWTJpUkF3U0YyU3hWbjVZU1JUa1laV0tSYnR5WktuSE1ERzRQeFpPdjFTVWpwMEtNaFppeUo5bElySHpzeUJyU0lGbEg1NU5ubEc1a2xoS1htejJCTnBDLXZIU2hGZ1hvZWs?oc=5",
+   "out": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXlxdXZUcVVCcHEyOHpXWVZnemdzUWZsUmVfa2ZSOTBaN08wUC1CMGxTSUlOSkM0ajNCZUN5MGlzS0dZcTBkSVJ0RlRKS3VNb0xSOWViWTJpUkF3U0YyU3hWbjVZU1JUa1laV0tSYnR5WktuSE1ERzRQeFpPdjFTVWpwMEtNaFppeUo5bElySHpzeUJyU0lGbEg1NU5ubEc1a2xoS1htejJCTnBDLXZIU2hGZ1hvZWs?oc=5"
+  },
+  {
+   "source": "techmeme",
+   "in": "https://www.techmeme.com/261111/p24#a261111p24",
+   "out": "https://www.techmeme.com/261111/p24"
+  },
+  {
+   "source": "decoder",
+   "in": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+   "out": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline"
+  },
+  {
+   "source": "rbi",
+   "in": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63958",
+   "out": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63958"
+  },
+  {
+   "source": "nse-circ",
+   "in": "https://nsearchives.nseindia.com/content/circulars/COM77399.zip",
+   "out": "https://nsearchives.nseindia.com/content/circulars/COM77399.zip"
+  }
+ ],
+ "dates": [
+  {
+   "source": "bbc-world",
+   "in": "Wed, 11 Nov 2026 01:01:20 GMT",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T01:01:20Z"
+  },
+  {
+   "source": "hindu-national",
+   "in": "Wed, 11 Nov 2026 18:47:03 +0530",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T13:17:03Z"
+  },
+  {
+   "source": "amd-ir",
+   "in": "Tue, 10 Nov 26 12:00:00 -0500",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-10T17:00:00Z"
+  },
+  {
+   "source": "nasa-iotd",
+   "in": "Tue, 10 Nov 2026 15:39 GMT",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-10T15:39:00Z"
+  },
+  {
+   "source": "rbi",
+   "in": "Wed, 11 Nov 2026 18:10:00",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T12:40:00Z"
+  },
+  {
+   "source": "sebi",
+   "in": "11 Nov, 2026 +0530",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-10T18:30:00Z"
+  },
+  {
+   "source": "dw",
+   "in": "2026-11-11T11:31:00Z",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T11:31:00Z"
+  },
+  {
+   "source": "simonw",
+   "in": "2026-11-10T20:09:44+00:00",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-10T20:09:44Z"
+  },
+  {
+   "source": "verge",
+   "in": "2026-11-11T08:00:00-05:00",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T13:00:00Z"
+  },
+  {
+   "source": "techmeme",
+   "in": "Wed, 11 Nov 2026 08:00:14 -0500",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-11T13:00:14Z"
+  },
+  {
+   "source": "nse-circ",
+   "in": "Wed, 11 Nov 2026 00:00:00 +0530",
+   "tz": "Asia/Kolkata",
+   "out": "2026-11-10T18:30:00Z"
+  }
+ ]
+}

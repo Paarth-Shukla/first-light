@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>Claude Code changelog</title>
+        <description>Release notes for Claude Code, including new features, improvements, and bug fixes by version.</description>
+        <link>https://code.claude.com/docs</link>
+        <generator>Mintlify</generator>
+        <lastBuildDate>Tue, 10 Nov 2026 23:47:58 GMT</lastBuildDate>
+        <atom:link href="https://code.claude.com/docs/en/changelog/rss.xml" rel="self" type="application/rss+xml" />
+        <copyright>Claude Code Docs</copyright>
+        <docs>https://code.claude.com/docs</docs>
+        <item>
+            <title>2.1.322</title>
+            <link>https://code.claude.com/docs/en/changelog#2-1-322</link>
+            <guid isPermaLink="false">cad402f7eb6f086e</guid>
+            <pubDate>Tue, 10 Nov 2026 03:18:49 GMT</pubDate>
+            <content:encoded>&lt;ul&gt;
+&lt;li&gt;Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        <item>
+            <title>2.1.321</title>
+            <link>https://code.claude.com/docs/en/changelog#2-1-321</link>
+            <guid isPermaLink="false">c95ab2af571a534e</guid>
+            <pubDate>Mon, 09 Nov 2026 20:24:45 GMT</pubDate>
+            <content:encoded>&lt;p&gt;&lt;strong&gt;Added&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added Claude Fable 5.2 (&lt;code&gt;claude-fable-5-2&lt;/code&gt;), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;--settings &amp;#x3C;file&gt;&lt;/code&gt; to &lt;code&gt;claude remote-control&lt;/code&gt;, which applies a settings file to every session it starts; if the file changes, no new session starts until you restart &lt;code&gt;claude remote-control&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Changed&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated the session-feedback message and the &lt;code&gt;allowedProviders&lt;/code&gt; setting description to name Ultra alongside Pro and Max, and the &lt;code&gt;forceLoginMethod&lt;/code&gt; description to cover every paid Claude plan&lt;/li&gt;
+&lt;li&gt;Updated the bundled dataviz skill to suggest a list of meters, one row per item, for several ratios that each have their own limit&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        <item>
+            <title>2.1.308</title>
+            <link>https://code.claude.com/docs/en/changelog#2-1-308</link>
+            <guid isPermaLink="false">eb02c00953fc001f</guid>
+            <pubDate>Thu, 22 Oct 2026 04:47:02 GMT</pubDate>
+            <content:encoded>&lt;ul&gt;
+&lt;li&gt;Bug fixes and reliability improvements&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        <item>
+            <title>2.1.306</title>
+            <link>https://code.claude.com/docs/en/changelog#2-1-306</link>
+            <guid isPermaLink="false">f08415411a843fd8</guid>
+            <pubDate>Wed, 21 Oct 2026 03:27:13 GMT</pubDate>
+            <content:encoded>&lt;ul&gt;
+&lt;li&gt;Fixed &lt;code&gt;claude -p&lt;/code&gt; inside cloud sessions reporting "Not logged in" when started without the session's environment variables&lt;/li&gt;
+&lt;li&gt;Fixed an API error being replaced by "prompt is too long", and an unneeded compaction, in sessions with many MCP tools&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+        </item>
+        </channel>
+</rss>

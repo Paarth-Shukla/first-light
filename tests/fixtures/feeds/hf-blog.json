@@ -1,0 +1,187 @@
+{
+ "allBlogs": [
+  {
+   "_id": "6af34f2d4de1b8c765054ff2",
+   "isUpvotedByUser": false,
+   "numCoauthors": 3,
+   "publishedAt": "2026-11-10T00:00:00.768Z",
+   "slug": "hub-gcp-marketplace",
+   "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+   "upvotes": 11,
+   "upvotes7d": 11,
+   "thumbnail": "/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+   "authorsData": [
+    {
+     "_id": "697480d7ce43f259ee0838be",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/697480d7ce43f259ee0838be/Ft3JXoULuwHiR8rXnjHjB.jpeg",
+     "fullname": "Za\u00efd Alhadad",
+     "name": "zaid-alhadad",
+     "type": "user",
+     "isPro": true,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 31,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "5e67de201009063689407481",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624630689857-5e67de201009063689407481.jpeg",
+     "fullname": "Pierric Cistac",
+     "name": "pierric",
+     "type": "user",
+     "isPro": true,
+     "isHf": true,
+     "isHfAdmin": true,
+     "isMod": false,
+     "followerCount": 267,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "660bf3e9a9ea8db7b51adf8c",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w3Z6xyKVBA6np65Tb16dP.jpeg",
+     "fullname": "Simon Pagezy",
+     "name": "pagezyhf",
+     "type": "user",
+     "isPro": false,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 245,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "62175099ae3a893ac7ce86a7",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62175099ae3a893ac7ce86a7/ZSFoej_60rG-hT-gmo3Pr.jpeg",
+     "fullname": "Michelle Habonneau",
+     "name": "michellehbn",
+     "type": "user",
+     "isPro": false,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 193,
+     "isUserFollowing": false
+    }
+   ],
+   "url": "/blog/hub-gcp-marketplace",
+   "apiPrefix": "/api/blog/hub-gcp-marketplace",
+   "canonical": true,
+   "tags": [
+    "guide",
+    "partnerships",
+    "gcp",
+    "hub",
+    "marketplace"
+   ]
+  },
+  {
+   "_id": "6af331accee8f54360b19df5",
+   "isUpvotedByUser": false,
+   "numCoauthors": 3,
+   "publishedAt": "2026-11-10T00:00:00.767Z",
+   "slug": "decision",
+   "title": "Decision Models in Hugging Face",
+   "upvotes": 59,
+   "upvotes7d": 59,
+   "thumbnail": "/blog/assets/decision/thumbnail.png",
+   "authorsData": [
+    {
+     "_id": "608aabf24955d2bfc3cd99c6",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/608aabf24955d2bfc3cd99c6/-YxmtpzEmf3NKOTktODRP.jpeg",
+     "fullname": "Aritra Roy Gosthipaty",
+     "name": "ariG23498",
+     "type": "user",
+     "isPro": true,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 861,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "5e3aec01f55e2b62848a5217",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg",
+     "fullname": "Lysandre",
+     "name": "lysandre",
+     "type": "user",
+     "isPro": true,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 955,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "603d25b75f9d390ab190b777",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617264212503-603d25b75f9d390ab190b777.jpeg",
+     "fullname": "Pedro Cuenca",
+     "name": "pcuenq",
+     "type": "user",
+     "isPro": true,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 1900,
+     "isUserFollowing": false
+    },
+    {
+     "_id": "6317233cc92fd6fee317e030",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+     "fullname": "Tom Aarsen",
+     "name": "tomaarsen",
+     "type": "user",
+     "isPro": false,
+     "isHf": true,
+     "isHfAdmin": false,
+     "isMod": false,
+     "followerCount": 4777,
+     "isUserFollowing": false
+    }
+   ],
+   "url": "/blog/decision",
+   "apiPrefix": "/api/blog/decision",
+   "canonical": true,
+   "tags": [
+    "decision",
+    "jev",
+    "system one",
+    "open source"
+   ]
+  },
+  {
+   "_id": "6ad9b839caecdad79f441723",
+   "isUpvotedByUser": false,
+   "numCoauthors": 6,
+   "publishedAt": "2026-11-11T05:01:16.152Z",
+   "editedAt": "2026-11-11T05:01:16.152Z",
+   "slug": "botpsy",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "upvotes": 8,
+   "upvotes7d": 8,
+   "thumbnail": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+   "authorsData": [
+    {
+     "_id": "68d54203c03d0ed7dcf1fecd",
+     "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68d540a9b913fd49b5e41e0b/ooEaWBPmchmGPmfjyAXEr.png",
+     "fullname": "QVAC",
+     "name": "qvac",
+     "type": "org",
+     "isHf": false,
+     "isHfAdmin": false,
+     "isMod": false,
+     "plan": "team",
+     "followerCount": 134,
+     "isUserFollowing": false
+    }
+   ],
+   "url": "/blog/qvac/botpsy",
+   "apiPrefix": "/api/blog/qvac/botpsy",
+   "canonical": false,
+   "status": "published",
+   "isHFChangelog": false,
+   "orgPlan": "team"
+  }
+ ],
+ "numTotalItems": 903
+}

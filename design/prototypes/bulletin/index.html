@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>First Light · No. 315 · Wednesday 11 November 2026</title>
+<meta name="description" content="First Light: a personal daily newspaper. One finite edition every morning.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="preload" href="fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Theme before first paint: ?theme=dark|light, then the saved choice, else the OS. */
+(function () {
+  var t = new URLSearchParams(location.search).get("theme");
+  if (!t) { try { t = localStorage.getItem("fl-theme"); } catch (e) {} }
+  if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#edition">Skip to the edition</a>
+<div class="progress" aria-hidden="true"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="a-up" viewBox="0 0 12 12"><path d="M6 11V2M2 6l4-4 4 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-down" viewBox="0 0 12 12"><path d="M6 1v9M2 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-flat" viewBox="0 0 12 12"><path d="M2 6h8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-right" viewBox="0 0 12 12"><path d="M1 6h9M6 2l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-ne" viewBox="0 0 12 12"><path d="M2.5 9.5l7-7M4 2.5h5.5V8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+    <symbol id="a-copy" viewBox="0 0 12 12"><path d="M4 4h7v7H4zM1 8V1h7" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="a-find" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="4.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 10l4.5 4.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"/></symbol>
+  </defs>
+</svg>
+<header class="mast">
+  <div class="topbar">
+  <div class="wrap topbar__in">
+    <p class="topbar__date label"><b><time datetime="2026-11-11">Wednesday 11 November 2026</time></b><span>Morning edition</span><span>Frozen 05:30 IST</span></p>
+    <ul class="topbar__links label">
+      <li><a href="#">Back Issues</a></li>
+      <li><a href="components.html">Stylebook</a></li>
+      <li><a href="#colophon">Colophon</a></li>
+    </ul>
+    <button class="theme-toggle label" type="button" aria-pressed="false">
+      <span class="theme-toggle__lamp" aria-hidden="true"></span>
+      <span class="when-light">Night edition</span><span class="when-dark">Day edition</span>
+    </button>
+  </div>
+</div>
+  <div class="wrap grid plate">
+    <aside class="ear ear--markets" aria-label="Markets at close">
+      <p class="ear__head"><span class="label">Markets at close</span><span class="label">Tue 10 Nov</span></p>
+      <table class="quotes data">
+        <tbody><tr><th scope="row">Nifty 50</th><td class="last-cell">27,418.35</td><td class="chg-cell"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.62%</span><span class="vh"> up</span></span></td></tr><tr><th scope="row">Sensex</th><td class="last-cell">89,204.10</td><td class="chg-cell"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.58%</span><span class="vh"> up</span></span></td></tr><tr><th scope="row">S&amp;P 500</th><td class="last-cell">7,312.44</td><td class="chg-cell"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.84%</span><span class="vh"> down</span></span></td></tr><tr><th scope="row">Nasdaq 100</th><td class="last-cell">24,106.92</td><td class="chg-cell"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−1.61%</span><span class="vh"> down</span></span></td></tr><tr><th scope="row">USD/INR</th><td class="last-cell">93.69</td><td class="chg-cell"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.21%</span><span class="vh"> down</span></span></td></tr></tbody>
+      </table>
+    </aside>
+    <div class="nameplate">
+      <p class="nameplate__tag label">A personal daily · typeset by software<span class="opt"> · finite by design</span></p>
+      <h1 class="nameplate__row"><a class="nameplate__name" href="index.html">First Light</a><span class="sun" aria-hidden="true"></span></h1>
+    </div>
+    <aside class="ear ear--edition" aria-label="This edition">
+      <p class="ear__head"><span class="label">Edition No.</span><span class="label">Next: Thu 05:30</span></p>
+      <div class="edition">
+        <p class="edition__no"><span class="flap" role="img" aria-label="315"><span>3</span><span>1</span><span>5</span></span></p>
+        <div class="edition__facts">
+          <p class="label"><b>45 stories · 5 min</b></p>
+          <p class="label">Built 05:30:04 IST</p>
+          <p class="label">61 feeds · a41c9e2</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <nav class="nav" aria-label="Primary">
+  <div class="wrap grid nav__in">
+    <ul class="nav__main">
+      <li><a href="index.html" aria-current="page">Front Page<kbd aria-hidden="true">F</kbd></a></li><li><a href="#">The Wire<span class="nav__count"><span class="unread" aria-hidden="true"></span>42<span class="vh"> new</span></span><kbd aria-hidden="true">W</kbd></a></li><li><a href="#">Markets<kbd aria-hidden="true">M</kbd></a></li><li><a href="#">Weekend Review<kbd aria-hidden="true">R</kbd></a></li><li><a href="#">Claude Desk<kbd aria-hidden="true">C</kbd></a></li><li><a href="#">Clippings<span class="nav__count">7</span><kbd aria-hidden="true">K</kbd></a></li>
+    </ul>
+    <form class="search" role="search" action="#">
+      <svg class="search__glyph" aria-hidden="true"><use href="#a-find"/></svg>
+      <label class="vh" for="q">Search every edition</label>
+      <input id="q" data-search type="search" placeholder="Search every edition" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+  </div>
+</nav>
+<nav class="desks" aria-label="Desks">
+  <div class="wrap desks__in">
+    <span class="label">Desks</span>
+    <ul><li><a href="#desk-01"><span class="num">01</span>World</a></li><li><a href="#desk-02"><span class="num">02</span>India</a></li><li><a href="#desk-03"><span class="num">03</span>AI</a></li><li><a href="#desk-04"><span class="num">04</span>Machine Learning</a></li><li><a href="#desk-05"><span class="num">05</span>LLMs</a></li><li><a href="#desk-06"><span class="num">06</span>Frontier Labs</a></li><li><a href="#desk-07"><span class="num">07</span>Companies</a></li><li><a href="#desk-08"><span class="num">08</span>Markets</a></li><li><a href="#desk-09"><span class="num">09</span>Dalal Street</a></li><li><a href="#desk-10"><span class="num">10</span>Science</a></li></ul>
+  </div>
+</nav>
+</header>
+
+<main id="edition">
+  <div class="wrap">
+    <div class="folio label">
+      <p><b>Front Page</b> · <span class="opt">Edition </span>No. 315 · 45 stories<span class="opt"> · about 5 minutes · it ends</span></p>
+      <p class="folio__key"><span>Key<span class="long">: the more outlets carry a story, the bigger it is set</span></span><span class="cov"><span class="ticks" style="--n:1" aria-hidden="true"></span><span>1</span></span><span class="cov"><span class="ticks" style="--n:3" aria-hidden="true"></span><span>3</span></span><span class="cov"><span class="ticks" style="--n:6" aria-hidden="true"></span><span>6</span></span><span class="cov"><span class="ticks" style="--n:9" aria-hidden="true"></span><span>9</span></span></p>
+    </div>
+    <h2 class="vh">Front page</h2>
+    <div class="grid front">
+      <article class="lead" data-outlets="9">
+        <p class="lead__kicker label"><span class="flag">The lead</span><span><b>01</b> World</span><span class="push"><b>The Guardian</b> · <time datetime="2026-11-11T02:19+05:30">02:19</time></span></p>
+        <h3 class="lead__hl"><a href="#">Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK</a></h3>
+        <div class="lead__foot">
+          <div class="cov-xl" title="Carried by 9 outlets">
+            <span class="cov-xl__n">9</span>
+            <span class="cov-xl__what"><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label">outlets<br>carried<br>this</span></span>
+            <p class="cov-xl__who label">The Guardian + 8 others</p>
+          </div>
+          <p class="lead__deck">Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute</p>
+          <div class="lead__body">
+            <p>The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield …</p>
+            <a class="readon" href="#">Read at The Guardian <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></a>
+          </div>
+        </div>
+      </article>
+      <div class="seconds">
+        <div class="seconds__row">
+          <div class="seconds__wide"><article class="story " data-outlets="9">
+  <p class="story__meta story__meta--l label"><span class="cov-l" title="Carried by 9 outlets"><span class="cov-l__n">9</span><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label"><b>outlets</b></span></span><span><b>03</b> AI · <time datetime="2026-11-10T09:04+05:30">Tue 09:04</time></span></p>
+  <h3 class="story__hl hl-6"><a href="#">Anthropic has its own AI-powered office suite now</a></h3>
+  <p class="story__sum">For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs – like OpenAI, SpaceXSI, and Meta – to copy its strategies.</p>
+  <p class="story__src label"><b>The Verge</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+          <div class="seconds__narrow"><article class="story " data-outlets="6">
+  <p class="story__meta story__meta--l label"><span class="cov-l" title="Carried by 6 outlets"><span class="cov-l__n">6</span><span class="ticks" style="--n:6" aria-hidden="true"></span><span class="label"><b>outlets</b></span></span><span><b>07</b> Companies · <time datetime="2026-11-10T15:16+05:30">Tue 15:16</time></span></p>
+  <h3 class="story__hl hl-4"><a href="#">Tesla’s China sales crash 66% to lowest level in over four years</a></h3>
+  <p class="story__sum">Only 8,817 of the cars Tesla delivered from Giga Shanghai in October went to Chinese buyers. That’s down 66% from a year ago and Tesla’s worst month in China since July 2022, according to CPCA data.</p>
+  <p class="story__src label"><b>Electrek</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+        </div>
+        <div class="seconds__row">
+          <div class="seconds__wide"><article class="story " data-outlets="4">
+  <p class="story__meta label"><span class="cov" title="Carried by 4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><span><b>4</b> outlets</span></span><span><b>01</b> World · <time datetime="2026-11-11T04:04+05:30">04:04</time></span></p>
+  <h3 class="story__hl hl-3"><a href="#">US House blocks bid to impeach Defence Secretary Pete Hegseth, for now</a></h3>
+  <p class="story__sum">Trump welcomes the outcome, praising Hegseth as a “Great American Patriot”, but Democrats can try again next year.</p>
+  <p class="story__src label"><b>BBC News</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+          <div class="seconds__narrow"><article class="story " data-outlets="4">
+  <p class="story__meta label"><span class="cov" title="Carried by 4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><span><b>4</b> outlets</span></span><span><b>03</b> AI · <time datetime="2026-11-11T04:05+05:30">04:05</time></span></p>
+  <h3 class="story__hl hl-3"><a href="#">Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI</a></h3>
+  <p class="story__sum">Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.</p>
+  <p class="story__src label"><b>Ars Technica</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+        </div>
+      </div>
+      <aside class="briefs board" aria-labelledby="brief-h">
+        <div class="briefs__head"><h3 class="briefs__title" id="brief-h">In brief</h3><span class="label">10 lines</span></div>
+        <ol class="briefs__list">
+          <li class="brief">
+            <span class="brief__time">04:18</span>
+            <p class="brief__hl"><a href="#">Rupee touches strongest since April as foreign inflows offset firm dollar</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>Dalal Street · Economic Times</span></p>
+          </li><li class="brief">
+            <span class="brief__time">04:08</span>
+            <p class="brief__hl"><a href="#">ANC faces bruising defeat in South African local elections with 80% of ballots counted</a></p>
+            <p class="brief__meta label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span class="vh">2 outlets · </span><span>World · The Guardian</span></p>
+          </li><li class="brief">
+            <span class="brief__time">03:23</span>
+            <p class="brief__hl"><a href="#">Claude Code is accidentally exposing secrets all over GitHub</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>AI · Ars Technica</span></p>
+          </li><li class="brief">
+            <span class="brief__time">03:12</span>
+            <p class="brief__hl"><a href="#">Google releases Gemini 4 Carbon with agent ‘swarm’ feature</a></p>
+            <p class="brief__meta label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span class="vh">2 outlets · </span><span>AI · The Verge</span></p>
+          </li><li class="brief">
+            <span class="brief__time">03:11</span>
+            <p class="brief__hl"><a href="#">Baird downgrades Nvidia on CEO Huang worries, AI uncertainty</a></p>
+            <p class="brief__meta label" title="2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span class="vh">2 outlets · </span><span>Markets · CNBC</span></p>
+          </li><li class="brief">
+            <span class="brief__time">03:10</span>
+            <p class="brief__hl"><a href="#">Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>World · The Guardian</span></p>
+          </li><li class="brief">
+            <span class="brief__time">02:56</span>
+            <p class="brief__hl"><a href="#">Collision of two trains in Egypt kills at least seven</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>World · The Guardian</span></p>
+          </li><li class="brief">
+            <span class="brief__time">00:09</span>
+            <p class="brief__hl"><a href="#">Judge allows Trump’s $10bn defamation case against BBC to proceed</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>World · BBC News</span></p>
+          </li><li class="brief">
+            <span class="brief__time">18:29<small>Tue</small></span>
+            <p class="brief__hl"><a href="#">ESCAPADE on its way to Mars after Earth flybys</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>Companies · SpaceNews</span></p>
+          </li><li class="brief">
+            <span class="brief__time">15:10<small>Tue</small></span>
+            <p class="brief__hl"><a href="#">Anthropic targets $1.4 trillion IPO</a></p>
+            <p class="brief__meta label" title="1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span class="vh">1 outlet · </span><span>AI · The Verge</span></p>
+          </li>
+        </ol>
+        <div class="briefs__wire">
+          <p class="label">Since this edition closed</p>
+          <a href="#"><span>The Wire · 42 new</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a>
+        </div>
+      </aside>
+    </div>
+    <div class="grid deskrow">
+      <section class="desk desk--6" aria-labelledby="desk-01">
+        <header class="desk__head"><span class="tile" aria-hidden="true">01</span><h2 class="desk__name" id="desk-01">World</h2><a class="desk__more label more" href="#" aria-label="All 16 on the World desk"><b>16</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <div class="desk__first"><article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov cov--inline"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><b class="top">Top of the desk</b><time datetime="2026-11-11T00:09+05:30">00:09</time></p>
+  <h3 class="story__hl hl-5"><a href="#">Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal</a></h3>
+  <p class="story__sum">Double amputee Zaher told the BBC last year about his favourite footballer and a dream of being able to walk again.</p>
+  <p class="story__src label"><b>BBC News</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><p class="cov-foot" title="Carried by 9 outlets"><span class="cov-foot__n">9</span><span class="cov-foot__what"><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label"><b>outlets<br>carried<br>this</b></span></span><span class="cov-foot__who label">BBC News<br>+ 8 others</span></p></div>
+          <div class="desk__stack"><article class="story " data-outlets="4">
+  <p class="story__meta label"><span class="cov" title="Carried by 4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><span><b>4</b> outlets</span></span><time datetime="2026-11-11T04:27+05:30">04:27</time></p>
+  <h3 class="story__hl hl-2"><a href="#">Kenyan doomsday sect leader jailed for 200 years for murder of 190 children</a></h3>
+  <p class="story__sum story__sum--clamp3">Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families.</p>
+  <p class="story__src label"><b>The Guardian</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="4">
+  <p class="story__meta label"><span class="cov" title="Carried by 4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><span><b>4</b> outlets</span></span><time datetime="2026-11-10T14:44+05:30">Tue 14:44</time></p>
+  <h3 class="story__hl hl-2"><a href="#">Kennedys sue to block Trump’s arch, arguing it would cast shadow on JFK’s grave</a></h3>
+  <p class="story__sum story__sum--clamp3">Nine members of the political dynasty say the 250ft structure would cast a shadow on gravesites.</p>
+  <p class="story__src label"><b>BBC News</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+        </div>
+      </section>
+      <section class="desk desk--3" aria-labelledby="desk-02">
+        <header class="desk__head"><span class="tile" aria-hidden="true">02</span><h2 class="desk__name" id="desk-02">India</h2><a class="desk__more label more" href="#" aria-label="All 8 on the India desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story story--bare " data-outlets="9">
+  <p class="story__meta label"><span class="cov" title="Carried by 9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><time datetime="2026-11-11T02:45+05:30">02:45</time></p>
+  <h3 class="story__hl hl-4"><a href="#">Vinay Chand sworn in as TTD Specified Authority member</a></h3>
+  <p class="story__src label"><b>The Hindu</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T15:30+05:30">Tue 15:30</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Cabinet approves ₹2,390 crore metro rail link from Noida Sector 51 to Greater Noida Sector 4</a></h3>
+  <p class="story__src label"><b>The Hindu</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T17:55+05:30">Tue 17:55</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Opposition slams KCHR chairperson appointment amid allegations of search panel bypass and resignations</a></h3>
+  <p class="story__src label"><b>The Hindu</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+      <section class="desk desk--3" aria-labelledby="desk-03">
+        <header class="desk__head"><span class="tile" aria-hidden="true">03</span><h2 class="desk__name" id="desk-03">AI</h2><a class="desk__more label more" href="#" aria-label="All 16 on the AI desk"><b>16</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T09:16+05:30">Tue 09:16</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Ukraine’s fiber-optic drones get squeezed by AI data center demand</a></h3>
+  <p class="story__sum">Ukraine competes with Russia and data centers for China’s optical fiber supply.</p>
+  <p class="story__src label"><b>Ars Technica</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="3">
+  <p class="story__meta label"><span class="cov" title="Carried by 3 outlets"><span class="ticks" style="--n:3" aria-hidden="true"></span><span><b>3</b> outlets</span></span><time datetime="2026-11-10T08:53+05:30">Tue 08:53</time></p>
+  <h3 class="story__hl hl-2"><a href="#">eBay appears to have shut the door on third-party AI agents</a></h3>
+  <p class="story__src label"><b>The Verge</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="2">
+  <p class="story__meta label"><span class="cov" title="Carried by 2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span><b>2</b> outlets</span></span><time datetime="2026-11-10T08:44+05:30">Tue 08:44</time></p>
+  <h3 class="story__hl hl-1"><a href="#">Nvidia CEO’s affair becomes a national security problem</a></h3>
+  <p class="story__sum story__sum--clamp2">Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.</p>
+  <p class="story__src label"><b>Ars Technica</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+    </div>
+    <div class="grid deskrow">
+      <section class="desk desk--3" aria-labelledby="desk-04">
+        <header class="desk__head"><span class="tile" aria-hidden="true">04</span><h2 class="desk__name" id="desk-04">Machine Learning</h2><a class="desk__more label more" href="#" aria-label="All 8 on the Machine Learning desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov" title="Carried by 9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><time datetime="2026-11-10T17:52+05:30">Tue 17:52</time></p>
+  <h3 class="story__hl hl-4"><a href="#">Genie 4: A new generation of world simulation</a></h3>
+  <p class="story__sum">Genie 4: our new world model unlocking unprecedented realism in real-time simulation.</p>
+  <p class="story__src label"><b>Google DeepMind</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="2">
+  <p class="story__meta label"><span class="cov" title="Carried by 2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span><b>2</b> outlets</span></span><time datetime="2026-11-10T23:49+05:30">Tue 23:49</time></p>
+  <h3 class="story__hl hl-1"><a href="#">Gemini Robotics 2.5 accelerates real-world general dexterity</a></h3>
+  <p class="story__sum story__sum--clamp2">Our most capable vision-language-action model enhances robot dexterity, reliability, and safety.</p>
+  <p class="story__src label"><b>Google DeepMind</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="1">
+  <p class="story__meta label"><span class="cov" title="Carried by 1 outlet"><span class="ticks" style="--n:1" aria-hidden="true"></span><span><b>1</b> outlet</span></span><time datetime="2026-11-11T02:02+05:30">02:02</time></p>
+  <h3 class="story__hl hl-1"><a href="#">Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</a></h3>
+  <p class="story__src label"><b>Google DeepMind</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+      <section class="desk desk--3" aria-labelledby="desk-05">
+        <header class="desk__head"><span class="tile" aria-hidden="true">05</span><h2 class="desk__name" id="desk-05">LLMs</h2><a class="desk__more label more" href="#" aria-label="All 8 on the LLMs desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-11T04:02+05:30">04:02</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Locating the source of a mysterious beep with Claude</a></h3>
+  <p class="story__sum">Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping.</p>
+  <p class="story__src label"><b>Simon Willison</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T18:21+05:30">Tue 18:21</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Yonkers Rises</a></h3>
+  <p class="story__src label"><b>Simon Willison</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="3">
+  <p class="story__meta label"><span class="cov" title="Carried by 3 outlets"><span class="ticks" style="--n:3" aria-hidden="true"></span><span><b>3</b> outlets</span></span><time datetime="2026-11-11T04:21+05:30">04:21</time></p>
+  <h3 class="story__hl hl-2"><a href="#">Quoting Prompting Claude Fable 5.2</a></h3>
+  <p class="story__sum story__sum--clamp3">Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on.</p>
+  <p class="story__src label"><b>Simon Willison</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+      <section class="desk desk--6 desk--flip" aria-labelledby="desk-06">
+        <header class="desk__head"><span class="tile" aria-hidden="true">06</span><h2 class="desk__name" id="desk-06">Frontier Labs</h2><a class="desk__more label more" href="#" aria-label="All 8 on the Frontier Labs desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <div class="desk__first"><article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov cov--inline"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><b class="top">Top of the desk</b><time datetime="2026-11-10T21:04+05:30">Tue 21:04</time></p>
+  <h3 class="story__hl hl-5"><a href="#">Singapore Airlines elevates travel &amp; work with OpenAI technology</a></h3>
+  <p class="story__sum">Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.</p>
+  <p class="story__src label"><b>OpenAI</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><p class="cov-foot" title="Carried by 9 outlets"><span class="cov-foot__n">9</span><span class="cov-foot__what"><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label"><b>outlets<br>carried<br>this</b></span></span><span class="cov-foot__who label">OpenAI<br>+ 8 others</span></p></div>
+          <div class="desk__stack"><article class="story " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-11T02:59+05:30">02:59</time></p>
+  <h3 class="story__hl hl-3"><a href="#">ChatGPT Plus for veterans and servicemembers</a></h3>
+  <p class="story__sum">More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.</p>
+  <p class="story__src label"><b>OpenAI</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="4">
+  <p class="story__meta label"><span class="cov" title="Carried by 4 outlets"><span class="ticks" style="--n:4" aria-hidden="true"></span><span><b>4</b> outlets</span></span><time datetime="2026-11-10T18:06+05:30">Tue 18:06</time></p>
+  <h3 class="story__hl hl-2"><a href="#">Work at the Frontier: AI’s effect on freelance work</a></h3>
+  <p class="story__sum">New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.</p>
+  <p class="story__src label"><b>OpenAI</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section class="tape" aria-labelledby="tape-h">
+    <div class="wrap grid tape__in">
+      <div class="tape__head"><h2 class="tape__title" id="tape-h">Markets at close</h2><span class="label">Tuesday 10 November<span class="opt"> · dotted line is the previous close</span></span><a class="more label" href="#"><b>All markets</b><kbd aria-hidden="true">M</kbd></a></div>
+      <div class="quote">
+        <p class="quote__name label">Nifty 50</p>
+        <p class="quote__last">27,418.35</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="Nifty 50 through the session, closing up"><line class="spark__base" x1="0" x2="100" y1="29.0" y2="29.0"/><polyline class="spark__line" points="0.0,29.0 3.6,26.4 7.1,23.9 10.7,21.8 14.2,20.5 17.8,19.0 21.3,16.9 24.9,16.5 28.4,15.6 32.0,14.6 35.6,15.7 39.1,13.8 42.7,13.9 46.2,12.1 49.8,11.5 53.3,9.3 56.9,9.0 60.4,7.2 64.0,8.3 67.6,8.0 71.1,6.4 74.7,6.4 78.2,7.1 81.8,8.1 85.3,6.9 88.9,6.7 92.4,4.3 96.0,3.0"/><circle class="spark__now" cx="96" cy="3.0" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.62%</span><span class="vh"> up</span></span></p>
+      </div><div class="quote">
+        <p class="quote__name label">Sensex</p>
+        <p class="quote__last">89,204.10</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="Sensex through the session, closing up"><line class="spark__base" x1="0" x2="100" y1="29.0" y2="29.0"/><polyline class="spark__line" points="0.0,29.0 3.6,27.6 7.1,28.9 10.7,27.2 14.2,24.5 17.8,23.4 21.3,24.1 24.9,25.5 28.4,25.3 32.0,23.8 35.6,24.6 39.1,25.0 42.7,23.9 46.2,23.3 49.8,22.3 53.3,19.6 56.9,18.6 60.4,17.4 64.0,17.9 67.6,15.8 71.1,14.7 74.7,14.9 78.2,14.0 81.8,12.2 85.3,9.3 88.9,5.9 92.4,4.4 96.0,3.0"/><circle class="spark__now" cx="96" cy="3.0" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+0.58%</span><span class="vh"> up</span></span></p>
+      </div><div class="quote">
+        <p class="quote__name label">S&amp;P 500</p>
+        <p class="quote__last">7,312.44</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="S&amp;P 500 through the session, closing down"><line class="spark__base" x1="0" x2="100" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 3.6,4.8 7.1,4.6 10.7,11.6 14.2,12.8 17.8,14.5 21.3,15.9 24.9,13.9 28.4,18.0 32.0,22.7 35.6,24.5 39.1,22.0 42.7,19.5 46.2,20.6 49.8,18.3 53.3,16.5 56.9,21.9 60.4,23.0 64.0,20.9 67.6,21.4 71.1,26.6 74.7,28.2 78.2,29.0 81.8,28.8 85.3,27.5 88.9,25.3 92.4,28.4 96.0,27.6"/><circle class="spark__now" cx="96" cy="27.6" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.84%</span><span class="vh"> down</span></span></p>
+      </div><div class="quote">
+        <p class="quote__name label">Nasdaq 100</p>
+        <p class="quote__last">24,106.92</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="Nasdaq 100 through the session, closing down"><line class="spark__base" x1="0" x2="100" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 3.6,4.5 7.1,3.8 10.7,3.2 14.2,5.4 17.8,7.3 21.3,8.7 24.9,9.9 28.4,11.2 32.0,13.1 35.6,14.3 39.1,13.5 42.7,15.3 46.2,17.7 49.8,19.8 53.3,20.2 56.9,22.3 60.4,22.9 64.0,23.2 67.6,22.2 71.1,23.8 74.7,24.2 78.2,26.1 81.8,26.7 85.3,28.9 88.9,28.3 92.4,29.0 96.0,29.0"/><circle class="spark__now" cx="96" cy="29.0" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−1.61%</span><span class="vh"> down</span></span></p>
+      </div><div class="quote">
+        <p class="quote__name label">USD/INR</p>
+        <p class="quote__last">93.69</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="USD/INR through the session, closing down"><line class="spark__base" x1="0" x2="100" y1="3.0" y2="3.0"/><polyline class="spark__line" points="0.0,3.0 3.6,6.1 7.1,5.1 10.7,6.3 14.2,9.3 17.8,9.4 21.3,11.7 24.9,13.9 28.4,16.6 32.0,16.0 35.6,19.0 39.1,17.8 42.7,18.2 46.2,18.8 49.8,20.0 53.3,19.1 56.9,18.6 60.4,20.2 64.0,19.1 67.6,18.4 71.1,19.8 74.7,22.6 78.2,25.1 81.8,24.9 85.3,25.8 88.9,27.0 92.4,26.4 96.0,29.0"/><circle class="spark__now" cx="96" cy="29.0" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--down"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-down"/></svg><span>−0.21%</span><span class="vh"> down</span></span></p>
+      </div><div class="quote">
+        <p class="quote__name label">India 10Y</p>
+        <p class="quote__last">6.71%</p>
+        <svg class="spark" viewBox="0 0 100 32" preserveAspectRatio="none" role="img" aria-label="India 10Y through the session, closing up"><line class="spark__base" x1="0" x2="100" y1="29.0" y2="29.0"/><polyline class="spark__line" points="0.0,29.0 3.6,28.9 7.1,27.3 10.7,27.1 14.2,26.9 17.8,27.9 21.3,26.9 24.9,26.7 28.4,23.6 32.0,22.6 35.6,23.4 39.1,23.2 42.7,20.6 46.2,18.8 49.8,17.6 53.3,16.3 56.9,14.7 60.4,15.5 64.0,13.1 67.6,13.3 71.1,10.4 74.7,7.9 78.2,6.1 81.8,4.1 85.3,3.0 88.9,3.6 92.4,3.3 96.0,3.9"/><circle class="spark__now" cx="96" cy="3.9" r="2.6"/></svg>
+        <p class="quote__chg data"><span class="chg chg--up"><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-up"/></svg><span>+9 bp</span><span class="vh"> up</span></span></p>
+      </div>
+    </div>
+  </section>
+  <div class="wrap">
+    <div class="grid deskrow">
+      <section class="desk desk--6" aria-labelledby="desk-07">
+        <header class="desk__head"><span class="tile" aria-hidden="true">07</span><h2 class="desk__name" id="desk-07">Companies</h2><a class="desk__more label more" href="#" aria-label="All 16 on the Companies desk"><b>16</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <div class="desk__first"><article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov cov--inline"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><b class="top">Top of the desk</b><time datetime="2026-11-11T04:19+05:30">04:19</time></p>
+  <h3 class="story__hl hl-5"><a href="#">Lucid CEO admits it ‘did not even know where cars were’ and lost orders</a></h3>
+  <p class="story__sum">Lucid CEO Silvio Napoli admitted on the company’s Q3 earnings call that, as recently as this summer, the automaker “did not even know where cars were.”</p>
+  <p class="story__src label"><b>Electrek</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><p class="cov-foot" title="Carried by 9 outlets"><span class="cov-foot__n">9</span><span class="cov-foot__what"><span class="ticks" style="--n:9" aria-hidden="true"></span><span class="label"><b>outlets<br>carried<br>this</b></span></span><span class="cov-foot__who label">Electrek<br>+ 8 others</span></p></div>
+          <div class="desk__stack"><article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov" title="Carried by 9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><time datetime="2026-11-11T03:10+05:30">03:10</time></p>
+  <h3 class="story__hl hl-4"><a href="#">Cork Takes the Heat So DRACO’s Data Can Survive</a></h3>
+  <p class="story__sum">Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency mission.</p>
+  <p class="story__src label"><b>SpaceNews</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T14:59+05:30">Tue 14:59</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Musk says Cybertruck isn’t dying from weak sales – the numbers disagree</a></h3>
+  <p class="story__sum">Elon Musk now claims Cybertruck orders “far exceed” Tesla’s production rate, and that the truck isn’t being killed because it’s unprofitable. It’s his second explanation in three days for ending the pickup.</p>
+  <p class="story__src label"><b>Electrek</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+        </div>
+      </section>
+      <section class="desk desk--3" aria-labelledby="desk-08">
+        <header class="desk__head"><span class="tile" aria-hidden="true">08</span><h2 class="desk__name" id="desk-08">Markets</h2><a class="desk__more label more" href="#" aria-label="All 8 on the Markets desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T09:24+05:30">Tue 09:24</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Mortgage rates jump sharply higher, after easing for four straight weeks. Here’s why</a></h3>
+  <p class="story__sum">After falling for a month, mortgage rates jumped sharply higher on a hotter-than-expected inflation report.</p>
+  <p class="story__src label"><b>CNBC</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T09:27+05:30">Tue 09:27</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Stocks making the biggest moves premarket: CoreWeave, Nvidia, NextNav &amp; more</a></h3>
+  <p class="story__src label"><b>CNBC</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="3">
+  <p class="story__meta label"><span class="cov" title="Carried by 3 outlets"><span class="ticks" style="--n:3" aria-hidden="true"></span><span><b>3</b> outlets</span></span><time datetime="2026-11-10T09:07+05:30">Tue 09:07</time></p>
+  <h3 class="story__hl hl-2"><a href="#">Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings</a></h3>
+  <p class="story__src label"><b>CNBC</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+      <section class="desk desk--3" aria-labelledby="desk-09">
+        <header class="desk__head"><span class="tile" aria-hidden="true">09</span><h2 class="desk__name" id="desk-09">Dalal Street</h2><a class="desk__more label more" href="#" aria-label="All 8 on the Dalal Street desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body">
+          <article class="story " data-outlets="9">
+  <p class="story__meta label"><span class="cov" title="Carried by 9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><time datetime="2026-11-11T04:24+05:30">04:24</time></p>
+  <h3 class="story__hl hl-4"><a href="#">US Treasury rout hands India’s <span class="nb">10-year</span> bond its worst day in a month</a></h3>
+  <p class="story__sum story__sum--clamp3">On Wednesday, the Indian rupee gained strength against the dollar, reaching its highest point since April. This improvement was influenced by foreign investments in local stocks and upbeat sentiment in the non-deliverable forward market.</p>
+  <p class="story__src label"><b>Economic Times</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-11T02:14+05:30">02:14</time></p>
+  <h3 class="story__hl hl-3"><a href="#">Realty firms’ land acquisition falls 56% to 1,445 acres in Jan-Sep: Anarock</a></h3>
+  <p class="story__src label"><b>Economic Times</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare " data-outlets="2">
+  <p class="story__meta label"><span class="cov" title="Carried by 2 outlets"><span class="ticks" style="--n:2" aria-hidden="true"></span><span><b>2</b> outlets</span></span><time datetime="2026-11-10T18:22+05:30">Tue 18:22</time></p>
+  <h3 class="story__hl hl-1"><a href="#">These 12 midcap stocks rally up to 30% in just one month</a></h3>
+  <p class="story__src label"><b>Economic Times</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article>
+        </div>
+      </section>
+    </div>
+    <div class="grid deskrow">
+      <section class="desk desk--12" aria-labelledby="desk-10">
+        <header class="desk__head"><span class="tile" aria-hidden="true">10</span><h2 class="desk__name" id="desk-10">Science</h2><a class="desk__more label more" href="#" aria-label="All 8 on the Science desk"><b>8</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></header>
+        <div class="desk__body"><article class="story story--bare span-5" data-outlets="9">
+  <p class="story__meta label"><span class="cov" title="Carried by 9 outlets"><span class="ticks" style="--n:9" aria-hidden="true"></span><span><b>9</b> outlets</span></span><time datetime="2026-11-10T09:13+05:30">Tue 09:13</time></p>
+  <h3 class="story__hl hl-6"><a href="#">A practically perfect plesiosaur</a></h3>
+  <p class="story__src label"><b>Nature</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare span-4" data-outlets="6">
+  <p class="story__meta label"><span class="cov" title="Carried by 6 outlets"><span class="ticks" style="--n:6" aria-hidden="true"></span><span><b>6</b> outlets</span></span><time datetime="2026-11-10T21:24+05:30">Tue 21:24</time></p>
+  <h3 class="story__hl hl-5"><a href="#">Why your physics project needs an anthropologist</a></h3>
+  <p class="story__src label"><b>Nature</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article><article class="story story--bare span-3" data-outlets="3">
+  <p class="story__meta label"><span class="cov" title="Carried by 3 outlets"><span class="ticks" style="--n:3" aria-hidden="true"></span><span><b>3</b> outlets</span></span><time datetime="2026-11-11T03:55+05:30">03:55</time></p>
+  <h3 class="story__hl hl-4"><a href="#">Chile’s postdoc rules risk driving talent away</a></h3>
+  <p class="story__src label"><b>Nature</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-ne"/></svg></p>
+</article></div>
+      </section>
+    </div>
+    <section class="claude" aria-labelledby="claude-h">
+      <header class="claude__head"><span class="tile" aria-hidden="true">C</span><h2 class="claude__name" id="claude-h">Claude Desk</h2><span class="label">One technique to try at work today</span></header>
+      <div class="claude__pitch">
+        <h3 class="claude__title">Quotes first, answer second</h3>
+        <p class="claude__when"><b>Reach for it when</b> the document is long and a confident wrong answer would cost you: a contract, an RFC, an incident log. Asking for the exact passages first keeps the answer tied to the page.</p>
+        <div class="adopt">
+          <span class="label" id="adopt-l">Where are you with this?</span>
+          <div class="seg" role="radiogroup" aria-labelledby="adopt-l">
+            <label><input type="radio" name="adopt" checked><span>Not tried</span></label>
+            <label><input type="radio" name="adopt"><span>Tried</span></label>
+            <label><input type="radio" name="adopt"><span>In my workflow</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="claude__work">
+        <div class="prompt">
+          <div class="prompt__bar"><span class="label">Prompt · two slots to fill</span><button class="copy" type="button"><svg class="arw" aria-hidden="true"><use href="#a-copy"/></svg><span>Copy</span></button></div>
+<pre><span class="tag">&lt;document&gt;</span>
+<span class="slot">{{PASTE THE DOCUMENT}}</span>
+<span class="tag">&lt;/document&gt;</span>
+
+First, copy the passages that bear on my question into <span class="tag">&lt;quotes&gt;</span> tags, word for word, numbered.
+
+Then answer in <span class="tag">&lt;answer&gt;</span> tags using only those quotes, citing the numbers. If the quotes do not settle it, say so.
+
+Question: <span class="slot">{{YOUR QUESTION}}</span></pre>
+        </div>
+      </div>
+    </section>
+    <footer class="end">
+      <p class="end__mark" aria-label="End of edition">— 30 —</p>
+      <p class="end__line">That’s the edition. 45 stories, about 5 minutes.</p>
+      <p class="end__next label"><span>Next edition Thursday 05:30 IST</span><a class="more" href="#"><b>The Wire is still moving</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a><a class="more" href="#"><b>Back Issues</b><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></p>
+    </footer>
+  </div>
+</main>
+<footer class="colophon" id="colophon">
+  <div class="wrap grid colophon__in">
+    <div class="colophon__col colophon__col--wide">
+      <p class="colophon__name">First Light</p>
+      <p>One edition every morning at 05:30 IST. It is frozen when it is built and it ends. Anything that happens after that is on The Wire.</p>
+      <p>Headline size is not decoration: it is the number of outlets that carried the story.</p>
+    </div>
+    <div class="colophon__col colophon__col--narrow">
+      <span class="label">The paper</span>
+      <ul>
+        <li><a href="index.html">Front Page</a></li><li><a href="#">The Wire</a></li><li><a href="#">Markets</a></li>
+        <li><a href="#">Weekend Review</a></li><li><a href="#">Claude Desk</a></li><li><a href="#">Clippings</a></li>
+        <li><a href="#">Back Issues</a></li><li><a href="components.html">Stylebook</a></li>
+      </ul>
+    </div>
+    <div class="colophon__col colophon__keys">
+      <span class="label">Keys</span>
+      <ul><li><span>Front Page</span><span><kbd>F</kbd></span></li><li><span>The Wire</span><span><kbd>W</kbd></span></li><li><span>Next / previous story</span><span><kbd>J</kbd><kbd>K</kbd></span></li><li><span>Open at source</span><span><kbd>O</kbd></span></li><li><span>Clip it</span><span><kbd>S</kbd></span></li><li><span>Search</span><span><kbd>/</kbd></span></li><li><span>Night edition</span><span><kbd>N</kbd></span></li></ul>
+    </div>
+    <div class="colophon__col">
+      <span class="label">Colophon</span>
+      <p>Set in Archivo, one variable file from 62 to 125 per cent wide, and Martian Mono for figures. Both open licence, both served from this site.</p>
+      <p>No tracking, no images, no framework. A few lines of script run the theme switch, the copy button and the / key.</p>
+      <p>Prototype note: headlines are real, fetched 11 Nov 2026. Outlet counts, times and market figures are placeholders.</p>
+    </div>
+  </div>
+</footer>
+<div class="sheet" id="desk-index" role="dialog" aria-label="Desks">
+  <div class="sheet__head">
+    <p class="sheet__title">Desks</p>
+    <a class="sheet__close label" href="#edition">Close</a>
+  </div>
+  <ul class="sheet__list"><li><a href="#desk-01"><span class="num">01</span><span class="name">World</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-02"><span class="num">02</span><span class="name">India</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-03"><span class="num">03</span><span class="name">AI</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-04"><span class="num">04</span><span class="name">Machine Learning</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-05"><span class="num">05</span><span class="name">LLMs</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-06"><span class="num">06</span><span class="name">Frontier Labs</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-07"><span class="num">07</span><span class="name">Companies</span><span class="label">16 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-08"><span class="num">08</span><span class="name">Markets</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-09"><span class="num">09</span><span class="name">Dalal Street</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li><li><a href="#desk-10"><span class="num">10</span><span class="name">Science</span><span class="label">8 today</span><svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a></li></ul>
+  <div class="sheet__more">
+    <a href="#">Weekend Review <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a><a href="#">Claude Desk <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a>
+    <a href="#">Clippings <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a><a href="#">Back Issues <svg class="arw " aria-hidden="true" focusable="false"><use href="#a-right"/></svg></a>
+  </div>
+</div>
+<nav class="tabbar" aria-label="Sections"><a href="index.html" aria-current="page">Front<span class="label">No. 315</span></a><a href="#">Wire<span class="label"><span class="unread"></span>42 new</span></a><a href="#desk-index">Desks<span class="label">01–10</span></a><a href="#">Markets<span class="label">At close</span></a><a href="#">More<span class="label">Search</span></a></nav>
+<script>
+(function () {
+  var root = document.documentElement;
+  function current() {
+    return root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  }
+  var btn = document.querySelector(".theme-toggle");
+  function sync() { if (btn) btn.setAttribute("aria-pressed", String(current() === "dark")); }
+  if (btn) btn.addEventListener("click", function () {
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("fl-theme", next); } catch (e) {}
+    sync(); frames();
+  });
+  sync();
+  /* "/" puts the cursor in search */
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || /input|textarea/i.test(e.target.tagName)) return;
+    var f = document.querySelector("[data-search]");
+    if (f) { e.preventDefault(); f.focus(); }
+  });
+  /* copy a prompt block */
+  document.querySelectorAll(".copy").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var pre = b.closest(".prompt").querySelector("pre");
+      var done = function () { b.setAttribute("data-done", ""); b.lastChild.textContent = "Copied"; };
+      if (navigator.clipboard) navigator.clipboard.writeText(pre.textContent).then(done, done); else done();
+    });
+  });
+  /* stylebook only: phone previews follow the page theme */
+  function frames() {
+    document.querySelectorAll("iframe[data-src]").forEach(function (f) {
+      var parts = f.getAttribute("data-src").split("#");
+      f.src = parts[0] + "?theme=" + current() + (parts[1] ? "#" + parts[1] : "");
+    });
+  }
+  frames();
+})();
+</script>
+</body>
+</html>

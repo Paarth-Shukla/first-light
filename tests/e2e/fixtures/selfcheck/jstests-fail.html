@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Browser unit tests with one failure</title>
+<link rel="icon" href="data:,">
+<script>
+  // One passing and one failing result, to prove run_js_tests() reports failures.
+  window.__tests = {
+    done: true,
+    passed: 1,
+    failed: 1,
+    results: [
+      { name: "this one passes", ok: true, error: null },
+      { name: "this one fails", ok: false, error: "Error: expected 3 but got 4" },
+    ],
+  };
+</script>

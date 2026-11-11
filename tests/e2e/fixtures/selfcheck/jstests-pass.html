@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Browser unit tests that pass</title>
+<link rel="icon" href="data:,">
+<script type="module">
+  // The smallest page that speaks the protocol run_js_tests() expects.
+  const results = [];
+  const test = (name, body) => {
+    try {
+      body();
+      results.push({ name, ok: true, error: null });
+    } catch (error) {
+      results.push({ name, ok: false, error: String(error) });
+    }
+  };
+  window.__tests = { done: false, passed: 0, failed: 0, results };
+  test("adds numbers", () => { if (1 + 1 !== 2) throw new Error("arithmetic is broken"); });
+  test("joins strings", () => { if (["a", "b"].join("") !== "ab") throw new Error("join is broken"); });
+  await new Promise((resolve) => setTimeout(resolve, 50));
+  test("finishes asynchronously", () => {});
+  window.__tests.passed = results.filter((result) => result.ok).length;
+  window.__tests.failed = results.length - window.__tests.passed;
+  window.__tests.done = true;
+</script>

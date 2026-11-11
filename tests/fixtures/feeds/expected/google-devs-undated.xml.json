@@ -1,0 +1,42 @@
+[
+ {
+  "id": "i9bfd9c1f73",
+  "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery",
+  "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
+  "summary": "Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform…",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T14:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ },
+ {
+  "id": "i284865feac",
+  "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio",
+  "title": "From prompt to app: Build with Google Maps in AI Studio",
+  "summary": "Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdles by providing one-click demo keys that generate instantly without requiring…",
+  "source": "test",
+  "sourceName": "Test",
+  "publishedAt": "2026-11-11T14:00:00Z",
+  "firstSeenAt": "2026-11-11T14:00:00Z",
+  "image": null,
+  "section": "world",
+  "topics": [
+   "t"
+  ],
+  "feedRank": null,
+  "publisher": null,
+  "points": null,
+  "comments": null,
+  "alt": []
+ }
+]

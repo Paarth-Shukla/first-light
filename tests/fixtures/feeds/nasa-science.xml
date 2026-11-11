@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:apod="https://science.nasa.gov/apod/"xmlns:media="http://search.yahoo.com/mrss/" >
+
+<channel>
+	<title>NASA Science</title>
+	<atom:link href="https://science.nasa.gov/feed/" rel="self" type="application/rss+xml" />
+	<link>https://science.nasa.gov</link>
+	<description>Discovering the secrets of the universe, searching for life elsewhere, and protecting and improving life on Earth and in space.</description>
+	<lastBuildDate>Tue, 10 Nov 2026 23:04:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0.8</generator>
+	<item>
+		<title>APOD: 2026 November 11 &#8211; NGC 4449: Small Galaxy, Big Impact</title>
+		<link>https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/</link>
+		
+		<dc:creator><![CDATA[Jerry Bonnell]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2026 05:05:00 +0000</pubDate>
+				<category><![CDATA[APOD]]></category>
+		<guid isPermaLink="false">https://science.nasa.gov/?post_type=image-article&#038;p=1509500</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/">APOD: 2026 November 11 &#8211; NGC 4449: Small Galaxy, Big Impact</a> appeared first on <a rel="nofollow" href="https://science.nasa.gov">NASA Science</a>.</p>
+]]></description>
+										
+					
+		
+		
+				<apod:discussion>https://asterisk.apod.com/discuss_apod.php?date=261111</apod:discussion>
+	</item>
+<item>
+		<title>Water Surges Into Navajo Reservoir</title>
+		<link>https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/</link>
+		
+		<dc:creator><![CDATA[Michala Garrison]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2026 05:01:00 +0000</pubDate>
+				<category><![CDATA[Earth Observatory]]></category>
+		<category><![CDATA[Floods]]></category>
+		<category><![CDATA[Landsat 9]]></category>
+		<category><![CDATA[Surface Water]]></category>
+		<guid isPermaLink="false">https://science.nasa.gov/?p=1510274</guid>
+
+					<description><![CDATA[<p>Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.</p>
+<p>The post <a rel="nofollow" href="https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/">Water Surges Into Navajo Reservoir</a> appeared first on <a rel="nofollow" href="https://science.nasa.gov">NASA Science</a>.</p>
+]]></description>
+										
+					
+		
+		
+			</item>
+</channel>
+</rss>

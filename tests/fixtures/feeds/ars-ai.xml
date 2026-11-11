@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>AI - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/ai/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Wed, 11 Nov 2026 12:05:03 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>AI - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Ring cameras go mobile as Amazon debuts AI-powered security drone and robot</title>
+                <link>https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Tue, 10 Nov 2026 22:35:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[AI drones]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[amazon drones]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[physical AI]]></category>
+		<category><![CDATA[ring]]></category>
+		<category><![CDATA[ring doorbell camera]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[robots]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</guid>
+
+                                    <description>
+                        <![CDATA[Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.]]>
+                    </description>
+                                                                
+                                    
+                                    <slash:comments>71</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-500x500.jpeg" width="500" height="500" />
+<media:credit>Amazon</media:credit><media:text>Amazon Ring Drone Cam has eight minutes of flying time and comes with a charging station.</media:text></media:content>
+            </item>
+</channel>
+</rss>

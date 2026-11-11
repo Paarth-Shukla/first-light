@@ -1,0 +1,45 @@
+{
+ "count": 36861,
+ "next": "https://api.spaceflightnewsapi.net/v4/articles/?limit=10&offset=10",
+ "previous": null,
+ "results": [
+  {
+   "id": 40812,
+   "title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
+   "authors": [
+    {
+     "name": "Horizon Microtechnologies",
+     "socials": null
+    }
+   ],
+   "url": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
+   "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/horizon-microtechnologies.png?fit=1021%2C1024&ssl=1",
+   "news_site": "SpaceNews",
+   "summary": "\n(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-up project supported by \u20ac500,000 and reinforced by selection [\u2026]\nThe post Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push appeared first on SpaceNews.",
+   "published_at": "2026-11-11T13:00:00Z",
+   "updated_at": "2026-11-11T13:10:33.277537Z",
+   "featured": false,
+   "launches": [],
+   "events": []
+  },
+  {
+   "id": 40811,
+   "title": "Fire Damage Delays Installation of Simulated Lunar Greenhouse in Germany",
+   "authors": [
+    {
+     "name": "European Spaceflight",
+     "socials": null
+    }
+   ],
+   "url": "https://europeanspaceflight.com/fire-damage-delays-installation-of-simulated-lunar-greenhouse-in-germany/",
+   "image_url": "https://europeanspaceflight.com/wp-content/uploads/2026/11/Fire-Damage-Delays-Installation-of-Simulated-Lunar-Greenhouse-in-Germany.webp",
+   "news_site": "European Spaceflight",
+   "summary": "A fire at an external contractor\u2019s facility has delayed the installation of a containerised greenhouse designed to simulate growing crops on the Moon. According to a response to a parliamentary inquiry published by the German Bundestag on 20 October, a fire occurred while the EDEN-LUNA greenhouse container was being refurbished. The incident has pushed back [\u2026]\nThe post Fire Damage Delays Installation of Simulated Lunar Greenhouse in Germany appeared first on European Spaceflight.",
+   "published_at": "2026-11-11T07:00:36Z",
+   "updated_at": "2026-11-11T07:00:43.477317Z",
+   "featured": false,
+   "launches": [],
+   "events": []
+  }
+ ]
+}

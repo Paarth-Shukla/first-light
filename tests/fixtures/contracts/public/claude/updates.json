@@ -1,0 +1,73 @@
+{
+ "generatedAt": "2026-11-11T16:21:52Z",
+ "status": {
+  "indicator": "none",
+  "description": "All Systems Operational"
+ },
+ "entries": [
+  {
+   "id": "uc487d5abf0",
+   "date": "2026-11-10",
+   "surface": "code",
+   "kind": "release",
+   "title": "Claude Code 2.1.322",
+   "summary": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it.",
+   "url": "https://code.claude.com/docs/en/changelog#2-1-322",
+   "source": "claude-code",
+   "features": [
+    "cc-model-and-effort"
+   ]
+  },
+  {
+   "id": "ub421f42166",
+   "date": "2026-11-10",
+   "surface": "apps",
+   "kind": "article",
+   "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+   "summary": "Work at the speed of thought",
+   "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+   "source": "claude-blog",
+   "features": [
+    "connectors",
+    "interactive-connectors"
+   ]
+  },
+  {
+   "id": "u08ac387802",
+   "date": "2026-11-10",
+   "surface": "apps",
+   "kind": "article",
+   "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+   "summary": "Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.",
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "source": "claude-blog",
+   "features": [
+    "claude-data",
+    "claude-sheets",
+    "claude-whiteboards"
+   ]
+  },
+  {
+   "id": "ue539ef5a34",
+   "date": "2026-11-10",
+   "surface": "cowork",
+   "kind": "release",
+   "title": "Claude Desktop v5.1231.0",
+   "summary": "Added run status to scheduled tasks that run on your computer, in Cowork and Code. A task's card can now say \"Last run failed\", \"Last run failed, will try again\", \"Needs input\" or \"Didn't run\", or why a run that is due hasn't started, such as \"Waiting for its previous run to finish\". Added \"Allow for 30 days\" to the prompt shown before a scheduled Cowork task deletes files in one of its own folders. Later runs can then delete there without asking. mcpScheduledTaskApprovalLifetimeDays sets the number of days, and 0 turns the option off. Added a warning when other Claude Code managed settings…",
+   "url": "https://claude.com/docs/cowork/changelog#v5-1231-0",
+   "source": "claude-cowork",
+   "features": []
+  },
+  {
+   "id": "u395a98b116",
+   "date": "2026-11-10",
+   "surface": "news",
+   "kind": "article",
+   "title": "Anthropic launches roadshow for proposed initial public offering",
+   "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+   "url": "https://www.anthropic.com/news/roadshow-launch",
+   "source": "anthropic-news",
+   "features": []
+  }
+ ]
+}

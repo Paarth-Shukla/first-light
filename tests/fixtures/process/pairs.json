@@ -1,0 +1,424 @@
+{
+ "about": "Hand-labelled pairs of item ids from items.json. must: same event, must share a story. cannot: different events, must not. hard: same event that title-only matching may miss; counted toward recall, not asserted one by one.",
+ "must": [
+  [
+   "i9bfa31a790",
+   "i9e78ddd1bb",
+   "At least 12 killed in Bulgaria motorway | At least 12 people killed in crashes on a foggy Bu"
+  ],
+  [
+   "i053da60fa0",
+   "i15706f35e9",
+   "Gemini 4 Carbon arrives just in time | Gemini 4 Carbon is now available for developers"
+  ],
+  [
+   "i445fc6287a",
+   "ic4aec7fa66",
+   "OpenAI rolls out new business profiles | OpenAI lets businesses claim ChatGPT profiles"
+  ],
+  [
+   "i9198dc1328",
+   "ic4aec7fa66",
+   "OpenAI turns ChatGPT into a business directory | OpenAI lets businesses claim ChatGPT profiles"
+  ],
+  [
+   "ia1514935e7",
+   "i0cd5e191c4",
+   "Anthropic targets valuation of up to $1.4tn | Anthropic targets $1.4 trillion IPO"
+  ],
+  [
+   "if94a4e5dca",
+   "i1afd9e5737",
+   "Meta Releases Muse Ember | Introducing Our Smallest, Most Efficient Model: Mu"
+  ],
+  [
+   "iacf75faf0a",
+   "i907b3f663f",
+   "Stock Market Close: Sensex pares gains | Stock markets end higher; Sensex and Nifty jump ne"
+  ],
+  [
+   "i45f59608a0",
+   "if38fcac05f",
+   "Italy evacuates hundreds of schools | Hoax bomb alerts sent to schools in Italy"
+  ],
+  [
+   "ifc8919446c",
+   "id198f4ae70",
+   "Hundreds of Italian schools hit by threats | At least 300 schools evacuated in Italy after emai"
+  ],
+  [
+   "i88a63c65de",
+   "ie99b8a3d6a",
+   "Spanish workers stage huge general strike | Spain’s workers hold a general strike over housing"
+  ],
+  [
+   "i24a1e9f2a9",
+   "ieacf8f4a66",
+   "Millions join Spain’s first general strike | Workers across Spain stage first general strike in"
+  ],
+  [
+   "i2bc7d1f976",
+   "i5fd791b2b2",
+   "US Republicans derail push to impeach | US House blocks bid to impeach Defence Secretary"
+  ],
+  [
+   "i3dfaf43153",
+   "ib1b4be5ea2",
+   "Kenya releases last Ebola patient | Kenya discharges last Ebola patient in major miles"
+  ],
+  [
+   "i9876726971",
+   "ibd5447cf22",
+   "Former Vice-President Dhankhar collapses | Ex-Vice President Jagdeep Dhankhar Collapses Durin"
+  ],
+  [
+   "i5e5f19488b",
+   "ieb87dafad8",
+   "US Treasury chief Bessent moved to military base o | Bessent reportedly moved to military base"
+  ],
+  [
+   "id525fc747e",
+   "ie39c9d3177",
+   "UK court overturns Trinidad and Tobago law crimina | Top UK appeals court rules gay sex not a crime"
+  ],
+  [
+   "i70e80f1c32",
+   "i4d00bca103",
+   "Thomas Markle, father of Meghan, cut off | Meghan's father Thomas Markle back in federal cust"
+  ],
+  [
+   "i3fdb0ebcee",
+   "i4bcf9cb4f9",
+   "4 grizzly bears linked by DNA | Four grizzly bears killed in Canada after fatal at"
+  ],
+  [
+   "i266794cec3",
+   "i0f35448d2d",
+   "U.S. charges 3 men with plotting terror attacks | US charges 3 ‘Iranian operatives’"
+  ],
+  [
+   "i419a703168",
+   "ib38ee7b0bd",
+   "Tesla tuner Unplugged offers to take over | Tesla tuner Unplugged Performance is offering"
+  ],
+  [
+   "ic77ea5bfd4",
+   "ie3c2f145db",
+   "South Korea bus causes large crash | Dozens injured in South Korea after bus crashes in"
+  ],
+  [
+   "i3c0c9ce60b",
+   "id394d31f45",
+   "TSMC to invest up to USD 1 billion | TSMC is buying stakes in Anthropic and OpenAI"
+  ],
+  [
+   "i52f4aab169",
+   "i9623cd1649",
+   "Iran designates Argentina's navy | Iran classes Argentina navy"
+  ],
+  [
+   "i5bf2ccdedd",
+   "i1cc466e720",
+   "OpenAI 3Q26 revenue tops US$10B | OpenAI Revenue Hits $10 Billion As Losses"
+  ],
+  [
+   "i4a459b0c8e",
+   "i249426fdbb",
+   "Moody's raises India's FY27 growth forecast | Moody's Raises India's Economic Growth Estimate"
+  ],
+  [
+   "i5f70ae1f8d",
+   "iafc91ddb3f",
+   "Pope Leo returns to Peru | Pope Leo XIV wrapping up Argentina visit"
+  ],
+  [
+   "ibadc36a788",
+   "ie22f5f17fd",
+   "3 CRPF jawans injured in terror attack | Terrorists Fire At Security Personnel In J&K's Kul"
+  ],
+  [
+   "i01eca0dabf",
+   "i087bfbcf79",
+   "US pulls aircraft from second British base | U.S. aircraft abruptly depart a second U.K. base"
+  ],
+  [
+   "i1274bd5a8d",
+   "i6ba8873c45",
+   "Move abroad or quit by December: IBM ends visa | IBM Ends H-1B, Green Card Sponsorship"
+  ],
+  [
+   "i27faaba5d3",
+   "i6d41d763cf",
+   "End of an era: Apple Support Community forums | Apple is killing its Support Community forum"
+  ],
+  [
+   "i1204d329b7",
+   "i3ae115d5ca",
+   "Moonshot rents Nvidia’s top AI chips in China, doc | Moonshot rented $65M of restricted Nvidia chips"
+  ],
+  [
+   "i571fb0494b",
+   "i46527596fa",
+   "OpenAI acquires Odessia, travel startup | OpenAI Acquires AI Travel Startup Odessia"
+  ],
+  [
+   "i1d0ddc8236",
+   "i3fee7feb01",
+   "Mother Dairy, Amul hike milk rates | Amul Milk Prices To Go Up By Rs 2-4"
+  ],
+  [
+   "id315fb5c2e",
+   "iea1ae81d17",
+   "FBI investigating Nvidia CEO over affair | Trump says FBI investigating Nvidia boss's affair"
+  ],
+  [
+   "ib2c282a164",
+   "i33346c5dfc",
+   "Jharkhand CM orders CBI probe into tribal activist | Jharkhand: CM orders CBI probe into Adivasi activi"
+  ],
+  [
+   "i80c59341a8",
+   "i16acc59220",
+   "Russia and Ukraine agree to a large prisoner excha | Russia and Ukraine agree to a large exchange of pr"
+  ],
+  [
+   "iaccc8e3eee",
+   "i045afec579",
+   "Cabinet approves ₹62,370 crore fertiliser subsidy | Union cabinet raises rabi fertilizer subsidy"
+  ]
+ ],
+ "hard": [
+  [
+   "i90b90fdcdf",
+   "if01b0a00a6",
+   "Qatar’s Loss of Polish LNG Deal | Orlen Cancels Qatar LNG Supply Deal"
+  ],
+  [
+   "i271e402763",
+   "ib7805c33a3",
+   "Iran will not allow enriched nuclear material | Iran vows not to part with"
+  ],
+  [
+   "ie8611a93af",
+   "i624e830a4d",
+   "Grok-built apps exposed patient data | Grok Build Leak Exposes Sensitive Data"
+  ],
+  [
+   "ia3b1ed9a14",
+   "ic11925d034",
+   "World leaders begin UN climate talks | World leaders urge stronger and faster action at U"
+  ],
+  [
+   "iff46f5e1ed",
+   "iacf75faf0a",
+   "Sensex rallies 772 pts | Stock Market Close: Sensex pares gains"
+  ],
+  [
+   "i7290b0c337",
+   "ib9581203d4",
+   "Nasdaq futures jump as CoreWeave earnings beat | Nasdaq futures rise nearly 2% as CoreWeave"
+  ],
+  [
+   "ifd382b6c87",
+   "id9af4f8ca4",
+   "S&P 500, Nasdaq futures gain as CoreWeave results | US stock market today: Nasdaq futures rally as Cor"
+  ],
+  [
+   "i8c207e90b4",
+   "i0320e90418",
+   "British counterterrorism police arrest US soldier | U.S. Army officer arrested in U.K."
+  ]
+ ],
+ "cannot": [
+  [
+   "i0708ca5337",
+   "i420a2945cc",
+   "Which Passing Chips Need More Testing? | How China gets the Nvidia chips it needs"
+  ],
+  [
+   "i8957deb718",
+   "i6edb6b21cd",
+   "Sheikh Hasina has no legal option | Sheikh Hasina, water and trade"
+  ],
+  [
+   "idfca7b6371",
+   "ie4e6c2d578",
+   "European Stocks Set for Record | US tech stocks set to extend rebound"
+  ],
+  [
+   "i6b10ea8323",
+   "i5a17e111c7",
+   "PODCAST: The trillion-dollar question | Corporate America is making a trillion-dollar mist"
+  ],
+  [
+   "i43bfb04c09",
+   "id90cbb7568",
+   "DCX Systems Q2 results | Air India’s losses narrow in H1"
+  ],
+  [
+   "i284b484947",
+   "i2d684b7748",
+   "Context Engineering with Deep Agents | Context Engineering (Agent Memory)"
+  ],
+  [
+   "ie18f58ec7d",
+   "i7f22d87058",
+   "All 7 Anthropic founders will each cash out | Why Anthropic Cares More About Cash"
+  ],
+  [
+   "iaefe9eee66",
+   "i656f292418",
+   "Promoters’ stake hits 3-year high | FIIs pump $7.5 billion into Indian stocks"
+  ],
+  [
+   "i6c235661bd",
+   "i80c59341a8",
+   "Ukraine captures first Indonesian prisoner of war | Russia and Ukraine agree to a large prisoner excha"
+  ],
+  [
+   "i04c114bd6c",
+   "i3c0c9ce60b",
+   "How much is Anthropic really worth | TSMC to invest up to USD 1 billion"
+  ],
+  [
+   "i087bfbcf79",
+   "i5e5f19488b",
+   "U.S. aircraft abruptly depart a second U.K. base | US Treasury chief Bessent moved to military base o"
+  ],
+  [
+   "i4a459b0c8e",
+   "ic7d2c3a2a3",
+   "Moody's raises India's FY27 growth forecast | German Economic Advisers More Than Double"
+  ],
+  [
+   "i4c536cc434",
+   "ie4b6280c5d",
+   "Red Flags | Jeremy Clarkson Says Tesla Cybercab Ran Red Lights"
+  ],
+  [
+   "i74143a8a17",
+   "i49ee4b9059",
+   "Chinese AI Startup Rented NVIDIA’s Most Powerful C | How a Suspected Chinese Spy Gained Access to Nvidi"
+  ],
+  [
+   "i345fcd0bd7",
+   "i82906c67af",
+   "Tesla Explains Why It Dropped Sunroofs | Tesla App 4.62.5 Update"
+  ],
+  [
+   "i0cd5e191c4",
+   "id9c8cbc8f1",
+   "Anthropic targets $1.4 trillion IPO | Nasdaq Futures Rally as CoreWeave and Anthropic Fu"
+  ],
+  [
+   "ic8c1c706d7",
+   "i0105496372",
+   "They’re in Ukraine. Why Do Their Phones Say | How does a phone chip run a 30-billion-parameter"
+  ],
+  [
+   "i1c9b7665c6",
+   "i27679a818e",
+   "Nvidia Stock Sell-Off Deepens | Live news: Bitcoin remains under pressure"
+  ],
+  [
+   "i613102dc0f",
+   "id650d81d79",
+   "European TTF Gas Rises | SpaceX and Anthropic are turning to gas"
+  ],
+  [
+   "i357e4d0da5",
+   "i70cb5f5a2b",
+   "Oil traders give peace a chance | How a Vitol trader's ties to JD Vance"
+  ],
+  [
+   "i9c08df2085",
+   "i25881a2a1b",
+   "Eternal's IPO investors sitting on 375% gains | NSE shares hit record high of Rs 1,965"
+  ],
+  [
+   "id317b9a45d",
+   "i5038a5ce12",
+   "November 2026 Pixel Drop | Android 17 QPR2 November update"
+  ],
+  [
+   "i49fd977ed9",
+   "ic39e5dc2a1",
+   "New Indian mega library rocked by scandal | AI Doubts Collide With Anthropic’s Mega IPO"
+  ],
+  [
+   "i7de1ff1aad",
+   "i8e2d9cd3d0",
+   "We Source Chips Others Cannot Secure | Scientists discover why some mosquitoes"
+  ],
+  [
+   "i5c52533207",
+   "i01eca0dabf",
+   "Oil falls below $90 as Trump pulls back | US pulls aircraft from second British base"
+  ],
+  [
+   "i5bc8db155f",
+   "id394d31f45",
+   "Anthropic’s IPO Is Said to Be Multiple Times Overs | TSMC is buying stakes in Anthropic and OpenAI"
+  ],
+  [
+   "ib1b4be5ea2",
+   "i5f70ae1f8d",
+   "Kenya discharges last Ebola patient in major miles | Pope Leo returns to Peru"
+  ],
+  [
+   "i45f59608a0",
+   "if4f2f2f5fb",
+   "Italy evacuates hundreds of schools | Spain: Housing crisis prompts general strike"
+  ],
+  [
+   "i571fb0494b",
+   "ic4aec7fa66",
+   "OpenAI acquires Odessia, travel startup | OpenAI lets businesses claim ChatGPT profiles"
+  ],
+  [
+   "i5bf2ccdedd",
+   "i571fb0494b",
+   "OpenAI 3Q26 revenue tops US$10B | OpenAI acquires Odessia, travel startup"
+  ],
+  [
+   "i419a703168",
+   "ie4b6280c5d",
+   "Tesla tuner Unplugged offers to take over | Jeremy Clarkson Says Tesla Cybercab Ran Red Lights"
+  ],
+  [
+   "ibadc36a788",
+   "icc58d9baaa",
+   "3 CRPF jawans injured in terror attack | Farooq Abdullah’s National Conference has a new pl"
+  ],
+  [
+   "i15706f35e9",
+   "i2c864d3cf0",
+   "Gemini 4 Carbon is now available for developers | Pixel 10 with Gemini Intelligence, custom widgets"
+  ],
+  [
+   "i1204d329b7",
+   "icfcba81110",
+   "Moonshot rents Nvidia’s top AI chips in China, doc | Nvidia shares tumble over investigation"
+  ],
+  [
+   "i2bc7d1f976",
+   "i266794cec3",
+   "US Republicans derail push to impeach | U.S. charges 3 men with plotting terror attacks"
+  ],
+  [
+   "i1573f4cdcc",
+   "ia5ba81d422",
+   "Top 2 stocks to buy for short-term | Stocks to Watch for November 12"
+  ],
+  [
+   "icc7f6033d9",
+   "i43bfb04c09",
+   "Q2 Results Live: Cupid's Revenue | DCX Systems Q2 results"
+  ],
+  [
+   "iacf75faf0a",
+   "id9af4f8ca4",
+   "Stock Market Close: Sensex pares gains | US stock market today: Nasdaq futures rally as Cor"
+  ]
+ ]
+}

@@ -1,0 +1,432 @@
+{
+ "about": "Hand-built pairs for the two classic clustering failures. same=false pairs must end in different stories (over-merging), same=true pairs in one story (under-merging). Events are invented and dated a week after items.json, so they are judged with a real corpus's word weights but cannot be absorbed by a real story. Each item gives only what matters; the test fills in the rest. Times are UTC.",
+ "cases": [
+  {
+   "name": "two different Tesla stories on one day",
+   "same": false,
+   "a": {
+    "title": "Tesla recalls 200,000 Cybertrucks over faulty accelerator pedal",
+    "sourceName": "Reuters",
+    "publishedAt": "2026-11-18T05:00:00Z",
+    "summary": "The recall covers every Cybertruck built since 2024, the US safety regulator said."
+   },
+   "b": {
+    "title": "Tesla opens first Mumbai showroom as India sales begin",
+    "sourceName": "BBC News",
+    "publishedAt": "2026-11-18T06:30:00Z",
+    "summary": "The carmaker will sell imported Model Y vehicles from a showroom in Bandra Kurla Complex."
+   }
+  },
+  {
+   "name": "Tesla shares up on one story, down on another",
+   "same": false,
+   "a": {
+    "title": "Tesla shares jump 8% after record quarterly deliveries",
+    "sourceName": "CNBC",
+    "publishedAt": "2026-11-18T13:00:00Z"
+   },
+   "b": {
+    "title": "Tesla shares fall 6% after recall of 200,000 Cybertrucks",
+    "sourceName": "Bloomberg",
+    "publishedAt": "2026-11-18T15:00:00Z"
+   }
+  },
+  {
+   "name": "Nifty closes higher on two different days",
+   "same": false,
+   "a": {
+    "title": "Sensex, Nifty close higher as banks rally",
+    "sourceName": "The Economic Times",
+    "publishedAt": "2026-11-17T10:15:00Z"
+   },
+   "b": {
+    "title": "Sensex, Nifty close higher as banks rally",
+    "sourceName": "Mint",
+    "publishedAt": "2026-11-18T10:15:00Z"
+   }
+  },
+  {
+   "name": "closing bell up one day, down the next",
+   "same": false,
+   "a": {
+    "title": "Closing bell: Sensex ends 500 points higher, Nifty above 25,000",
+    "sourceName": "Moneycontrol",
+    "publishedAt": "2026-11-17T10:20:00Z"
+   },
+   "b": {
+    "title": "Closing bell: Sensex ends 400 points lower, Nifty below 24,900",
+    "sourceName": "Business Standard",
+    "publishedAt": "2026-11-18T10:20:00Z"
+   }
+  },
+  {
+   "name": "market open and market close of one day",
+   "same": false,
+   "a": {
+    "title": "Opening bell: Sensex, Nifty open flat amid weak global cues",
+    "sourceName": "Mint",
+    "publishedAt": "2026-11-18T03:50:00Z"
+   },
+   "b": {
+    "title": "Closing bell: Sensex, Nifty end at record high as FIIs return",
+    "sourceName": "Business Standard",
+    "publishedAt": "2026-11-18T12:10:00Z"
+   }
+  },
+  {
+   "name": "the same live blog on two days",
+   "same": false,
+   "a": {
+    "title": "India News Live Updates: Parliament winter session begins",
+    "sourceName": "The Indian Express",
+    "publishedAt": "2026-11-17T03:00:00Z"
+   },
+   "b": {
+    "title": "India News Live Updates: Parliament winter session begins",
+    "sourceName": "Hindustan Times",
+    "publishedAt": "2026-11-18T03:00:00Z"
+   }
+  },
+  {
+   "name": "horoscopes on two days",
+   "same": false,
+   "a": {
+    "title": "Horoscope today: Aries, Taurus, Gemini and other signs",
+    "sourceName": "The Times of India",
+    "publishedAt": "2026-11-17T00:30:00Z"
+   },
+   "b": {
+    "title": "Horoscope today: Aries, Taurus, Gemini and other signs",
+    "sourceName": "NDTV",
+    "publishedAt": "2026-11-18T00:30:00Z"
+   }
+  },
+  {
+   "name": "stocks to watch, two outlets, two days",
+   "same": false,
+   "a": {
+    "title": "Stocks to watch: Reliance, TCS, Infosys, HDFC Bank",
+    "sourceName": "Mint",
+    "publishedAt": "2026-11-17T02:00:00Z"
+   },
+   "b": {
+    "title": "Stocks to watch: Reliance, TCS, Infosys, HDFC Bank",
+    "sourceName": "CNBC-TV18",
+    "publishedAt": "2026-11-18T02:00:00Z"
+   }
+  },
+  {
+   "name": "one outlet's series, two instalments",
+   "same": false,
+   "a": {
+    "title": "Broker's Call: Vardhman Textiles (Buy)",
+    "sourceName": "BusinessLine",
+    "publishedAt": "2026-11-18T14:09:00Z"
+   },
+   "b": {
+    "title": "Broker's Call: Data Patterns India (Buy)",
+    "sourceName": "BusinessLine",
+    "publishedAt": "2026-11-18T14:11:00Z"
+   }
+  },
+  {
+   "name": "a dated bulletin on consecutive days",
+   "same": false,
+   "a": {
+    "title": "Money Market Operations as on November 09, 2026",
+    "sourceName": "Reserve Bank of India",
+    "publishedAt": "2026-11-18T03:30:00Z"
+   },
+   "b": {
+    "title": "Money Market Operations as on November 10, 2026",
+    "sourceName": "Reserve Bank of India",
+    "publishedAt": "2026-11-18T06:00:00Z"
+   }
+  },
+  {
+   "name": "one outlet's product launches",
+   "same": false,
+   "a": {
+    "title": "Epomaker Launches Alice40 40% Mechanical Keyboard With Ergonomic Layout",
+    "sourceName": "TechPowerUp",
+    "publishedAt": "2026-11-18T03:51:00Z"
+   },
+   "b": {
+    "title": "Epomaker Launches Bamboo75 and Galaxy75 Wireless Mechanical Keyboards",
+    "sourceName": "TechPowerUp",
+    "publishedAt": "2026-11-18T04:49:00Z"
+   }
+  },
+  {
+   "name": "two companies' quarterly results",
+   "same": false,
+   "a": {
+    "title": "TCS Q2 results: Net profit rises 12% to Rs 12,400 crore, beats estimates",
+    "sourceName": "Mint",
+    "publishedAt": "2026-11-18T11:00:00Z"
+   },
+   "b": {
+    "title": "Infosys Q2 results: Net profit rises 10% to Rs 7,100 crore, beats estimates",
+    "sourceName": "Business Standard",
+    "publishedAt": "2026-11-18T11:30:00Z"
+   }
+  },
+  {
+   "name": "two train derailments on one day",
+   "same": false,
+   "a": {
+    "title": "Kolkata-Sairang Express train derails in Assam, several coaches off track",
+    "sourceName": "The Hindu",
+    "publishedAt": "2026-11-18T03:38:00Z"
+   },
+   "b": {
+    "title": "Four coaches of Chauri Chaura Express derail at Kanpur Central station",
+    "sourceName": "The Times of India",
+    "publishedAt": "2026-11-18T12:19:00Z"
+   }
+  },
+  {
+   "name": "two OpenAI stories on one day",
+   "same": false,
+   "a": {
+    "title": "OpenAI acquires travel startup Odessia",
+    "sourceName": "TechCrunch",
+    "publishedAt": "2026-11-18T08:00:00Z"
+   },
+   "b": {
+    "title": "OpenAI revenue tops $10 billion as losses persist",
+    "sourceName": "Financial Times",
+    "publishedAt": "2026-11-18T09:00:00Z"
+   }
+  },
+  {
+   "name": "two Trump stories on one day",
+   "same": false,
+   "a": {
+    "title": "Trump signs executive order restricting AI chip exports",
+    "sourceName": "Reuters",
+    "publishedAt": "2026-11-18T08:00:00Z"
+   },
+   "b": {
+    "title": "Trump meets Xi in Beijing for trade talks",
+    "sourceName": "BBC News",
+    "publishedAt": "2026-11-18T09:00:00Z"
+   }
+  },
+  {
+   "name": "two earthquakes in two countries",
+   "same": false,
+   "a": {
+    "title": "Magnitude 6.1 earthquake strikes northern Japan, no tsunami warning",
+    "sourceName": "Reuters",
+    "publishedAt": "2026-11-18T02:00:00Z"
+   },
+   "b": {
+    "title": "Magnitude 6.3 earthquake strikes western Turkey, buildings damaged",
+    "sourceName": "Al Jazeera",
+    "publishedAt": "2026-11-18T07:00:00Z"
+   }
+  },
+  {
+   "name": "an aggregator groups two unrelated headlines",
+   "same": false,
+   "a": {
+    "title": "Russian Offensive Campaign Assessment, November 10, 2026",
+    "sourceName": "Google News",
+    "publisher": "Institute for the Study of War",
+    "publishedAt": "2026-11-18T08:56:00Z",
+    "alt": [
+     {
+      "title": "Russian diplomat says Moscow could conclude non-aggression pacts with NATO member states",
+      "publisher": "Reuters"
+     }
+    ]
+   },
+   "b": {
+    "title": "Russian diplomat says Moscow could conclude non-aggression pacts with NATO member states",
+    "sourceName": "Reuters",
+    "publishedAt": "2026-11-18T12:57:00Z"
+   }
+  },
+  {
+   "name": "identical short headlines",
+   "same": false,
+   "a": {
+    "title": "Red Flags",
+    "sourceName": "The New York Times",
+    "publishedAt": "2026-11-18T11:54:00Z"
+   },
+   "b": {
+    "title": "Red Flags",
+    "sourceName": "The Guardian",
+    "publishedAt": "2026-11-18T12:54:00Z"
+   }
+  },
+  {
+   "name": "a coincidence in a long summary",
+   "same": false,
+   "a": {
+    "title": "Decision Models in Hugging Face",
+    "sourceName": "Hugging Face",
+    "publishedAt": "2026-11-17T00:00:00Z"
+   },
+   "b": {
+    "title": "speakleash/Bielik-11B-v3.1-Instruct on Hugging Face",
+    "sourceName": "Reddit",
+    "publishedAt": "2026-11-17T16:30:00Z",
+    "summary": "Bielik-11B-v3.1-Instruct is a generative text model featuring 11 billion parameters (decision models and dflash are coming next)."
+   }
+  },
+  {
+   "name": "the same headline three days apart",
+   "same": false,
+   "a": {
+    "title": "Ferry capsizes off Zanzibar with more than 200 aboard, dozens missing",
+    "sourceName": "AP News",
+    "publishedAt": "2026-11-15T10:12:00Z"
+   },
+   "b": {
+    "title": "Ferry capsizes off Zanzibar with more than 200 aboard, dozens missing",
+    "sourceName": "ABC News",
+    "publishedAt": "2026-11-18T11:22:00Z"
+   }
+  },
+  {
+   "name": "the same market close from two outlets",
+   "same": true,
+   "a": {
+    "title": "Stock markets end higher; Sensex, Nifty jump nearly 1%",
+    "sourceName": "The Hindu",
+    "publishedAt": "2026-11-18T11:11:00Z"
+   },
+   "b": {
+    "title": "Sensex, Nifty end nearly 1% higher as stock markets extend rally",
+    "sourceName": "Deccan Herald",
+    "publishedAt": "2026-11-18T10:57:00Z"
+   }
+  },
+  {
+   "name": "one event in BBC and Reuters wording",
+   "same": true,
+   "a": {
+    "title": "Peru declares state of emergency after volcano erupts near Arequipa",
+    "sourceName": "BBC News",
+    "publishedAt": "2026-11-17T13:00:00Z",
+    "summary": "Thousands of people have been moved from villages on the slopes of the Ubinas volcano."
+   },
+   "b": {
+    "title": "Volcano eruption near Arequipa forces Peru to declare emergency, thousands evacuated",
+    "sourceName": "Reuters",
+    "publishedAt": "2026-11-17T14:11:00Z"
+   }
+  },
+  {
+   "name": "one event in Guardian and BBC wording",
+   "same": true,
+   "a": {
+    "title": "Thousands flee as Peruvian volcano erupts and state of emergency is declared",
+    "sourceName": "The Guardian",
+    "publishedAt": "2026-11-17T15:20:00Z",
+    "summary": "Peru has declared a state of emergency around Arequipa after the Ubinas volcano erupted, sending ash over villages."
+   },
+   "b": {
+    "title": "Peru declares state of emergency after volcano erupts near Arequipa",
+    "sourceName": "BBC News",
+    "publishedAt": "2026-11-17T13:00:00Z",
+    "summary": "Thousands of people have been moved from villages on the slopes of the Ubinas volcano."
+   }
+  },
+  {
+   "name": "syndicated wire copy",
+   "same": true,
+   "a": {
+    "title": "Ferry capsizes off Zanzibar with more than 200 aboard, dozens missing",
+    "sourceName": "AP News",
+    "publishedAt": "2026-11-17T04:26:00Z"
+   },
+   "b": {
+    "title": "Ferry capsizes off Zanzibar with more than 200 aboard, dozens missing",
+    "sourceName": "ABC News",
+    "publishedAt": "2026-11-17T09:06:00Z"
+   }
+  },
+  {
+   "name": "an aggregator lists the other outlet's headline",
+   "same": true,
+   "a": {
+    "title": "Flights grounded at Lisbon airport as Portugal investigates drones",
+    "sourceName": "Google News",
+    "publisher": "Euronews.com",
+    "publishedAt": "2026-11-17T13:17:00Z",
+    "alt": [
+     {
+      "title": "Drone sightings shut Lisbon airport for six hours",
+      "publisher": "The Guardian"
+     }
+    ]
+   },
+   "b": {
+    "title": "Drone sightings shut Lisbon airport for six hours",
+    "sourceName": "The Guardian",
+    "publishedAt": "2026-11-17T07:32:00Z"
+   }
+  },
+  {
+   "name": "country adjective against country name",
+   "same": true,
+   "a": {
+    "title": "Italian ports shut as dock workers strike over pensions",
+    "sourceName": "BBC News",
+    "publishedAt": "2026-11-17T12:30:00Z"
+   },
+   "b": {
+    "title": "Italy: Ports shut as dock workers begin pension strike",
+    "sourceName": "DW",
+    "publishedAt": "2026-11-17T13:43:00Z"
+   }
+  },
+  {
+   "name": "tn against trillion",
+   "same": true,
+   "a": {
+    "title": "Saudi Aramco targets valuation of up to $2.3tn in second share sale",
+    "sourceName": "The Guardian",
+    "publishedAt": "2026-11-17T16:13:00Z"
+   },
+   "b": {
+    "title": "Saudi Aramco targets $2.3 trillion valuation in second share sale",
+    "sourceName": "The Verge",
+    "publishedAt": "2026-11-17T14:06:00Z"
+   }
+  },
+  {
+   "name": "U.S. against US, abbreviations with dots",
+   "same": true,
+   "a": {
+    "title": "U.S. senator detained in U.K. airport over visa dispute",
+    "sourceName": "The New York Times",
+    "publishedAt": "2026-11-17T22:24:00Z"
+   },
+   "b": {
+    "title": "US senator detained at UK airport in visa dispute",
+    "sourceName": "South China Morning Post",
+    "publishedAt": "2026-11-17T20:20:00Z"
+   }
+  },
+  {
+   "name": "the standfirst carries the other headline's words",
+   "same": true,
+   "a": {
+    "title": "Siemens ends remote work for most engineering roles from January",
+    "sourceName": "Analytics India Magazine",
+    "publishedAt": "2026-11-17T06:12:00Z"
+   },
+   "b": {
+    "title": "Back to the office or quit: Siemens ends remote work",
+    "sourceName": "The Times of India",
+    "publishedAt": "2026-11-17T04:51:00Z",
+    "summary": "Siemens will end remote work for most engineering roles from January, staff were told in a memo."
+   }
+  }
+ ]
+}
