@@ -1,0 +1,84 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T19:30:00Z",
+ "stories": [
+  {
+   "id": "s0000000001",
+   "title": "Nifty ends at record high as banks rally",
+   "summary": "The Nifty 50 closed at a record high on Friday as banks and IT stocks rallied after the central bank held the repo rate and signalled that inflation was easing faster than expected, while foreign investors returned to Indian equities for a third straight session.",
+   "url": "https://example.com/s0000000001",
+   "image": null,
+   "section": "india-markets",
+   "sections": [
+    "india-markets"
+   ],
+   "entities": [
+    "nifty-50"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-10-31T18:00:00Z",
+   "updatedAt": "2026-10-31T18:00:00Z",
+   "day": "2026-10-31",
+   "sources": [
+    {
+     "id": "moneycontrol",
+     "name": "Moneycontrol",
+     "tier": 2,
+     "title": "Nifty ends at record high as banks rally",
+     "url": "https://example.com/s0000000001",
+     "publishedAt": "2026-10-31T18:00:00Z"
+    },
+    {
+     "id": "reuters",
+     "name": "Reuters",
+     "tier": 1,
+     "title": "Nifty ends at record high as banks rally",
+     "url": "https://example.com/s0000000001",
+     "publishedAt": "2026-10-31T18:00:00Z"
+    }
+   ],
+   "sourceCount": 2,
+   "score": 71.2,
+   "signals": {},
+   "why": [],
+   "thread": null
+  },
+  {
+   "id": "s0000000002",
+   "title": "Bank Nifty slips in late trade",
+   "summary": "Old copy of a story that is updated the next day.",
+   "url": "https://example.com/s0000000002",
+   "image": null,
+   "section": "india-markets",
+   "sections": [
+    "india-markets"
+   ],
+   "entities": [
+    "bank-nifty"
+   ],
+   "tickers": [],
+   "publishedAt": "2026-10-31T10:00:00Z",
+   "updatedAt": "2026-10-31T10:00:00Z",
+   "day": "2026-10-31",
+   "sources": [
+    {
+     "id": "reuters",
+     "name": "Reuters",
+     "tier": 1,
+     "title": "Bank Nifty slips in late trade",
+     "url": "https://example.com/s0000000002",
+     "publishedAt": "2026-10-31T10:00:00Z"
+    }
+   ],
+   "sourceCount": 1,
+   "score": 40.0,
+   "signals": {},
+   "why": [],
+   "thread": null
+  },
+  {
+   "id": "s0000000009",
+   "summary": "no title, must be skipped"
+  }
+ ]
+}

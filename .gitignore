@@ -1,8 +1,10 @@
-data/
-dist/
+/data/
+/dist/
 __pycache__/
 *.pyc
 .DS_Store
 .venv/
 tests/e2e/artifacts/
 design/prototypes/*/shots/
+dist.tmp/
+dist.old/

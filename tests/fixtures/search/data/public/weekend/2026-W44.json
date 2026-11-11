@@ -1,0 +1,111 @@
+{
+ "from": "2026-11-04",
+ "to": "2026-11-10",
+ "generatedAt": "2026-11-11T14:23:48Z",
+ "method": "These are the papers that were most noticed this week, not a judgement of which are best. We took the 3,937 new arXiv papers submitted 4 November to 10 November 2026 in 19 computer-science and electronics categories and scored each on free public signals: Hugging Face upvotes, alphaXiv views and votes, Hacker News points, OpenAlex citations, coverage in our own news feeds. Each signal is put on a log scale against the week's highest value in its own track, so hardware papers compete with hardware papers. Strong attention from any one community counts on its own and agreement between communities counts more; scores are scaled to the signals that were available. Few people vote on electronics papers online, so that track also credits acceptance at a named venue, released code, cross-listing and measured results stated in the abstract. At least two picks are electronics, at most two share an arXiv category, and papers featured in an earlier week are skipped. Digest lines are sentences copied from each abstract, not written by us.",
+ "isoWeek": "2026-W44",
+ "title": "older",
+ "papers": [
+  {
+   "id": "2611.08449",
+   "title": "VFlash (older issue's copy)",
+   "authors": [
+    "Yu-Cheng Chou",
+    "Shihao Wang"
+   ],
+   "primary": "cs.RO",
+   "categories": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "track": "cs",
+   "published": "2026-11-05T18:44:43Z",
+   "abstract": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans–points, bounding boxes, and trajectories–to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+   "digest": {
+    "gist": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+    "problem": "However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.",
+    "method": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+    "result": "A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline."
+   },
+   "signals": {
+    "hfUpvotes": 113,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 114,
+    "alphaxivViews": 1029,
+    "venue": 0.0,
+    "code": 0,
+    "crossLists": 1,
+    "measured": 3
+   },
+   "score": 10.0,
+   "why": [
+    "113 upvotes on Hugging Face",
+    "114 votes on alphaXiv",
+    "1,029 views on alphaXiv this week"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.08449",
+    "pdf": "https://arxiv.org/pdf/2611.08449",
+    "code": null,
+    "hf": "https://huggingface.co/papers/2611.08449",
+    "hn": null
+   },
+   "rank": 2
+  },
+  {
+   "id": "2611.07149",
+   "title": "FastAFD: When Does Attention-FFN Disaggregation Pay on Rack-Scale NVLink?",
+   "authors": [
+    "Yichao Fu",
+    "Yuxuan Zhang"
+   ],
+   "primary": "cs.DC",
+   "categories": [
+    "cs.DC",
+    "cs.LG"
+   ],
+   "track": "electronics",
+   "published": null,
+   "abstract": "Attention-FFN disaggregation (AFD) separates attention from the experts of a mixture-of-experts (MoE) model and has been reported to raise decode throughput over colocated serving. Whether this advantage holds on rack-scale NVLink systems such as GB200 NVL72 remains unclear: prior results were obtained on other hardware, against narrower colocated baselines, or with analytical models, whereas production engines serve large MoE models on these systems with wide expert parallelism (wide EP). We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting. Experiments show that AFD has a throughput advantage of up to 1.17x over wide EP on Qwen3 and 1.16x on Qwen3.5, and matches it on MiniMax-M2.5. We derive an analytical model that predicts AFD throughput within 3% using only profiles of colocated vLLM, telling whether switching to AFD would pay off before deploying it. The model yields a concise insight: AFD's speedup factors into a batch gain (larger batches, since attention GPUs hold no expert weights), an overlap gain (shorter steps, since the MoE runs on the expert GPUs behind attention), and a disaggregation cost (the GPUs given to experts). AFD has the advantage when the two gains outweigh the cost. This view explains which models benefit from AFD, and shows that speculative decoding helps light-expert models most, where the enlarged overlap gain outweighs the larger disaggregation cost and adds a further 8% to AFD's advantage over wide EP. Looking ahead, serving the experts on accelerators that keep their weights in on-chip SRAM, such as the Groq LPX accelerators paired with Vera Rubin NVL72, would remove most of the disaggregation cost, raising the ideal speedup to 2.48x with speculative decoding. FastAFD is open source at https://github.com/hao-ai-lab/FastAFD.",
+   "digest": {
+    "gist": "We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting.",
+    "problem": "Whether this advantage holds on rack-scale NVLink systems such as GB200 NVL72 remains unclear: prior results were obtained on other hardware, against narrower colocated baselines, or with analytical models, whereas production engines serve large MoE models on these systems with wide expert parallelism (wide EP).",
+    "method": "We build and tune FastAFD, an AFD engine for GB200 NVL72 that overlaps the MoE of one microbatch with the attention of the other, and compare it against the best vLLM wide EP setting.",
+    "result": "Experiments show that AFD has a throughput advantage of up to 1.17x over wide EP on Qwen3 and 1.16x on Qwen3.5, and matches it on MiniMax-M2.5."
+   },
+   "signals": {
+    "hfUpvotes": 0,
+    "hnPoints": 0,
+    "citations": 0,
+    "githubStars": 0,
+    "mentions": 0,
+    "alphaxivVotes": 10,
+    "alphaxivViews": 48,
+    "venue": 0.0,
+    "code": 1,
+    "crossLists": 1,
+    "measured": 5
+   },
+   "score": 83.4,
+   "why": [
+    "10 votes on alphaXiv",
+    "48 views on alphaXiv this week",
+    "code available",
+    "reports measured results"
+   ],
+   "links": {
+    "abs": "https://arxiv.org/abs/2611.07149",
+    "pdf": "https://arxiv.org/pdf/2611.07149",
+    "code": "https://github.com/hao-ai-lab/FastAFD",
+    "hf": null,
+    "hn": null
+   },
+   "rank": 3
+  }
+ ],
+ "runnersUp": [],
+ "review": {}
+}

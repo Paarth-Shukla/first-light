@@ -1,0 +1,168 @@
+{
+ "generatedAt": "2026-11-11T14:11:49Z",
+ "surfaces": [
+  {
+   "id": "apps",
+   "name": "Claude apps"
+  },
+  {
+   "id": "code",
+   "name": "Claude Code"
+  },
+  {
+   "id": "platform",
+   "name": "API and platform"
+  },
+  {
+   "id": "cowork",
+   "name": "Cowork"
+  },
+  {
+   "id": "integrations",
+   "name": "Claude in other tools"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "coding",
+   "name": "Coding"
+  },
+  {
+   "id": "review",
+   "name": "Review"
+  },
+  {
+   "id": "debugging",
+   "name": "Debugging"
+  },
+  {
+   "id": "writing",
+   "name": "Writing"
+  },
+  {
+   "id": "research",
+   "name": "Research"
+  },
+  {
+   "id": "analysis",
+   "name": "Analysis"
+  },
+  {
+   "id": "meetings",
+   "name": "Meetings"
+  },
+  {
+   "id": "planning",
+   "name": "Planning"
+  },
+  {
+   "id": "automation",
+   "name": "Automation"
+  },
+  {
+   "id": "learning",
+   "name": "Learning"
+  }
+ ],
+ "features": [
+  {
+   "id": "projects",
+   "title": "Projects",
+   "surface": "apps",
+   "group": "Context",
+   "status": "stable",
+   "since": null,
+   "level": "starter",
+   "payoff": 3,
+   "effort": 1,
+   "jobs": [
+    "writing",
+    "research",
+    "coding",
+    "planning"
+   ],
+   "tags": [
+    "context",
+    "knowledge",
+    "instructions",
+    "rag"
+   ],
+   "summary": "A project is a self-contained workspace with its own chats, uploaded knowledge and standing instructions.",
+   "when": "Reach for a project when you keep pasting the same design doc, runbook or style rules into fresh chats. Set it up once and every chat in it starts with that background.",
+   "replaces": "Re-uploading the same files and retyping the same ground rules at the top of every conversation.",
+   "example_kind": "prompt",
+   "docs": [
+    {
+     "title": "What are projects?",
+     "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
+    },
+    {
+     "title": "How can I create and manage projects?",
+     "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects"
+    },
+    {
+     "title": "Retrieval augmented generation (RAG) for projects",
+     "url": "https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects"
+    },
+    {
+     "title": "Usage limit best practices",
+     "url": "https://support.claude.com/en/articles/9797557-usage-limit-best-practices"
+    }
+   ],
+   "verified": "2026-11-11",
+   "html": "<h2>Try it in a minute</h2>\n<ol>\n<li>Open Projects.</li>\n</ol>"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "analyse-a-spreadsheet",
+   "title": "Analyse a CSV export and get charts and findings",
+   "job": "analysis",
+   "level": "starter",
+   "minutes_saved": 45,
+   "features": [
+    "file-creation",
+    "claude-sheets"
+   ],
+   "prerequisites": [
+    "Code execution and file creation turned on",
+    "A CSV or TSV export of 30MB or less"
+   ],
+   "fields": [
+    {
+     "name": "what_it_is",
+     "label": "What the file contains",
+     "placeholder": "one row per support ticket for the last two quarters, exported from Jira"
+    },
+    {
+     "name": "question",
+     "label": "The question to answer",
+     "placeholder": "which components drive the rise in P1 tickets, and whether time to resolve is getting worse"
+    },
+    {
+     "name": "audience",
+     "label": "Who the findings are for",
+     "placeholder": "the engineering managers at Thursday's planning meeting"
+    },
+    {
+     "name": "decision",
+     "label": "What they will decide",
+     "placeholder": "where to put two extra engineers next quarter"
+    }
+   ],
+   "docs": [
+    {
+     "title": "Create and edit files with Claude",
+     "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+    },
+    {
+     "title": "Get started with Claude Sheets",
+     "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+    }
+   ],
+   "verified": "2026-11-11",
+   "template": "The attached file is {{what_it_is}}. I need to answer this question: {{question}}. The findings go to {{audience}}, who will use them to decide {{decision}}, so every number has to survive someone che",
+   "html": "<h2>Steps</h2>\n<ol>\n<li>Upload the CSV.</li>\n</ol>\n<h2>Prompt</h2>\n<pre><code>{{question}}</code></pre>\n<h2>Why it works</h2>\n<p>Profiling the file <strong>first</strong> puts the cleaning decisions in front of you.</p>"
+  }
+ ]
+}

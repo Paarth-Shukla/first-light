@@ -1,0 +1,37 @@
+{
+ "date": "2026-07-01",
+ "generatedAt": "2026-07-01T06:00:00Z",
+ "stories": [
+  {
+   "id": "s0000000005",
+   "title": "Too old",
+   "summary": "A day file outside the 90-day window is ignored.",
+   "url": "https://example.com/s0000000005",
+   "image": null,
+   "section": "india-markets",
+   "sections": [
+    "india-markets"
+   ],
+   "entities": [],
+   "tickers": [],
+   "publishedAt": "2026-07-01T05:00:00Z",
+   "updatedAt": "2026-07-01T05:00:00Z",
+   "day": "2026-07-01",
+   "sources": [
+    {
+     "id": "reuters",
+     "name": "Reuters",
+     "tier": 1,
+     "title": "Too old",
+     "url": "https://example.com/s0000000005",
+     "publishedAt": "2026-07-01T05:00:00Z"
+    }
+   ],
+   "sourceCount": 1,
+   "score": 60.0,
+   "signals": {},
+   "why": [],
+   "thread": null
+  }
+ ]
+}
